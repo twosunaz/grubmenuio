@@ -13,5 +13,5 @@ jobs:
           username: ${{ secrets.STAGING_SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/master/applications/STAGING_APP_ID/public_html
+            cd /home/master/applications/ctftaahrtg/public_html
             git pull origin staging
