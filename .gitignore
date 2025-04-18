@@ -1,0 +1,36 @@
+# Ignore WordPress core files
+                                                                                                                                                                                              
+/wp-admin/                                                                                                                                                                                    
+                                                                                                                                                                                              
+/wp-includes/                                                                                                                                                                                 
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+# Ignore uploads and cache
+                                                                                                                                                                                              
+wp-content/uploads/                                                                                                                                                                           
+                                                                                                                                                                                              
+wp-content/cache/                                                                                                                                                                             
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+# Ignore config files with secrets
+                                                                                                                                                                                              
+wp-config.php                                                                                                                                                                                 
+                                                                                                                                                                                              
+.htaccess                                                                                                                                                                                     
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+# Ignore logs, backups, and OS files
+                                                                                                                                                                                              
+*.log                                                                                                                                                                                         
+                                                                                                                                                                                              
+*.sql                                                                                                                                                                                         
+                                                                                                                                                                                              
+*.tar.gz                                                                                                                                                                                      
+                                                                                                                                                                                              
+.DS_Store                                                                                                                                                                                     
+                                                                                                                                                                                              
+robots.txt                                                                                                                                                                                    
+                                                                                                                                                                                              
+node_modules/                                                                                                                                                                                 
+                                                                                                                                                                                              
+                        

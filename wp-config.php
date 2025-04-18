@@ -21,18 +21,18 @@ define( 'WP_CACHE', true );
 
 define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
-define('DOMAIN_CURRENT_SITE', 'wordpressmu-1448455-5430912.cloudwaysapps.com');
+define('DOMAIN_CURRENT_SITE', 'grubmenu.io');
 define( 'PATH_CURRENT_SITE', '/' );
 define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'spukveyesr');
+define('DB_NAME', 'ctftaahrtg');
 /** MySQL database username */
-define('DB_USER', 'spukveyesr');
+define('DB_USER', 'ctftaahrtg');
 /** MySQL database password */
-define('DB_PASSWORD', '7xAG2Kc3s5');
+define('DB_PASSWORD', 'aWEu3zmeyP');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 /** Database Charset to use in creating database tables. */
