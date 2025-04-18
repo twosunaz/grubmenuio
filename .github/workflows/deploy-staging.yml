@@ -14,8 +14,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           debug: true
           script: |
-            mkdir -p ~/.ssh
-            ssh-keyscan github.com >> ~/.ssh/known_hosts
+            mkdir -p /home/master/.ssh
+            ssh-keyscan github.com >> /home/master/.ssh/known_hosts
 
             export GIT_CONFIG_GLOBAL=$(mktemp)
             git config --global --add safe.directory /home/1448455.cloudwaysapps.com/spukveyesr/public_html
