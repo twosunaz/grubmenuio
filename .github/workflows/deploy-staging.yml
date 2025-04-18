@@ -10,7 +10,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.STAGING_SSH_HOST }}
-          username: ${{ secrets.STAGING_SSH_USER }}
+          username: cicddeploy
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           debug: true
           script: |
