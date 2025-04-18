@@ -12,6 +12,9 @@ jobs:
           host: ${{ secrets.STAGING_SSH_HOST }}
           username: ${{ secrets.STAGING_SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          debug: true
           script: |
+            ssh -V
+            whoami
             cd /home/master/applications/ctftaahrtg/public_html
             git pull origin staging
