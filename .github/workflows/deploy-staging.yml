@@ -15,5 +15,5 @@ jobs:
           debug: true
           script: |
             cd /home/1448455.cloudwaysapps.com/spukveyesr/public_html
-            git config --global --add safe.directory /home/1448455.cloudwaysapps.com/spukveyesr/public_html
+            git config --local --add safe.directory $(pwd)
             git pull origin staging
