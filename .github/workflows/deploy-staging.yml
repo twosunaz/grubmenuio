@@ -15,7 +15,7 @@ jobs:
           debug: true
           script: |
             mkdir -p /home/master/.ssh
-            ssh-keyscan github.com >> /home/master/.ssh/known_hosts
+            ssh-keyscan github.com | tee -a /home/master/.ssh/known_hosts > /dev/null
 
             export GIT_CONFIG_GLOBAL=$(mktemp)
             git config --global --add safe.directory /home/1448455.cloudwaysapps.com/spukveyesr/public_html
