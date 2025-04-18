@@ -1,0 +1,20 @@
+on:
+  push:
+    branches: [prod]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH into staging and sync to production
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.STAGING_SSH_HOST }}
+          username: ${{ secrets.STAGING_SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            rsync -avz --delete \
+              --exclude='wp-content/uploads/' \
+              --exclude='wp-config.php' \
+              /home/master/applications/STAGING_APP_ID/public_html/ \
+              master@PROD_IP:/home/master/applications/ctftaahrtg/public_html/
