@@ -1,0 +1,41 @@
+.elementor-16 .elementor-element.elementor-element-33de5fa2{--display:flex;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}body.elementor-page-16:not(.elementor-motion-effects-element-type-background), body.elementor-page-16 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#041931;}:root{--page-title-display:none;}/* Start custom CSS */.orderable-product--image-cropped .orderable-product__hero {
+	display:none !important;
+}
+.orderable-product__option table td, table th {
+    border: 0px solid hsla(0, 0%, 50.2%, .5019607843) !important;
+}
+table td, table th {
+    border: 0px solid hsla(0, 0%, 50.2%, .5019607843);
+}
+@media screen and (max-width: 479px) {
+    .orderable-products-list__item .orderable-product__hero {
+			/* width: 100% !important;
+			height: 100% !important;
+        /*  display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        visibility: hidden !important; */
+    }
+	.orderable-product__content-wrap {
+		padding: 10px 10px 10px 0px !important;
+		margin: 0px !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+		width: 100% !important;
+	}
+.orderable-products-list--list .orderable-products-list__item .orderable-product {
+    flex-direction: column !important;
+}	
+.orderable-products-list .orderable-product__hero {
+    max-width: 100% !important;  /* Ensures the image doesn't exceed container width */
+    max-height: 150px !important;  /* Limits the height to 150px */
+    flex-grow: 1 !important;  /* Allows it to grow within the flex container */
+    border-top-left-radius: 15px !important;  /* Rounds the top-left corner */
+    border-top-right-radius: 15px !important;  /* Rounds the top-right corner */
+    object-fit: cover !important;  /* Ensures the image covers the container area without distortion */
+    object-position: top center !important;  /* Moves the image to the top */
+}
+
+
+}/* End custom CSS */

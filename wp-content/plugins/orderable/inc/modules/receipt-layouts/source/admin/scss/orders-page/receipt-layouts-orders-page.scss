@@ -1,0 +1,113 @@
+.orderable-print-icon-button {
+	float: right;
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	margin-right: 10px;
+
+	@media screen and (max-width: 782px) {
+		margin-top: 13px;
+	}
+}
+
+.orderable-print-icon-button:hover {
+	border: 2px solid var(--wp-admin-theme-color, #00a0d2);
+}
+
+.orderable-print-icon-button__loading {
+	padding: 0 10px;
+	margin: 0;
+	display: none;
+}
+
+.orderable-print-icon-button__loading--is-active {
+	visibility: visible;
+	display: inline-block;
+}
+
+.orderable-print-icon-button__printer--is-hidden {
+	display: none;
+}
+
+.orderable-receipt-layouts__receipt-layout-options-button {
+	align-items: center;
+	margin-left: -7px !important;
+	border: 1px solid #1e3a8a !important;
+	padding: 0 1px !important;
+}
+
+.orderable-receipt-layouts__receipt-layout-options-icon-button {
+	margin-top: 3px;
+}
+
+.orderable-receipt-layouts__receipt-layout-options-list {
+	background-color: #fff;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 12px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	width: 180px;
+	padding: 5px 0;
+	border-radius: 3px;
+	border: 1px solid #c3c4c7;
+	cursor: default;
+	display: none;
+}
+
+.orderable-receipt-layouts__receipt-layout-options-list--is-open {
+	display: block;
+}
+
+.orderable-receipt-layouts__receipt-layout-options-item-list {
+	padding: 6px 8px;
+	margin: 0 8px;
+	text-align: left;
+	display: flex;
+}
+
+.orderable-receipt-layouts__receipt-layout-options-item-list:not(:last-child) {
+	border-bottom: 1px solid #d1d9e0b3;
+}
+
+.orderable-receipt-layouts__print-order-button {
+	border: 1px solid #1e3a8a !important;
+}
+
+.orderable-receipt-layouts__receipt-layout-option {
+	flex-grow: 1;
+	text-align: left;
+	background-color: transparent;
+	border: none;
+	color: #3c434a;
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	text-decoration: none;
+
+	&:hover {
+		color: inherit;
+	}
+}
+
+.orderable-receipt-layouts__receipt-layout-option-print-button--is-loading {
+	cursor: not-allowed;
+}
+
+.orderable-receipt-layouts__receipt-layout-options-item-list:has(.orderable-receipt-layouts__receipt-layout-option:hover) {
+	background-color: #f8fafc;
+}
+
+.orderable-receipt-layouts__receipt-layout-option-loading {
+	display: none;
+	margin-top: 0;
+}
+
+.orderable-receipt-layouts__receipt-layout-option-loading--is-active {
+	display: inline-block;
+	visibility: visible;
+}

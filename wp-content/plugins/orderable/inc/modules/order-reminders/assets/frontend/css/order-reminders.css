@@ -1,0 +1,116 @@
+/*
+ * Orderable Order Date Time Reminders modal
+ */
+.orderable-order-date-time-reminders-modal {
+  position: fixed;
+  width: 100%;
+  background: #000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1000;
+}
+
+.orderable-order-date-time-reminders-modal__inner {
+  background: #fff;
+  width: 470px;
+  border-radius: 8px;
+  padding: 36px 36px 10px;
+}
+
+.orderable-order-date-time-reminders-modal__header {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 26px;
+}
+
+.orderable-order-date-time-reminders-modal__label {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: unset;
+  line-height: 1.4;
+  color: #000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.orderable-order-date-time-reminders-modal__select {
+  background-color: transparent;
+  background-image: url(../svg/arrow-down.svg) !important;
+  background-position: right 15px top 50%;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  cursor: pointer;
+  border: 1px solid #dad9dd;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #000;
+  display: block;
+  line-height: 1em;
+  max-width: unset;
+  opacity: 1;
+  padding: 10px 37px 12px 12px;
+  width: 100%;
+  min-height: 43px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: unset;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.orderable-order-date-time-reminders-modal__select:focus {
+  outline: unset;
+  border-color: #000;
+}
+
+.orderable-order-date-time-reminders-modal__save {
+  font-size: 18px;
+  border-radius: 30px;
+  height: 50px;
+}
+
+.orderable-order-date-time-reminders-modal__cancel {
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.orderable-order-date-time-reminders-modal__footer {
+  text-align: center;
+}
+
+.orderable-order-date-time-reminders-modal__form {
+  margin-bottom: 10px;
+}
+
+.orderable-order-date-time-reminders-modal__time {
+  margin-top: 15px;
+}
+
+.orderable-order-date-time-reminders-modal--hidden {
+  display: none;
+}
+
+.orderable-order-date-time-reminders-modal__select[disabled] {
+  background-color: oklch(0.961151 0 0);
+  color: oklch(0.278078 0.029596 256.848/0.4);
+  cursor: not-allowed;
+}

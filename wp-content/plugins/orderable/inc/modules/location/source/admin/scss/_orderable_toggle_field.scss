@@ -1,0 +1,24 @@
+/*
+ * Orderable toggle field
+ */
+
+// Block.
+
+// Elements.
+
+.orderable-toggle-field__label-wrapper {
+	display: flex;
+	flex-flow: column;
+	margin-left: 10px;
+}
+
+.orderable-toggle-field__label {
+	margin-bottom: 1px;
+}
+
+.orderable-toggle-field__label-help {
+	color: #888;
+	font-size: 12px;
+}
+
+// Modifiers.

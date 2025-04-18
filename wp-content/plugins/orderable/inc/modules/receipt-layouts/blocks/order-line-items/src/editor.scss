@@ -1,0 +1,10 @@
+.orderable-order-line-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 375pt;
+}
+
+.orderable-order-line-item__quantity {
+	margin-left: 20px;
+}

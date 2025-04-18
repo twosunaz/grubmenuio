@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "orderable/order-service-type",
+  "version": "1.0.0",
+  "title": "Orderable - Order Service Type",
+  "category": "orderable",
+  "description": "Shows the order service type. E.g.: Delivery or Pickup",
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Order Type: "
+    }
+  },
+  "textdomain": "orderable",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "editorStyle": "file:./index.css"
+}

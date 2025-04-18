@@ -1,0 +1,253 @@
+$blue: #2271b6;
+$darkblue: #135e96;
+$offwhite: rgba(228, 231, 236, 1);
+$red: #d63638;
+$white: #fff;
+
+.orderable-delivery-zones-modal-wrapper {
+	bottom: 0;
+	box-sizing: border-box;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9995;
+}
+
+.orderable-delivery-zones-modal-background {
+	background-color: #808080;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	opacity: 0.8;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.orderable-delivery-zones-modal {
+	background-color: $white;
+	// border-radius: 8px; // Enable for NEW UI.
+	box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+	left: 50%;
+	height: auto;
+	margin: auto;
+	max-height: 90vh;
+	max-width: 500px;
+	overflow-y: auto;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	width: 100%;
+	z-index: 9991;
+}
+
+.orderable-delivery-zones-modal__header {
+	border-bottom: 1px solid $offwhite;
+	padding: 16px 24px;
+}
+
+.orderable-delivery-zones-modal__title {
+	font-size: 20px;
+	margin: 0;
+}
+
+.orderable-delivery-zones-modal__tabs-nav {
+	border-bottom: 1px solid $offwhite;
+
+	&-link {
+		background: transparent;
+		border: 0;
+		cursor: pointer;
+		font-size: 14px;
+		font-weight: 600;
+		padding: 10px 16px;
+
+		&.active {
+			border-bottom: 3px solid $blue;
+		}
+	}
+}
+
+.orderable-delivery-zones-modal__search {
+	padding: 24px 24px 0;
+
+	&-container {
+		margin: 0;
+		position: relative;
+
+		span {
+			left: 8px;
+			position: absolute;
+			top: 8px;
+		}
+	}
+}
+
+.orderable-delivery-zones-modal__body {
+	padding: 24px;
+}
+
+.orderable-delivery-zones-modal__tab {
+	visibility: hidden;
+
+	&.active {
+		visibility: visible;
+	}
+}
+
+.orderable-delivery-zones-modal__label {
+	color: #000;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+input.orderable-delivery-zones-modal__field,
+textarea.orderable-delivery-zones-modal__field {
+	border: 1px solid $offwhite;
+	border-radius: 8px;
+	margin-bottom: 16px;
+	padding: 2px 4px 2px 14px;
+
+	&:focus {
+		border-color: $blue;
+	}
+
+	&-postcodes {
+		min-height: 140px;
+	}
+
+	&-search {
+		margin: 0;
+		padding-left: 32px;
+	}
+
+	&-fee {
+		margin-bottom: 0;
+	}
+
+	&-postcodes,
+	&-area-name,
+	&-search {
+		width: 100%;
+	}
+}
+
+.orderable-delivery-zones-modal__field-postcodes + .orderable-delivery-zones-modal__label {
+	border-top: 1px solid $offwhite;
+	padding-top: 24px;
+}
+
+.orderable-delivery-zones-modal__zones-list {
+	border-top: 1px solid $offwhite;
+	margin: 0;
+	max-height: 240px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 24px 0 0;
+
+	&-item {
+		font-size: 14px;
+		font-weight: 600;
+
+		&.selected {
+			color: $blue;
+		}
+
+		&.hide-existing {
+			display: none !important; // Needed to counteract inline style.
+		}
+	}
+}
+
+.orderable-delivery-zones-modal__msg-no-zones {
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+
+	button {
+		display: inline-block;
+		margin-top: 20px;
+	}
+}
+
+.orderable-delivery-zones-modal__msg {
+	color: $red;
+	margin-top: -10px;
+}
+
+.orderable-delivery-zones-modal__footer {
+	column-gap: 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 24px 16px 24px;
+}
+
+.orderable-delivery-zones-modal__button {
+	align-items: center;
+	border: 0;
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	flex-basis: 100%;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 16px;
+	text-align: center;
+
+	&--cancel,
+	&:disabled {
+		background-color: $white;
+		border: 1px solid $offwhite;
+		color: #3c434a;
+	}
+
+	&--add-update,
+	&--add-existing {
+		background-color: $blue;
+		border-bottom: 1px solid transparent;
+		color: $white;
+
+		&:hover {
+			background-color: $darkblue;
+		}
+	}
+
+	&:disabled {
+		background-color: $offwhite;
+		cursor: not-allowed;
+
+		&:hover {
+			background-color: $offwhite;
+		}
+	}
+
+	> span {
+		position: relative;
+	}
+
+	.icon {
+		display: none;
+		height: 16px;
+		left: -20px;
+		margin: 0;
+		shape-rendering: auto;
+		top: 2px;
+		position: absolute;
+		width: 16px;
+
+		&.active {
+			display: block;
+		}
+	}
+}

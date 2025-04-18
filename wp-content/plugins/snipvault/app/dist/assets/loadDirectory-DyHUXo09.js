@@ -1,0 +1,2 @@
+import{e as a,u as i}from"../app.build.DVcfFWU_.js";import{l as c}from"./lmnFetch-DeRrp9BG.js";const l=a(!1),o=a([]),u=a(""),p=a(""),f=a([]);let t;const v=async(e="",r)=>{t||(t=i()),r||(l.value=!0,t.updateState("loading",!0));const n={endpoint:"snipvault/v1/filesystem/list/",type:"GET",params:{path:e,search:p.value}},s=await c(n);l.value=!1,t.updateState("loading",!1),s&&s.data&&s.data.success&&(f.value=s.data.entries||[],u.value=e,e?o.value=e.split("/"):o.value=[])};export{l as a,u as c,f as i,v as l,p as s};
+//# sourceMappingURL=loadDirectory-DyHUXo09.js.map

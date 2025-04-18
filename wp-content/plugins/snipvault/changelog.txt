@@ -1,0 +1,85 @@
+== Changelog ==
+
+= 1.0.18 =
+* Release Date 18 March 2025 *
+
+* Improved error viewer logic
+* Improved PHP error log styles
+* Minor bug fixes
+* Fixed issue with PHP and 8.1 where composer would flag incompatability (plugin requires 8.1 and above)
+
+= 1.0.17 =
+* Release Date 18 March 2025 *
+
+* Fixed issue with apache servers where downloadable sip plugins would be blocked.
+* Fixed issue where save button was failing in diff view
+* Fixed issue that could prevent snippets from being saved
+* Added new integrated PHP error log
+
+= 1.0.16 =
+* Release Date 17 March 2025 *
+
+* Fixed bug with diff editor where changes would only save if you exited the diff editor before save.
+* Fixed bug with snippet settings panel where if hidden it would not show again without a page refresh.
+* Fixed issue with import paths in SCSS
+* Added load location option for PHP snippets
+* Added global variables to plugin export
+* Added new component for selecting and searching WordPress hooks
+* Implemented prettier for formatting code snippets
+* Snippets now format on save
+* Fixed issue with custom plugin exports that could cause fatal errors (when installed)
+
+= 1.0.15 =
+* Release Date 16 March 2025 *
+
+* Fixed overflow scroll on settings page
+* Added tooltip to import snippets icon
+* Fixed potential error that could be flagged when installed regarding claude endpoint being incorrectly registered
+* Added PHP autocomplete and added WordPress specific features for autocomplete
+* Added post plugin creation / snippet export confirmation modal with link to manually download incase the automatic download was blocked.
+* Added global PHP variable options
+* Rewrote plugin packager class
+* Added conditions builder to snippets
+* Added new optional hook parameter for PHP snippets
+* Added option to view compiled css for SCSS snippets
+
+= 1.0.14 =
+* Release Date 13 March 2025 *
+
+* Moved snipvault to root of admin menu
+* Added format code button
+* Added option to increase editor font size
+* Added better php security file access
+* NEW wp-cli interface
+* New file browsing introduced
+* New SQL editor introduced
+* Added catch for unsaved changes
+* Added collapsable side panel
+* Fixed bug with folders where if you moved an active snippet to a folder, it would get removed after saving
+* UI improvements and better navigation
+
+= 1.0.13 =
+* Release Date 04 March 2025 *
+
+* Enhanced security for killing scripts on snipvault page
+* Added HTML snippet types
+* Added SCSS snippet types with auto compile to css
+* Added conditional logic for snippets that allows them to be loaded for logged in / logged out users and also perform capability checks
+* Added AI assistant that can work directly with your snippets (claude API key required)
+
+= 1.0.02 =
+* Release Date 26 February 2025 *
+
+* Fixed issue with importing snippets as draft
+* Added failsafe global variable to stop snippets if problems arise from your code:
+
+= 1.0.01 =
+* Release Date 26 February 2025 *
+
+* Added catch so snippets don't run during snipvault rest requests
+* Added settings link beneath plugin
+
+= 1.0.0 =
+* Release Date 25 February 2025 *
+
+* Initial release	

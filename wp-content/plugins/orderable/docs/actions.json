@@ -1,0 +1,1020 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "orderable_admin_assets_enqueued",
+            "file": "inc/class-assets.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_after_create_custom_tables",
+            "file": "inc/database/class-database.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires after creating Orderable custom tables.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_after_create_custom_tables"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_after_frontend_assets",
+            "file": "inc/class-assets.php",
+            "type": "action",
+            "doc": {
+                "description": "If the option \"Enable AJAX add to cart buttons on archives\" is not enabled, we need to turn off the click event for .add_to_cart_button elements on drawer.js to keep the AJAX behaviour only on Mini cart.",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_after_layout_settings_fields",
+            "file": "inc/modules/layouts/templates/admin/layout-settings-metabox.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires after the layout settings fields.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.7.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_after_layout_settings_fields"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$layout_settings"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_after_product_hero",
+            "file": "templates/product/hero.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_asap_order_options",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-order-options-meta-box.php",
+            "type": "action",
+            "doc": {
+                "description": "Output additional ASAP order options.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Orderable_Location_Single instance.",
+                        "types": [
+                            "\\Orderable_Location_Single"
+                        ],
+                        "variable": "$location"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_before_create_custom_tables",
+            "file": "inc/database/class-database.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before creating Orderable custom tables.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_before_create_custom_tables"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_before_product_actions",
+            "file": "templates/product/actions.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before product actions in the product card.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.7.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_before_product_actions"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_before_product_card",
+            "file": "inc/modules/layouts/templates/products-list.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before product card.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.7.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_before_product_card"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_before_product_description",
+            "file": "templates/product/card-content.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before product description in the product card.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.7.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_before_product_description"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_before_product_hero",
+            "file": "templates/product/hero.php",
+            "type": "action",
+            "doc": {
+                "description": "Template: Product Hero.",
+                "long_description": "This template can be overridden by copying it to yourtheme/orderable/hero.php\n HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Templates"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Product.",
+                        "types": [
+                            "\\WC_Product_Variable"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of args for the shortcode.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": "<p>This template can be overridden by copying it to yourtheme/orderable/hero.php</p> <p>HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_before_product_title",
+            "file": "templates/product/card-content.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before product title in the product card.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.7.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_before_product_title"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_before_save_service_hours",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-store-services-meta-box.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before saving service hours.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_before_save_service_hours"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The location ID.",
+                        "types": [
+                            "int"
+                        ],
+                        "variable": "$location_id"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The service type: <code>delivery</code> or <code>pickup</code>.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$service_type"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_before_time_slots_table_end",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-store-services-meta-box.php",
+            "type": "action",
+            "doc": {
+                "description": "Render content at the end of the time slots table.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 4
+        },
+        {
+            "name": "orderable_location_save_data",
+            "file": "inc/modules/location/admin/class-location-admin.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires when location data is saved.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_save_data"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The location data.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$data"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_location_service_hour_inserted",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-store-services-meta-box.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires after inserting a service hour.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_service_hour_inserted"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The service hour data.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$service_hour"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The service type: <code>delivery</code> or <code>pickup</code>.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$service_type"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The location ID.",
+                        "types": [
+                            "int"
+                        ],
+                        "variable": "$location_id"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_location_service_hour_updated",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-store-services-meta-box.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires after updating a service hour.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_service_hour_updated"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The service hour data.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$service_hour"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The service type: <code>delivery</code> or <code>pickup</code>.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$service_type"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The location ID.",
+                        "types": [
+                            "int"
+                        ],
+                        "variable": "$location_id"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_after_products",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_after_products_category_children",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_after_sections",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_main_before_products",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_before_products_category_children",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_before_sections",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_onboard_settings_saved",
+            "file": "inc/class-settings.php",
+            "type": "action",
+            "doc": {
+                "description": "Action hook for when the onboard settings are saved.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$fields"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_order_reminders_before_modal_fields",
+            "file": "inc/modules/order-reminders/class-order-reminders.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before Order Reminders modal fields.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_reminders_before_modal_fields"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_order_reminders_before_modal_footer",
+            "file": "inc/modules/order-reminders/class-order-reminders.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before Order Reminders modal footer.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_reminders_before_modal_footer"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_order_reminders_before_modal_header",
+            "file": "inc/modules/order-reminders/class-order-reminders.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires before Order Reminders modal header.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_reminders_before_modal_header"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_order_reminders_modal_footer",
+            "file": "inc/modules/order-reminders/class-order-reminders.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires within Order Reminders modal footer.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_reminders_modal_footer"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_order_reminders_modal_header",
+            "file": "inc/modules/order-reminders/class-order-reminders.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires within Order Reminders modal header.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_reminders_modal_header"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_side_menu_after_product_options",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_after_product_options_wrapper",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_before_product_options",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_before_product_options_wrapper",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_before_product_title",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "Template: Product Options.",
+                "long_description": "This template can be overridden by copying it to yourtheme/orderable/options.php\n HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Templates"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Determines whether it's possible to add to cart (i.e. a single product view).",
+                        "types": [
+                            "bool"
+                        ],
+                        "variable": "$orderable_single_product"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of args.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": "<p>This template can be overridden by copying it to yourtheme/orderable/options.php</p> <p>HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_store_services_delivery_wrapper",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-store-services-meta-box.php",
+            "type": "action",
+            "doc": {
+                "description": "Render content inside the delivery wrapper.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_store_services_pickup_wrapper",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-store-services-meta-box.php",
+            "type": "action",
+            "doc": {
+                "description": "Render content inside the pickup wrapper.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_upgrade_database_routine",
+            "file": "inc/database/class-database.php",
+            "type": "action",
+            "doc": {
+                "description": "Fires on the database upgrade routine.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_upgrade_database_routine"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The upgrade version routine. E.g.: 1.8.0.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$version"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_after_mini_cart",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_ajax_added_to_cart",
+            "file": "inc/class-ajax.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_before_mini_cart",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "Mini-cart",
+                "long_description": "Contains the markup for the mini-cart, used by the cart widget.\n This template can be overridden by copying it to yourtheme/woocommerce/cart/mini-cart.php.\n HOWEVER, on occasion WooCommerce will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "see",
+                        "content": "",
+                        "refers": "https://docs.woocommerce.com/document/template-structure/"
+                    },
+                    {
+                        "name": "package",
+                        "content": "WooCommerce\\Templates"
+                    },
+                    {
+                        "name": "version",
+                        "content": "5.2.0"
+                    }
+                ],
+                "long_description_html": "<p>Contains the markup for the mini-cart, used by the cart widget.</p> <p>This template can be overridden by copying it to yourtheme/woocommerce/cart/mini-cart.php.</p> <p>HOWEVER, on occasion WooCommerce will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_before_mini_cart_contents",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_mini_cart_contents",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_after_buttons",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_before_buttons",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_before_total",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_buttons",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_total",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "Hook: woocommerce_widget_shopping_cart_total.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "hooked",
+                        "content": "woocommerce_widget_shopping_cart_subtotal - 10"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 0
+        }
+    ]
+}

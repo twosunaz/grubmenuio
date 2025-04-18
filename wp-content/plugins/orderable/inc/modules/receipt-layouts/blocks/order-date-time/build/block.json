@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "orderable/order-date-time",
+  "version": "1.0.0",
+  "title": "Orderable - Order Date & Time",
+  "category": "orderable",
+  "description": "Shows the order date and time.",
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Order Placed: "
+    }
+  },
+  "textdomain": "orderable",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "editorStyle": "file:./index.css"
+}

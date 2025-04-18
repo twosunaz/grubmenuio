@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "orderable/order-service-date-time",
+	"version": "1.0.0",
+	"title": "Orderable - Order Service Date & Time",
+	"category": "orderable",
+	"description": "Shows the order service date and time. E.g.: Delivery date and time",
+	"attributes": {
+		"showLabel": {
+			"type": "boolean",
+			"default": false
+		},
+		"label": {
+			"type": "string",
+			"default": "Service date and time:"
+		},
+		"showDate": {
+			"type": "boolean",
+			"default": true
+		},
+		"showTime": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"textdomain": "orderable",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"editorStyle": "file:./index.css"
+}

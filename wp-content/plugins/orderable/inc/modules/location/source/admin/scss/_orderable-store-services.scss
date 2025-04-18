@@ -1,0 +1,45 @@
+/*
+ * Orderable Store Services metabox.
+ */
+
+// Block.
+
+// Elements.
+.orderable-store-services__enable-service-pickup {
+	margin-top: 15px;
+}
+
+.orderable-store-services__enable-services {
+	align-items: baseline;
+	flex-flow: column;
+	margin: 15px 0;
+}
+
+.orderable-store-services__enable-service {
+	display: flex;
+}
+
+.orderable-store-services__enable-service-label {
+	margin-left: 5px;
+}
+
+.orderable-store-services__service-hours-fields {
+	align-items: flex-start;
+	flex-flow: column;
+	margin: 15px 0;
+}
+
+.orderable-store-services__pickup-same-as-delivery {
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* stylelint-disable-next-line selector-id-pattern */
+#orderable_multi_location_store_services_meta_box {
+	z-index: 10;
+}
+
+// Modifiers.
+.orderable-store-services--hide {
+	display: none;
+}

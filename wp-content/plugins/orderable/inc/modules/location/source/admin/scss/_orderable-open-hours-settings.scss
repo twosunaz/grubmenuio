@@ -1,0 +1,25 @@
+/*
+ * Orderable Open Hours settings
+ */
+
+// Block.
+.orderable-open-hours-settings {
+	margin: 15px 0;
+}
+
+// Elements.
+.orderable-open-hours-settings__day {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin: 5px 0;
+	gap: 20px;
+}
+
+.orderable-open-hours-settings__day-name {
+	font-weight: 700;
+}
+
+// Modifiers.
+.orderable-open-hours-settings--hide {
+	display: none;
+}

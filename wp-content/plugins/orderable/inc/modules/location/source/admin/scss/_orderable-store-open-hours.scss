@@ -1,0 +1,27 @@
+/*
+ * Orderable Store Open Hours metabox.
+ */
+
+// Block.
+
+// Elements.
+
+.orderable-store-open-hours__override-open-hours {
+
+	.orderable-fields-row__body-row-right {
+		align-items: flex-start;
+	}
+}
+
+.orderable-override-open-hours-toggle-field {
+	margin-top: 15px;
+}
+
+.orderable-store-open-hours__open-hour-fields {
+	margin: 15px 0;
+}
+
+// Modifiers.
+.orderable-store-open-hours--hide {
+	display: none;
+}

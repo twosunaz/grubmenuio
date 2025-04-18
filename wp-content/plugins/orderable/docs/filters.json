@@ -1,0 +1,2185 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "orderable_add_to_cart_button_args",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the Add to Cart button args.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.0.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_add_to_cart_button_args"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The button args.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$layout_settings"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_admin_notices",
+            "file": "inc/class-admin-notices.php",
+            "type": "filter",
+            "doc": {
+                "description": "Admin Notices.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_admin_script_deps",
+            "file": "inc/class-assets.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_admin_style_deps",
+            "file": "inc/class-assets.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_allowed_svg_tags",
+            "file": "inc/class-helpers.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the allowed SVG tags.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.18.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_allowed_svg_tags"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The SVG allowed tags.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$allowed_html_tags"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_checkout_data",
+            "file": "inc/modules/timings/class-timings-checkout.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Timings checkout.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_default_settings",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Settings methods.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_exclude_sections_for_unique_categories",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Exclude Sections for Unique Categories.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The Excluded sections.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$exclude_sections"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The Unfiltered Categories.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$categories"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout Settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_flatten_products_by_category_level",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter description.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.0.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_flatten_products_by_category_level"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The flatten level. Default: <code>all</code>.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$flatten_level"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The layout args.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "string"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_flatten_products_by_category_level",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_accordion_data",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_accordion_data",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_accordion_data",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter product accordion data.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "var",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$data"
+                    },
+                    {
+                        "name": "var",
+                        "content": "",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.0.0"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_add_to_cart_trigger",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_cart_icon_css",
+            "file": "inc/modules/drawer/class-drawer-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_fine_tune_cart_css",
+            "file": "inc/modules/drawer/class-drawer-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Drawer settings.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_formatted_date",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Timings.",
+                "long_description": "Delivery/pickup date and time and lead times.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": "<p>Delivery/pickup date and time and lead times.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_max_orders_field",
+            "file": "inc/modules/timings/class-timings-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Timings settings.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_get_module_class_name",
+            "file": "inc/class-modules.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module methods.",
+                "long_description": "Load individual modules of Orderable plugin, if they exist.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": "<p>Load individual modules of Orderable plugin, if they exist.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_order_date_time",
+            "file": "inc/modules/timings/class-timings-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Timings order.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_product_card_classes",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_products",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_products_args",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter arguments used to retrieve products from database",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "WC_Product_Query arguments",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New query arguments",
+                        "types": [
+                            "array"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.2.1"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_get_products_args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_get_products_by_category",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the products sorted by categories to be shown in the product layout.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.0.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_get_products_by_category"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The products.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$products"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The args to retrieve the products.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The flatten level e.g. <code>all</code> and <code>children</code>.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$flatten_level"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_get_products_by_category",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_get_service_type",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_service_type",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_time_slot_fields",
+            "file": "inc/modules/timings/class-timings-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_get_time_slots_for_zone",
+            "file": "inc/modules/location/zones/class-location-zones.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Location (Zones).",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.18.0"
+                    },
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_time_slots_for_zone",
+            "file": "inc/modules/location/zones/class-location-zones.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_unique_categories",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Get Unique Categories.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The Filtered Categories.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$unique_categories"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The Unfiltered Categories.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$categories"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout Settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_has_available_methods",
+            "file": "inc/modules/timings/class-timings-checkout.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_hidden_categories",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_hidden_categories",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_hidden_categories",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_is_settings_page",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_layout_defaults",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_layout_settings",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_layout_settings_save_data",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the layout settings before saving.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.6.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_layout_settings_save_data"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$layout_settings"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_layout_settings_string",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_layout_{$field_name}_field",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the layout field.",
+                "long_description": "The dynamic portion of the hook name, `$field_name`, refers to the field name e.g. `sort`, `max-orders`, etc.",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.10.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "filter_hook"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The html markup.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$html"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The layout settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$layout_settings"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "string"
+                        ]
+                    }
+                ],
+                "long_description_html": "<p>The dynamic portion of the hook name, <code>$field_name</code>, refers to the field name e.g. <code>sort</code>, <code>max-orders</code>, etc.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_location_allowed_pages_to_load_assets",
+            "file": "inc/modules/location/admin/class-location-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the pages allowed to load the location assets.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.18.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_allowed_pages_to_load_assets"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The allowed pages.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$allowed_pages"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The type of asset:<code>styles</code> or <code>scripts</code>.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$asset_type"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The ID of screen.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$current_screen_id"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_location_get_default_open_hours",
+            "file": "inc/modules/location/class-location.php",
+            "type": "filter",
+            "doc": {
+                "description": "Since we intercept the `Orderable_Settings::get_setting()` function to keep compatible with Location feature, we need to check it to avoid hitting the database early.",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_location_get_save_data",
+            "file": "inc/modules/location/admin/class-location-admin.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the location data to be saved.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_get_save_data"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The data to be saved.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$data"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_location_get_selected_location",
+            "file": "inc/modules/location/class-location.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the selected location.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_get_selected_location"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The location object.",
+                        "types": [
+                            "\\Orderable_Location",
+                            "false"
+                        ],
+                        "variable": "$location"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_location_get_selected_location_id",
+            "file": "inc/modules/location/class-location.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the selected location ID.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_get_selected_location_id"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The location ID.",
+                        "types": [
+                            "int",
+                            "false"
+                        ],
+                        "variable": "$location_id"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_location_lead_time_period_field_options",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-order-options-meta-box.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the options for the Lead Time Period select field.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.18.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_location_lead_time_period_field_options"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The Lead Time Period field options.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$options"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_location_open_hours_override_description",
+            "file": "inc/modules/location/admin/meta-boxes/class-location-open-hours-meta-box.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the override open hours description.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.18.0"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_loyalty_rewards_product_message",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_loyalty_rewards_product_message",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_loyalty_rewards_product_message",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter description.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.11.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_loyalty_rewards_product_message"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product message.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$message"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product points.",
+                        "types": [
+                            "int"
+                        ],
+                        "variable": "$points"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product",
+                            "mixed"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "string"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_loyalty_rewards_product_points",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "Integration with WooCommerce Points and Rewards plugin.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "see",
+                        "content": "",
+                        "refers": "https://woocommerce.com/products/woocommerce-points-and-rewards/"
+                    },
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_loyalty_rewards_product_points",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_loyalty_rewards_product_points",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_loyalty_rewards_product_points",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the product points that can be earned when purchasing the product.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.11.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_loyalty_rewards_product_points"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product points.",
+                        "types": [
+                            "int"
+                        ],
+                        "variable": "$points"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product",
+                            "mixed"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "int"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_main_class",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "filter",
+            "doc": {
+                "description": "Layout: Main layout.",
+                "long_description": "This template can be overridden by copying it to yourtheme/orderable/layouts/main.php\n HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Templates"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of products, sorted by category.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$products"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of shortcode args.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": "<p>This template can be overridden by copying it to yourtheme/orderable/layouts/main.php</p> <p>HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_onboarding_slides",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_order_meta_fields_block_metadata",
+            "file": "inc/modules/receipt-layouts/blocks/order-meta-fields/src/render.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter metadata to be used in the Order Meta Fields block.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_meta_fields_block_metadata"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order metadata.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$metadata"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Fields to include.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$fields_to_include"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Fields to exclude.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$fields_to_exclude"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 4
+        },
+        {
+            "name": "orderable_order_meta_fields_block_metadata",
+            "file": "inc/modules/receipt-layouts/blocks/order-meta-fields/build/render.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter metadata to be used in the Order Meta Fields block.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_meta_fields_block_metadata"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order metadata.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$metadata"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Fields to include.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$fields_to_include"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Fields to exclude.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$fields_to_exclude"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 4
+        },
+        {
+            "name": "orderable_order_reminders_get_orders_query_args",
+            "file": "inc/modules/order-reminders/class-order-reminders.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the query args to retrieve the orders to send the reminder.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_reminders_get_orders_query_args"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The query args to retrieve the orders to send the reminder.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$query_args"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The Order Reminders args.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$order_reminders_args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_order_reminders_skip_sending_email",
+            "file": "inc/modules/order-reminders/class-order-reminders.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter whether order reminder emails should be skipped. Default: false.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_order_reminders_skip_sending_email"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The value to skip or not. Default: false.",
+                        "types": [
+                            "bool"
+                        ],
+                        "variable": "$value"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The order object.",
+                        "types": [
+                            "\\WC_Order"
+                        ],
+                        "variable": "$order"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "bool"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_pointers",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_product_counter_html",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the product counter HTML markup.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The HTML markup.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$html_markup"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value.",
+                        "types": [
+                            "string"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.7.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_product_counter_html"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_product_hero_image_size",
+            "file": "templates/product/hero.php",
+            "type": "filter",
+            "doc": {
+                "description": "Allow product hero image size to be updated.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "Product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Argumentss passed to the Layout shortcode.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.6.0"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_product_points_message",
+            "file": "inc/integrations/woocommerce-points-and-rewards/class-integration-woocommerce-points-and-rewards.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the product points message.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.11.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_product_points_message"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product points message.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$product_points_message"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product points.",
+                        "types": [
+                            "int"
+                        ],
+                        "variable": "$points"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "string"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_service_labels",
+            "file": "inc/modules/services/class-services.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Services.",
+                "long_description": "Delivery/pickup services.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": "<p>Delivery/pickup services.</p>"
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_service_type_column_background_color",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 5
+        },
+        {
+            "name": "orderable_service_type_column_text_color",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 5
+        },
+        {
+            "name": "orderable_services_filter_options",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the services filter options.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.14.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_services_filter_options"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The options.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$options"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The filtered service.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$filtered_service"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_settings",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the orderable settings.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_settings"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The orderable settings.",
+                        "types": [
+                            "false",
+                            "array"
+                        ],
+                        "variable": "$settings"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The setting name to be retrieved.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$setting_name"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "false",
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_short_description",
+            "file": "templates/product/card-content.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the product short description to show in the card.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.1.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_short_description"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product short description.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$short_description"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "string"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_shortcode_args",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_skip_migrate_main_location_data_to_custom_table",
+            "file": "inc/database/tables/class-location-locations-table.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter whether we should skip the migration of the main location data from `orderable_settings` to the orderable custom table.",
+                "long_description": "By default, we don't migrate if the custom table already has the main location data.",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_skip_migrate_main_location_data_to_custom_table"
+                    },
+                    {
+                        "name": "param",
+                        "content": "If we should migrate.",
+                        "types": [
+                            "bool"
+                        ],
+                        "variable": "$skip_migration"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "bool"
+                        ]
+                    }
+                ],
+                "long_description_html": "<p>By default, we don't migrate if the custom table already has the main location data.</p>"
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_skip_migrate_main_location_time_slots_data_to_custom_table",
+            "file": "inc/database/tables/class-location-time-slots-table.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter whether we should skip the migration of the main location time slots data from `orderable_settings` to the orderable custom table.",
+                "long_description": "By default, we don't migrate if the custom table already has the main location time slots data.",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.8.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_skip_migrate_main_location_time_slots_data_to_custom_table"
+                    },
+                    {
+                        "name": "param",
+                        "content": "If we should migrate.",
+                        "types": [
+                            "bool"
+                        ],
+                        "variable": "$skip_migration"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "bool"
+                        ]
+                    }
+                ],
+                "long_description_html": "<p>By default, we don't migrate if the custom table already has the main location time slots data.</p>"
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_styles",
+            "file": "inc/class-assets.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_update_cart_item_button_args",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter arguments used to the update cart item button.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The arguments.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The cart item key.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$cart_item_key"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New arguments",
+                        "types": [
+                            "array"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.4.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_update_cart_item_button_args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_update_cart_item_button_html",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the Update Cart Item button HTML.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The Update Cart Item button HTML.",
+                        "types": [
+                            "string",
+                            "false"
+                        ],
+                        "variable": "$update_cart_item_button_html"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New HTML",
+                        "types": [
+                            "string",
+                            "false"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.4.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_update_cart_item_button_html"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_valid_admin_pages",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_variable_types",
+            "file": "inc/class-helpers.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the variable types used by the is_variable_product function.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The variable types.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$variable_types"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New variable types.",
+                        "types": [
+                            "array"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.4.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_variable_types"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_variation_types",
+            "file": "inc/class-helpers.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the variable types used by the is_variable_product function.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The variable types.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$variation_types"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New variation types.",
+                        "types": [
+                            "array"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.4.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_variation_types"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "the_content",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "inc/class-ajax.php",
+            "type": "filter",
+            "doc": {
+                "description": "Fill the value of the fields.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The field group data.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$field_group"
+                    },
+                    {
+                        "name": "return",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_name",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_permalink",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_price",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_product",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_product_id",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_remove_link",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_cart_item_thumbnail",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_mini_cart_item_class",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_widget_cart_item_visible",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        }
+    ]
+}

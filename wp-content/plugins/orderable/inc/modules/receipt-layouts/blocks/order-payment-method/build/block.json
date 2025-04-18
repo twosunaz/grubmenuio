@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "orderable/order-payment-method",
+  "version": "1.0.0",
+  "title": "Orderable - Order Payment Method",
+  "category": "orderable",
+  "description": "Shows the order payment method.",
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Payment method: "
+    }
+  },
+  "textdomain": "orderable",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "editorStyle": "file:./index.css"
+}

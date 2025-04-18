@@ -1,0 +1,18 @@
+/* Block */
+.orderable-compat-flux-checkout {
+  width: 100%;
+}
+
+/* Elements */
+.orderable-compat-flux-checkout strong,
+.orderable-compat-flux-checkout select {
+  font-size: 16px;
+}
+
+.orderable-compat-flux-checkout th {
+  text-align: left;
+}
+
+.orderable-compat-flux-checkout td {
+  text-align: right;
+}

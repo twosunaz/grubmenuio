@@ -1,0 +1,372 @@
+2025-04-17T03:18:34+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 34195ced5ad5077b1e3d36583cf68312
+            [Date] => Apr 17, 2025 @ 3:18
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.90259
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => WWD6wPCVUcTQQoRZepNgCLnQZ/kwdJ1jY5JsknbPMDM=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => 34195ced5ad5077b1e3d36583cf68312
+                        )
+
+                )
+
+            [Body] => {\"id\":884,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.7.1\",\"prices_include_tax\":false,\"date_created\":\"2025-04-16T22:17:36\",\"date_modified\":\"2025-04-16T22:17:36\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"customer_id\":5,\"order_key\":\"wc_order_Kd7l2Vum1FMAf\",\"billing\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"email\":\"twosunazofficial@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"71.226.44.168\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"f2a720659addee18e24b2e4229673738\",\"number\":\"884\",\"meta_data\":[{\"id\":529,\"key\":\"_orderable_service_type\",\"value\":\"\"},{\"id\":527,\"key\":\"is_vat_exempt\",\"value\":\"no\"},{\"id\":532,\"key\":\"orderable_notification_optin\",\"value\":\"no\"},{\"id\":528,\"key\":\"Table Number\",\"value\":\"8\"}],\"line_items\":[{\"id\":617,\"name\":\"Supreme Pizza - Large\",\"product_id\":535,\"variation_id\":538,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"19.50\",\"subtotal_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":4963,\"key\":\"size\",\"value\":\"Large\",\"display_key\":\"Size\",\"display_value\":\"Large\"},{\"id\":4964,\"key\":\"Selected Time\",\"value\":\"8\",\"display_key\":\"Selected Time\",\"display_value\":\"8\"}],\"sku\":\"\",\"price\":19.5,\"image\":{\"id\":697,\"src\":\"https:\\/\\/pdi.grubmenu.io\\/wp-content\\/uploads\\/sites\\/4\\/2025\\/02\\/SupremePizza.jpg\"},\"parent_name\":\"Supreme Pizza\"}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[{\"id\":618,\"name\":\"Tip\",\"tax_class\":\"0\",\"tax_status\":\"taxable\",\"amount\":\"0\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[]}],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/pdi.grubmenu.io\\/checkout\\/order-pay\\/884\\/?pay_for_order=true&key=wc_order_Kd7l2Vum1FMAf\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2025-04-17T03:17:36\",\"date_modified_gmt\":\"2025-04-17T03:17:36\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\\/884\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/customers\\/5\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Thu, 17 Apr 2025 03:18:34 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 019641c1-605f-20f0-d4f9-d5af2fdff19e
+                                    [x-zapier-hook-attempt] => 019641c1-605f-20f0-d4f9-d5af2fdff19e
+                                    [x-zapier-hook-request-id] => 019641c1-605f-20f0-d4f9-d5af2fdff19e
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19999
+                                    [x-rate-limit-reset] => 1744860047
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 ecc843250500aa5c06bbd62ad8a4abd6.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => nZGw2ypEuiWW-XVkvQnNzHIGqiDLX2HKbSB57RyUYBt-zzEPcL5Dcg==
+                                )
+
+                        )
+
+                    [Body] => {"attempt":"019641c1-605f-20f0-d4f9-d5af2fdff19e","id":"019641c1-605f-20f0-d4f9-d5af2fdff19e","request_id":"019641c1-605f-20f0-d4f9-d5af2fdff19e","status":"success"}
+
+                )
+
+        )
+
+)
+2025-04-17T03:19:56+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => c3d80052deb897747df71b1cfc2a8e0d
+            [Date] => Apr 17, 2025 @ 3:19
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.6806
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => bYqvP99oEtTwNeceggf4hinQw623ICbpEvGnmLGu4EE=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => c3d80052deb897747df71b1cfc2a8e0d
+                        )
+
+                )
+
+            [Body] => {\"id\":885,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.7.1\",\"prices_include_tax\":false,\"date_created\":\"2025-04-16T22:19:22\",\"date_modified\":\"2025-04-16T22:19:23\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"16.50\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_qpdbe4P2VizlE\",\"billing\":{\"first_name\":\"Kenton\",\"last_name\":\"Spence\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"email\":\"kenton@hubcityseo.com\",\"phone\":\"12283327876\"},\"shipping\":{\"first_name\":\"Kenton\",\"last_name\":\"Spence\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"152.36.141.80\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"6b691b3e832a69aa95bb8aeb9069da68\",\"number\":\"885\",\"meta_data\":[{\"id\":535,\"key\":\"_orderable_service_type\",\"value\":\"\"},{\"id\":533,\"key\":\"is_vat_exempt\",\"value\":\"no\"},{\"id\":538,\"key\":\"orderable_notification_optin\",\"value\":\"no\"},{\"id\":534,\"key\":\"Table Number\",\"value\":\"11\"}],\"line_items\":[{\"id\":621,\"name\":\"BYO - Medium Pizza\",\"product_id\":819,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"16.50\",\"subtotal_tax\":\"0.00\",\"total\":\"16.50\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":5014,\"key\":\"Green Olives\",\"value\":\"Green Olives (<span class=\\\"woocommerce-Price-amount amount\\\"><bdi><span class=\\\"woocommerce-Price-currencySymbol\\\">&#36;<\\/span>1.00<\\/bdi><\\/span>)\",\"display_key\":\"Green Olives\",\"display_value\":\"Green Olives (&#036;1.00)\"},{\"id\":5015,\"key\":\"Black Olives\",\"value\":\"Black Olives (<span class=\\\"woocommerce-Price-amount amount\\\"><bdi><span class=\\\"woocommerce-Price-currencySymbol\\\">&#36;<\\/span>1.00<\\/bdi><\\/span>)\",\"display_key\":\"Black Olives\",\"display_value\":\"Black Olives (&#036;1.00)\"},{\"id\":5016,\"key\":\"Jalapenos\",\"value\":\"Jalapenos (<span class=\\\"woocommerce-Price-amount amount\\\"><bdi><span class=\\\"woocommerce-Price-currencySymbol\\\">&#36;<\\/span>1.00<\\/bdi><\\/span>)\",\"display_key\":\"Jalapenos\",\"display_value\":\"Jalapenos (&#036;1.00)\"},{\"id\":5017,\"key\":\"Banana Peppers\",\"value\":\"Banana Peppers (<span class=\\\"woocommerce-Price-amount amount\\\"><bdi><span class=\\\"woocommerce-Price-currencySymbol\\\">&#36;<\\/span>1.00<\\/bdi><\\/span>)\",\"display_key\":\"Banana Peppers\",\"display_value\":\"Banana Peppers (&#036;1.00)\"},{\"id\":5018,\"key\":\"Green Pepper\",\"value\":\"\",\"display_key\":\"Green Pepper\",\"display_value\":\"\"},{\"id\":5019,\"key\":\"Tomatoes\",\"value\":\"\",\"display_key\":\"Tomatoes\",\"display_value\":\"\"},{\"id\":5020,\"key\":\"Garlic\",\"value\":\"\",\"display_key\":\"Garlic\",\"display_value\":\"\"},{\"id\":5021,\"key\":\"Pickles\",\"value\":\"\",\"display_key\":\"Pickles\",\"display_value\":\"\"},{\"id\":5022,\"key\":\"Mushrooms\",\"value\":\"\",\"display_key\":\"Mushrooms\",\"display_value\":\"\"},{\"id\":5023,\"key\":\"Pineapple\",\"value\":\"\",\"display_key\":\"Pineapple\",\"display_value\":\"\"},{\"id\":5024,\"key\":\"Chicken\",\"value\":\"\",\"display_key\":\"Chicken\",\"display_value\":\"\"},{\"id\":5025,\"key\":\"Beef\",\"value\":\"\",\"display_key\":\"Beef\",\"display_value\":\"\"},{\"id\":5026,\"key\":\"Pepperoni\",\"value\":\"\",\"display_key\":\"Pepperoni\",\"display_value\":\"\"},{\"id\":5027,\"key\":\"Ham\",\"value\":\"\",\"display_key\":\"Ham\",\"display_value\":\"\"},{\"id\":5028,\"key\":\"Onions\",\"value\":\"\",\"display_key\":\"Onions\",\"display_value\":\"\"},{\"id\":5029,\"key\":\"Graziano Sausage\",\"value\":\"\",\"display_key\":\"Graziano Sausage\",\"display_value\":\"\"},{\"id\":5030,\"key\":\"Bacon\",\"value\":\"\",\"display_key\":\"Bacon\",\"display_value\":\"\"},{\"id\":5031,\"key\":\"Grinder\\u00a0Meat\",\"value\":\"\",\"display_key\":\"Grinder\\u00a0Meat\",\"display_value\":\"\"},{\"id\":5032,\"key\":\"Selected Time\",\"value\":\"11\",\"display_key\":\"Selected Time\",\"display_value\":\"11\"}],\"sku\":\"\",\"price\":16.5,\"image\":{\"id\":\"698\",\"src\":\"https:\\/\\/pdi.grubmenu.io\\/wp-content\\/uploads\\/sites\\/4\\/2025\\/02\\/CheesePizza.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[{\"id\":622,\"name\":\"Tip\",\"tax_class\":\"0\",\"tax_status\":\"taxable\",\"amount\":\"0\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[]}],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/pdi.grubmenu.io\\/checkout\\/order-pay\\/885\\/?pay_for_order=true&key=wc_order_qpdbe4P2VizlE\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2025-04-17T03:19:22\",\"date_modified_gmt\":\"2025-04-17T03:19:23\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\\/885\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Thu, 17 Apr 2025 03:19:56 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 019641c2-9ff4-594d-2ec0-bad9e0a9cd1c
+                                    [x-zapier-hook-attempt] => 019641c2-9ff4-594d-2ec0-bad9e0a9cd1c
+                                    [x-zapier-hook-request-id] => 019641c2-9ff4-594d-2ec0-bad9e0a9cd1c
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19998
+                                    [x-rate-limit-reset] => 1744860047
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 1b875a3a250909f255b3e40ca099587a.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => f9ZMjNrMwFUZK_FC0kFQAWEYxbtfZc4K5D0Vfz2JWCn13D6rOPPrJw==
+                                )
+
+                        )
+
+                    [Body] => {"attempt":"019641c2-9ff4-594d-2ec0-bad9e0a9cd1c","id":"019641c2-9ff4-594d-2ec0-bad9e0a9cd1c","request_id":"019641c2-9ff4-594d-2ec0-bad9e0a9cd1c","status":"success"}
+
+                )
+
+        )
+
+)
+2025-04-17T13:23:10+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 04718450e2abf4449e12923d009bf396
+            [Date] => Apr 17, 2025 @ 13:23
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.61093
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => jDUqNb2O0sdmbI8EVG5hTtDdm4IDh1kX3R7T45hCXYk=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => 04718450e2abf4449e12923d009bf396
+                        )
+
+                )
+
+            [Body] => {\"id\":891,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.7.1\",\"prices_include_tax\":false,\"date_created\":\"2025-04-17T08:22:54\",\"date_modified\":\"2025-04-17T08:22:54\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"39.00\",\"total_tax\":\"0.00\",\"customer_id\":5,\"order_key\":\"wc_order_5Yl4fb3ePZDwl\",\"billing\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"email\":\"twosunazofficial@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"136.226.6.44\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36 Edg\\/131.0.0.0\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"1f4240f5f6f1ae4fd1e39878012dc15e\",\"number\":\"891\",\"meta_data\":[{\"id\":541,\"key\":\"_orderable_service_type\",\"value\":\"\"},{\"id\":539,\"key\":\"is_vat_exempt\",\"value\":\"no\"},{\"id\":544,\"key\":\"orderable_notification_optin\",\"value\":\"no\"},{\"id\":540,\"key\":\"Table Number\",\"value\":\"16\"}],\"line_items\":[{\"id\":636,\"name\":\"Supreme Pizza - Large\",\"product_id\":535,\"variation_id\":538,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"19.50\",\"subtotal_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":5156,\"key\":\"size\",\"value\":\"Large\",\"display_key\":\"Size\",\"display_value\":\"Large\"},{\"id\":5157,\"key\":\"Selected Time\",\"value\":\"20\",\"display_key\":\"Selected Time\",\"display_value\":\"20\"}],\"sku\":\"\",\"price\":19.5,\"image\":{\"id\":697,\"src\":\"https:\\/\\/pdi.grubmenu.io\\/wp-content\\/uploads\\/sites\\/4\\/2025\\/02\\/SupremePizza.jpg\"},\"parent_name\":\"Supreme Pizza\"},{\"id\":637,\"name\":\"Supreme Pizza - Large\",\"product_id\":535,\"variation_id\":538,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"19.50\",\"subtotal_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":5167,\"key\":\"size\",\"value\":\"Large\",\"display_key\":\"Size\",\"display_value\":\"Large\"},{\"id\":5168,\"key\":\"Selected Time\",\"value\":\"16\",\"display_key\":\"Selected Time\",\"display_value\":\"16\"}],\"sku\":\"\",\"price\":19.5,\"image\":{\"id\":697,\"src\":\"https:\\/\\/pdi.grubmenu.io\\/wp-content\\/uploads\\/sites\\/4\\/2025\\/02\\/SupremePizza.jpg\"},\"parent_name\":\"Supreme Pizza\"}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[{\"id\":638,\"name\":\"Tip\",\"tax_class\":\"0\",\"tax_status\":\"taxable\",\"amount\":\"0\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[]}],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/pdi.grubmenu.io\\/checkout\\/order-pay\\/891\\/?pay_for_order=true&key=wc_order_5Yl4fb3ePZDwl\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2025-04-17T13:22:54\",\"date_modified_gmt\":\"2025-04-17T13:22:54\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\\/891\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/customers\\/5\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Thu, 17 Apr 2025 13:23:10 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 019643ea-e779-2593-b038-d0d7d3cb37ca
+                                    [x-zapier-hook-attempt] => 019643ea-e779-2593-b038-d0d7d3cb37ca
+                                    [x-zapier-hook-request-id] => 019643ea-e779-2593-b038-d0d7d3cb37ca
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19999
+                                    [x-rate-limit-reset] => 1744896347
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 028229e6bd0161988b8a68b3a1abfad2.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => rVzJTssP4QtYZ-EPcKmJp4YrY6IECyGdLQEYRf7jpWBbbqpMbVIH9Q==
+                                )
+
+                        )
+
+                    [Body] => {"attempt":"019643ea-e779-2593-b038-d0d7d3cb37ca","id":"019643ea-e779-2593-b038-d0d7d3cb37ca","request_id":"019643ea-e779-2593-b038-d0d7d3cb37ca","status":"success"}
+
+                )
+
+        )
+
+)
+2025-04-17T13:32:03+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 35ffeced538c7840c819e87543e974ef
+            [Date] => Apr 17, 2025 @ 13:32
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.7074
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => n6GiNGiU5wYx3+RWPWXnvn4fhvp2Ynd/hcXh1ZiVkR0=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => 35ffeced538c7840c819e87543e974ef
+                        )
+
+                )
+
+            [Body] => {\"id\":892,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.7.1\",\"prices_include_tax\":false,\"date_created\":\"2025-04-17T08:31:14\",\"date_modified\":\"2025-04-17T08:31:15\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"customer_id\":5,\"order_key\":\"wc_order_JXtiuFXPCGFrO\",\"billing\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"email\":\"twosunazofficial@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"136.226.6.44\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36 Edg\\/131.0.0.0\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4f4dcc19009c111072cec49669535022\",\"number\":\"892\",\"meta_data\":[{\"id\":547,\"key\":\"_orderable_service_type\",\"value\":\"\"},{\"id\":545,\"key\":\"is_vat_exempt\",\"value\":\"no\"},{\"id\":550,\"key\":\"orderable_notification_optin\",\"value\":\"no\"},{\"id\":546,\"key\":\"Table Number\",\"value\":\"20\"}],\"line_items\":[{\"id\":641,\"name\":\"Supreme Pizza - Large\",\"product_id\":535,\"variation_id\":538,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"19.50\",\"subtotal_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":5201,\"key\":\"size\",\"value\":\"Large\",\"display_key\":\"Size\",\"display_value\":\"Large\"},{\"id\":5202,\"key\":\"Selected Time\",\"value\":\"20\",\"display_key\":\"Selected Time\",\"display_value\":\"20\"}],\"sku\":\"\",\"price\":19.5,\"image\":{\"id\":697,\"src\":\"https:\\/\\/pdi.grubmenu.io\\/wp-content\\/uploads\\/sites\\/4\\/2025\\/02\\/SupremePizza.jpg\"},\"parent_name\":\"Supreme Pizza\"}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[{\"id\":642,\"name\":\"Tip\",\"tax_class\":\"0\",\"tax_status\":\"taxable\",\"amount\":\"0\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[]}],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/pdi.grubmenu.io\\/checkout\\/order-pay\\/892\\/?pay_for_order=true&key=wc_order_JXtiuFXPCGFrO\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2025-04-17T13:31:14\",\"date_modified_gmt\":\"2025-04-17T13:31:15\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\\/892\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/customers\\/5\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Thu, 17 Apr 2025 13:32:03 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 019643f3-0a01-80a7-a7be-1041f163cd29
+                                    [x-zapier-hook-attempt] => 019643f3-0a01-80a7-a7be-1041f163cd29
+                                    [x-zapier-hook-request-id] => 019643f3-0a01-80a7-a7be-1041f163cd29
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19999
+                                    [x-rate-limit-reset] => 1744896947
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 c49eddbbbee7a3b1464851f470bede1e.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => BbXGE-TIAmDBmpfaU7HafXneS9CPC5X6b44VjmSUJ9XMZASs9yT33w==
+                                )
+
+                        )
+
+                    [Body] => {"attempt":"019643f3-0a01-80a7-a7be-1041f163cd29","id":"019643f3-0a01-80a7-a7be-1041f163cd29","request_id":"019643f3-0a01-80a7-a7be-1041f163cd29","status":"success"}
+
+                )
+
+        )
+
+)
+2025-04-17T13:35:11+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => cdeb99bb5e96af5406e14539f2512fcb
+            [Date] => Apr 17, 2025 @ 13:35
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.08737
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => JkA67W/yC9p7w0Mi3G6eWrXQuXQ2GHctQuTa2SBZ8+A=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => cdeb99bb5e96af5406e14539f2512fcb
+                        )
+
+                )
+
+            [Body] => {\"id\":893,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.7.1\",\"prices_include_tax\":false,\"date_created\":\"2025-04-17T08:34:52\",\"date_modified\":\"2025-04-17T08:34:52\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"customer_id\":5,\"order_key\":\"wc_order_94efAdJqzeRS5\",\"billing\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"email\":\"twosunazofficial@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"136.226.6.44\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36 Edg\\/131.0.0.0\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4f4dcc19009c111072cec49669535022\",\"number\":\"893\",\"meta_data\":[{\"id\":553,\"key\":\"_orderable_service_type\",\"value\":\"\"},{\"id\":551,\"key\":\"is_vat_exempt\",\"value\":\"no\"},{\"id\":556,\"key\":\"orderable_notification_optin\",\"value\":\"no\"},{\"id\":552,\"key\":\"Table Number\",\"value\":\"20\"}],\"line_items\":[{\"id\":645,\"name\":\"Supreme Pizza - Large\",\"product_id\":535,\"variation_id\":538,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"19.50\",\"subtotal_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":5235,\"key\":\"size\",\"value\":\"Large\",\"display_key\":\"Size\",\"display_value\":\"Large\"},{\"id\":5236,\"key\":\"Selected Time\",\"value\":\"20\",\"display_key\":\"Selected Time\",\"display_value\":\"20\"}],\"sku\":\"\",\"price\":19.5,\"image\":{\"id\":697,\"src\":\"http:\\/\\/pdi.grubmenu.io\\/wp-content\\/uploads\\/sites\\/4\\/2025\\/02\\/SupremePizza.jpg\"},\"parent_name\":\"Supreme Pizza\"}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[{\"id\":646,\"name\":\"Tip\",\"tax_class\":\"0\",\"tax_status\":\"taxable\",\"amount\":\"0\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[]}],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/pdi.grubmenu.io\\/checkout\\/order-pay\\/893\\/?pay_for_order=true&key=wc_order_94efAdJqzeRS5\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2025-04-17T13:34:52\",\"date_modified_gmt\":\"2025-04-17T13:34:52\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\\/893\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/customers\\/5\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Thu, 17 Apr 2025 13:35:11 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 019643f5-ea09-1fc3-95b3-7ccf91b5d4c9
+                                    [x-zapier-hook-attempt] => 019643f5-ea09-1fc3-95b3-7ccf91b5d4c9
+                                    [x-zapier-hook-request-id] => 019643f5-ea09-1fc3-95b3-7ccf91b5d4c9
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19998
+                                    [x-rate-limit-reset] => 1744896947
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 93a5047483e29b6e88eb9b3ac46c575a.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => Zz9FVwAlBFBU98LruHIsr5yMesj2LgQQJZEpNVFyAl39PqfE1PuNcg==
+                                )
+
+                        )
+
+                    [Body] => {"attempt":"019643f5-ea09-1fc3-95b3-7ccf91b5d4c9","id":"019643f5-ea09-1fc3-95b3-7ccf91b5d4c9","request_id":"019643f5-ea09-1fc3-95b3-7ccf91b5d4c9","status":"success"}
+
+                )
+
+        )
+
+)
+2025-04-17T13:37:24+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 1e8363247b0457b8800bf1986dbdb9e8
+            [Date] => Apr 17, 2025 @ 13:37
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.13698
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => PfFn4bzm3pHH4fERjDT+6HccBkgRFuPVKusLEIeI3ic=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => 1e8363247b0457b8800bf1986dbdb9e8
+                        )
+
+                )
+
+            [Body] => {\"id\":894,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.7.1\",\"prices_include_tax\":false,\"date_created\":\"2025-04-17T08:37:15\",\"date_modified\":\"2025-04-17T08:37:15\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"customer_id\":5,\"order_key\":\"wc_order_9eemSLidbz9VO\",\"billing\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"email\":\"twosunazofficial@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Marcos\",\"last_name\":\"Duarte\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"US\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"136.226.6.44\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36 Edg\\/131.0.0.0\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4f4dcc19009c111072cec49669535022\",\"number\":\"894\",\"meta_data\":[{\"id\":559,\"key\":\"_orderable_service_type\",\"value\":\"\"},{\"id\":557,\"key\":\"is_vat_exempt\",\"value\":\"no\"},{\"id\":562,\"key\":\"orderable_notification_optin\",\"value\":\"no\"},{\"id\":558,\"key\":\"Table Number\",\"value\":\"20\"}],\"line_items\":[{\"id\":649,\"name\":\"Supreme Pizza - Large\",\"product_id\":535,\"variation_id\":538,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"19.50\",\"subtotal_tax\":\"0.00\",\"total\":\"19.50\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":5269,\"key\":\"size\",\"value\":\"Large\",\"display_key\":\"Size\",\"display_value\":\"Large\"},{\"id\":5270,\"key\":\"Selected Time\",\"value\":\"8PM\",\"display_key\":\"Selected Time\",\"display_value\":\"8PM\"}],\"sku\":\"\",\"price\":19.5,\"image\":{\"id\":697,\"src\":\"http:\\/\\/pdi.grubmenu.io\\/wp-content\\/uploads\\/sites\\/4\\/2025\\/02\\/SupremePizza.jpg\"},\"parent_name\":\"Supreme Pizza\"}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[{\"id\":650,\"name\":\"Tip\",\"tax_class\":\"0\",\"tax_status\":\"taxable\",\"amount\":\"0\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[]}],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/pdi.grubmenu.io\\/checkout\\/order-pay\\/894\\/?pay_for_order=true&key=wc_order_9eemSLidbz9VO\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2025-04-17T13:37:15\",\"date_modified_gmt\":\"2025-04-17T13:37:15\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\\/894\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/pdi.grubmenu.io\\/wp-json\\/wc\\/v3\\/customers\\/5\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Thu, 17 Apr 2025 13:37:24 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 019643f7-ef55-12f0-0d67-91c669006946
+                                    [x-zapier-hook-attempt] => 019643f7-ef55-12f0-0d67-91c669006946
+                                    [x-zapier-hook-request-id] => 019643f7-ef55-12f0-0d67-91c669006946
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19999
+                                    [x-rate-limit-reset] => 1744897247
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 32f22a5526f095115736b345c80e1c26.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => xB3hxSsU_6La1WHMNJldLs5YQxDPEt-YZWddZ9aTh66DxNQ7_d6iog==
+                                )
+
+                        )
+
+                    [Body] => {"attempt":"019643f7-ef55-12f0-0d67-91c669006946","id":"019643f7-ef55-12f0-0d67-91c669006946","request_id":"019643f7-ef55-12f0-0d67-91c669006946","status":"success"}
+
+                )
+
+        )
+
+)

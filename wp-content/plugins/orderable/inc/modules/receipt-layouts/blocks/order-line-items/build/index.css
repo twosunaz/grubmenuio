@@ -1,0 +1,15 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./inc/modules/receipt-layouts/blocks/order-line-items/src/editor.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.orderable-order-line-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 375pt;
+}
+
+.orderable-order-line-item__quantity {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=index.css.map*/

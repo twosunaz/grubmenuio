@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "orderable/divider",
+	"version": "1.0.0",
+	"title": "Orderable - Divider",
+	"category": "orderable",
+	"description": "Shows a divider.",
+	"attributes": {
+		"lineStyle": {
+			"type": "string",
+			"default": "dashed"
+		},
+		"height": {
+			"type": "integer",
+			"default": "2"
+		}
+	},
+	"textdomain": "orderable",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"editorStyle": "file:./index.css"
+}

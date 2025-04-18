@@ -1,0 +1,20 @@
+{
+  "name": "snipvault/snipvault",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "SnipVault\\": "src/"
+    }
+  },
+  "require": {
+    "scssphp/scssphp": "^2.0",
+    "php": ">=8.1.0"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false,
+    "optimize-autoloader": true,
+    "classmap-authoritative": true,
+    "autoloader-suffix": "SnipVault"
+  }
+}

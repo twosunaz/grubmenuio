@@ -1,0 +1,14 @@
+parameters:
+	level: 0
+	paths:
+		- inc
+		- orderable.php
+	excludePaths:
+		analyse:
+			- inc/vendor/*
+			- inc/class-core-*
+	bootstrapFiles:
+		- vendor/php-stubs/woocommerce-stubs/woocommerce-stubs.php
+		- vendor/php-stubs/woocommerce-stubs/woocommerce-packages-stubs.php
+		- stubs/orderable-stubs.php
+		- stubs/iconic-stubs.php

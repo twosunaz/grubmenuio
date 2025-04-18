@@ -1,0 +1,91 @@
+.woocommerce-input-toggle {
+    height: 16px;
+    width: 32px;
+    border: 2px solid var(--wp-admin-theme-color, #7f54b3);
+    background-color: var(--wp-admin-theme-color, #7f54b3);
+    display: inline-block;
+    text-indent: -9999px;
+    border-radius: 10em;
+    position: relative;
+    margin-top: -1px;
+    vertical-align: text-top;
+	box-sizing: content-box !important;
+}
+
+.woocommerce-input-toggle::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 100%;
+	box-sizing: content-box !important;
+}
+
+.woocommerce-input-toggle.woocommerce-input-toggle--disabled {
+    border-color: #999;
+    background-color: #999;
+}  
+
+.woocommerce-input-toggle.woocommerce-input-toggle--disabled::before {
+    right: auto;
+    left: 0;
+}
+
+.ord-dokan-override-toggle {
+	&__switch {
+		position: relative;
+		display: inline-block;
+		width: 53px;
+		height: 28px;
+
+		input {
+			opacity: 0;
+			width: 0;
+			height: 0;
+		}
+	}
+
+	&__slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ccc;
+		-webkit-transition: .4s;
+		transition: .4s;
+		border-radius: 60px;
+
+		&:before {
+			position: absolute;
+			content: "";
+			height: 22px;
+			width: 22px;
+			left: 5px;
+			bottom: 3px;
+			background-color: white;
+			-webkit-transition: .4s;
+			transition: .4s;
+			border-radius: 50%;
+		}
+	}
+
+	input:checked + &__slider {
+		background-color: #2196F3;
+	}
+
+	input:focus + &__slider {
+		box-shadow: 0 0 1px #2196F3;
+	}
+
+	input:checked + &__slider:before {
+		-webkit-transform: translateX(21px);
+		-ms-transform: translateX(21px);
+		transform: translateX(21px);
+	}
+}

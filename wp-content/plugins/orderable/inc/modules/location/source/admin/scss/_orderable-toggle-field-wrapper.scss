@@ -1,0 +1,20 @@
+/*
+ * Orderable toggle field
+ */
+
+// Block.
+.orderable-toggle-field-wrapper {
+	display: flex;
+
+	/* stylelint-disable-next-line scss/selector-no-redundant-nesting-selector */
+	& + .orderable-toggle-field-wrapper {
+		margin-top: 15px;
+	}
+}
+
+// Elements.
+.orderable-toggle-field__label-wrapper {
+	margin-top: -4px;
+}
+
+// Modifiers.

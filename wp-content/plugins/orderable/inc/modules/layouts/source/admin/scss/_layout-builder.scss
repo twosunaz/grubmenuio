@@ -1,0 +1,54 @@
+#orderable-layout-settings-metabox {
+	z-index: 1000;
+}
+
+#orderable-layout-preview-metabox {
+
+	.inside {
+		padding: 24px 24px 0;
+		margin: 0;
+	}
+
+	.inside h2.orderable-category-heading__title,
+	.inside h3 {
+		margin: 0 0 $padding * 2;
+	}
+
+	.inside h2 {
+		padding: 0;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 1.2;
+	}
+
+	.orderable-category-heading__description {
+		margin: -$padding 0 $padding * 2;
+	}
+
+	.orderable-main {
+		max-width: 1000px;
+		margin: 0;
+	}
+
+	.orderable-main--sections-side_tabs {
+
+		.orderable-main__tabs {
+			margin: 0 $padding * 2 $padding * 2 0 !important;
+		}
+	}
+}
+
+.orderable-layout-preview-notice {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left-width: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin: 0 0 25px;
+	padding: 1px 12px;
+	border-left-color: $c-brand;
+
+	p {
+		margin: 0.5em 0;
+		padding: 2px;
+	}
+}

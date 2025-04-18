@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "orderable/order-location",
+	"version": "1.0.0",
+	"title": "Orderable - Order Location",
+	"category": "orderable",
+	"description": "Shows the order location.",
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Location: "
+		}
+	},
+	"textdomain": "orderable",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"editorStyle": "file:./index.css"
+}

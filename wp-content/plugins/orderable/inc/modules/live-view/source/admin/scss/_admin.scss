@@ -1,0 +1,34 @@
+#adminmenumain,
+#screen-meta-links,
+.woocommerce-layout,
+.woocommerce-layout__header,
+.page-title-action,
+.search-box,
+#wpadminbar,
+#filter-by-date,
+.wc-customer-search,
+.wc-customer-search + .select2 {
+	display: none !important;
+}
+
+#wpcontent {
+	margin-left: 0 !important;
+}
+
+html.wp-toolbar {
+	padding: 0 !important;
+}
+
+.woocommerce-embed-page .wrap {
+	padding: 0 20px !important;
+}
+
+.tablenav.top .actions,
+.tablenav .view-switch {
+	display: block !important;
+}
+
+.orderable-live-view-button--disable,
+.orderable-live-view-button--audio {
+	display: inline-block !important;
+}

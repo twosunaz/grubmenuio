@@ -1,0 +1,10 @@
+.wcfmfa.fa-orderable {
+    height: 15px;
+    background: white;
+    display: inline-block;
+    mask: var(--orderable-icon-url);
+    mask-size: auto 100%;
+    mask-repeat: no-repeat;
+    padding-right: 0 !important;
+    transform: translateY(2px);
+}

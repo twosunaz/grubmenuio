@@ -1,0 +1,283 @@
+{
+  "_constants-BKh1yzVJ.js": {
+    "file": "assets/constants-BKh1yzVJ.js",
+    "name": "constants",
+    "imports": [
+      "snipvault.js"
+    ]
+  },
+  "_constants-OryjEDvQ.js": {
+    "file": "assets/constants-OryjEDvQ.js",
+    "name": "constants",
+    "imports": [
+      "snipvault.js"
+    ]
+  },
+  "_getSnippets-DTpeouTX.js": {
+    "file": "assets/getSnippets-DTpeouTX.js",
+    "name": "getSnippets",
+    "imports": [
+      "_constants-OryjEDvQ.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "snipvault.js"
+    ]
+  },
+  "_handleTokenExpiration-BsSYarxJ.js": {
+    "file": "assets/handleTokenExpiration-BsSYarxJ.js",
+    "name": "handleTokenExpiration"
+  },
+  "_inSearch-uRPV3sBV.js": {
+    "file": "assets/inSearch-uRPV3sBV.js",
+    "name": "inSearch"
+  },
+  "_index-Ak6w9NJ_.js": {
+    "file": "assets/index-Ak6w9NJ_.js",
+    "name": "index",
+    "imports": [
+      "snipvault.js"
+    ]
+  },
+  "_index-Bt0YRkAh.js": {
+    "file": "assets/index-Bt0YRkAh.js",
+    "name": "index",
+    "imports": [
+      "snipvault.js"
+    ]
+  },
+  "_index-BxFqpWTU.js": {
+    "file": "assets/index-BxFqpWTU.js",
+    "name": "index",
+    "imports": [
+      "snipvault.js",
+      "_notify-CXlPex_L.js"
+    ]
+  },
+  "_index-CRgHs0Pg.js": {
+    "file": "assets/index-CRgHs0Pg.js",
+    "name": "index",
+    "imports": [
+      "snipvault.js",
+      "_notify-CXlPex_L.js"
+    ]
+  },
+  "_index-CqlI0lnC.js": {
+    "file": "assets/index-CqlI0lnC.js",
+    "name": "index",
+    "imports": [
+      "snipvault.js"
+    ]
+  },
+  "_index-D1jnwpSe.js": {
+    "file": "assets/index-D1jnwpSe.js",
+    "name": "index",
+    "imports": [
+      "snipvault.js"
+    ]
+  },
+  "_lmnFetch-DeRrp9BG.js": {
+    "file": "assets/lmnFetch-DeRrp9BG.js",
+    "name": "lmnFetch",
+    "imports": [
+      "_notify-CXlPex_L.js",
+      "snipvault.js"
+    ]
+  },
+  "_loadDirectory-DyHUXo09.js": {
+    "file": "assets/loadDirectory-DyHUXo09.js",
+    "name": "loadDirectory",
+    "imports": [
+      "snipvault.js",
+      "_lmnFetch-DeRrp9BG.js"
+    ]
+  },
+  "_notify-CXlPex_L.js": {
+    "file": "assets/notify-CXlPex_L.js",
+    "name": "notify",
+    "imports": [
+      "snipvault.js"
+    ]
+  },
+  "components/app/cli-interface/index.vue": {
+    "file": "assets/index-UKbGMgwV.js",
+    "name": "index",
+    "src": "components/app/cli-interface/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_notify-CXlPex_L.js",
+      "_inSearch-uRPV3sBV.js",
+      "_handleTokenExpiration-BsSYarxJ.js",
+      "_index-Bt0YRkAh.js"
+    ]
+  },
+  "components/app/error-log/index.vue": {
+    "file": "assets/index-CnXbcBcI.js",
+    "name": "index",
+    "src": "components/app/error-log/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_index-CRgHs0Pg.js",
+      "_index-BxFqpWTU.js",
+      "_index-CqlI0lnC.js",
+      "_inSearch-uRPV3sBV.js",
+      "_notify-CXlPex_L.js"
+    ]
+  },
+  "components/app/file-browser-editor/index.vue": {
+    "file": "assets/index-7S61D7H2.js",
+    "name": "index",
+    "src": "components/app/file-browser-editor/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_constants-OryjEDvQ.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_index-CqlI0lnC.js",
+      "_index-CRgHs0Pg.js",
+      "_notify-CXlPex_L.js",
+      "_loadDirectory-DyHUXo09.js"
+    ]
+  },
+  "components/app/file-browser/index.vue": {
+    "file": "assets/index-_38YN2Uq.js",
+    "name": "index",
+    "src": "components/app/file-browser/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_notify-CXlPex_L.js",
+      "_handleTokenExpiration-BsSYarxJ.js",
+      "_index-Ak6w9NJ_.js",
+      "_index-CRgHs0Pg.js",
+      "_index-Bt0YRkAh.js",
+      "_loadDirectory-DyHUXo09.js"
+    ]
+  },
+  "components/app/framework/index.vue": {
+    "file": "assets/index-BfA7saN3.js",
+    "name": "index",
+    "src": "components/app/framework/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_constants-OryjEDvQ.js",
+      "_getSnippets-DTpeouTX.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_index-CRgHs0Pg.js",
+      "_index-BxFqpWTU.js",
+      "_index-Bt0YRkAh.js",
+      "_notify-CXlPex_L.js",
+      "_inSearch-uRPV3sBV.js",
+      "_index-Ak6w9NJ_.js"
+    ]
+  },
+  "components/app/library-snippet-inspect/index.vue": {
+    "file": "assets/index-B-lWRO7f.js",
+    "name": "index",
+    "src": "components/app/library-snippet-inspect/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_constants-OryjEDvQ.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_index-CqlI0lnC.js",
+      "_notify-CXlPex_L.js"
+    ]
+  },
+  "components/app/library/index.vue": {
+    "file": "assets/index-wpvKez5I.js",
+    "name": "index",
+    "src": "components/app/library/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_notify-CXlPex_L.js"
+    ]
+  },
+  "components/app/settings/index.vue": {
+    "file": "assets/index-CpvGQOEp.js",
+    "name": "index",
+    "src": "components/app/settings/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_index-CRgHs0Pg.js",
+      "_index-D1jnwpSe.js",
+      "_index-Bt0YRkAh.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_notify-CXlPex_L.js",
+      "_constants-OryjEDvQ.js"
+    ]
+  },
+  "components/app/snippet-editor/index.vue": {
+    "file": "assets/index-DnzTV4E_.js",
+    "name": "index",
+    "src": "components/app/snippet-editor/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_getSnippets-DTpeouTX.js",
+      "_index-CqlI0lnC.js",
+      "_index-CRgHs0Pg.js",
+      "_index-BxFqpWTU.js",
+      "_index-D1jnwpSe.js",
+      "_constants-BKh1yzVJ.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_notify-CXlPex_L.js",
+      "_index-Bt0YRkAh.js",
+      "_constants-OryjEDvQ.js"
+    ]
+  },
+  "components/app/snippet-editor/src/error-inspect.vue": {
+    "file": "assets/error-inspect-Dlxp8i8H.js",
+    "name": "error-inspect",
+    "src": "components/app/snippet-editor/src/error-inspect.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_index-CqlI0lnC.js",
+      "_constants-BKh1yzVJ.js"
+    ]
+  },
+  "components/app/sql-editor/index.vue": {
+    "file": "assets/index-DSGO3t9d.js",
+    "name": "index",
+    "src": "components/app/sql-editor/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "snipvault.js",
+      "_lmnFetch-DeRrp9BG.js",
+      "_notify-CXlPex_L.js",
+      "_handleTokenExpiration-BsSYarxJ.js",
+      "_index-CqlI0lnC.js",
+      "_index-Bt0YRkAh.js"
+    ]
+  },
+  "snipvault.js": {
+    "file": "app.build.DVcfFWU_.js",
+    "name": "app",
+    "src": "snipvault.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "components/app/framework/index.vue",
+      "components/app/snippet-editor/index.vue",
+      "components/app/snippet-editor/src/error-inspect.vue",
+      "components/app/library/index.vue",
+      "components/app/library-snippet-inspect/index.vue",
+      "components/app/file-browser/index.vue",
+      "components/app/file-browser-editor/index.vue",
+      "components/app/cli-interface/index.vue",
+      "components/app/sql-editor/index.vue",
+      "components/app/error-log/index.vue",
+      "components/app/settings/index.vue"
+    ]
+  },
+  "style.css": {
+    "file": "assets/styles/style.css",
+    "src": "style.css"
+  }
+}

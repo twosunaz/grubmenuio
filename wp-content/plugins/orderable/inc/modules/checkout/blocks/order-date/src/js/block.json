@@ -1,0 +1,28 @@
+{
+	"apiVersion": 2,
+	"name": "orderable/order-service-date-block",
+	"version": "1.0.0",
+	"title": "Orderable - Service date field",
+	"category": "woocommerce",
+	"description": "Shows a select field to allow customers to select a service date.",
+	"supports": {
+		"html": false,
+		"align": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"parent": [
+		"woocommerce/checkout-shipping-methods-block",
+		"woocommerce/checkout-pickup-options-block"
+	],
+	"attributes": {
+		"lock": {
+			"type": "object",
+			"default": {
+				"remove": true,
+				"move": true
+			}
+		}
+	},
+	"textdomain": "orderable"
+}

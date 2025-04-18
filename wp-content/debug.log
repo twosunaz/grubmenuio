@@ -1,0 +1,9 @@
+[17-Apr-2025 23:49:47 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in phar:///usr/local/bin/wp/vendor/mustache/mustache/src/Mustache/Tokenizer.php on line 110
+[17-Apr-2025 23:49:47 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in phar:///usr/local/bin/wp/vendor/wp-cli/search-replace-command/src/Search_Replace_Command.php on line 218
+[17-Apr-2025 23:49:47 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in phar:///usr/local/bin/wp/vendor/wp-cli/search-replace-command/src/Search_Replace_Command.php on line 220
+[17-Apr-2025 23:49:50 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /home/1448455.cloudwaysapps.com/spukveyesr/public_html/wp-includes/ms-settings.php on line 57
+[17-Apr-2025 23:49:50 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/1448455.cloudwaysapps.com/spukveyesr/public_html/wp-includes/ms-settings.php on line 57
+[17-Apr-2025 23:49:56 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in phar:///usr/local/bin/wp/vendor/mustache/mustache/src/Mustache/Tokenizer.php on line 110
+[17-Apr-2025 23:49:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in phar:///usr/local/bin/wp/vendor/mustache/mustache/src/Mustache/Tokenizer.php on line 110
+[17-Apr-2025 23:50:06 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /home/1448455.cloudwaysapps.com/spukveyesr/public_html/wp-includes/ms-settings.php on line 57
+[17-Apr-2025 23:50:06 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/1448455.cloudwaysapps.com/spukveyesr/public_html/wp-includes/ms-settings.php on line 57

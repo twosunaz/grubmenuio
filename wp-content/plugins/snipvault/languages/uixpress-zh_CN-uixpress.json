@@ -1,0 +1,1104 @@
+{
+  "domain": "uixpress",
+  "locale_data": {
+    "uixpress": {
+      "": {
+        "domain": "uixpress",
+        "lang": "zh_CN",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "You do not have sufficient permissions to access this page.": [
+        "您没有足够的权限访问此页面。"
+      ],
+      "Invalid request": [
+        "无效的请求"
+      ],
+      "Search": [
+        "搜索"
+      ],
+      "Menu Creator": [
+        "菜单创建者"
+      ],
+      "Add New Admin Menu": [
+        "添加新的管理员菜单"
+      ],
+      "New Admin Menu": [
+        "管理菜单"
+      ],
+      "Edit Admin Menu": [
+        "管理菜单"
+      ],
+      "View Admin Menu": [
+        "查看管理员菜单"
+      ],
+      "All Admin Menus": [
+        "所有管理菜单"
+      ],
+      "Search Admin Menus": [
+        "搜索管理菜单"
+      ],
+      "No Admin Menus found.": [
+        "未找到管理员菜单。"
+      ],
+      "No Admin Menus found in Trash.": [
+        "在废纸篓中找不到管理菜单。"
+      ],
+      "Post type used for the uixpresss menus": [
+        "用于 uixpresss 菜单的帖子类型"
+      ],
+      "Status": [
+        "状态"
+      ],
+      "Published": [
+        "已发布"
+      ],
+      "Comments": [
+        "评论"
+      ],
+      "(No title)": [
+        "（无标题）"
+      ],
+      "Scheduled for %s from now": [
+        "计划从现在开始 %s 次"
+      ],
+      "%s ago": [
+        "%s 前"
+      ],
+      "Menu editor": [
+        "菜单编辑器"
+      ],
+      "Plugins": [
+        "插件"
+      ],
+      "General": [
+        "常规"
+      ],
+      "Login": [
+        "登录"
+      ],
+      "Theme": [
+        "主题"
+      ],
+      "White label": [
+        "白名单"
+      ],
+      "Menu": [
+        "菜单"
+      ],
+      "Posts": [
+        "文章"
+      ],
+      "Click": [
+        "点击"
+      ],
+      "Hover": [
+        "悬停"
+      ],
+      "Off": [
+        "关闭"
+      ],
+      "Light": [
+        "浅色"
+      ],
+      "Dark": [
+        "深色"
+      ],
+      "Settings updated!": [
+        "设置已更新！"
+      ],
+      "Settings imported": [
+        "设置已导入"
+      ],
+      "Please provide a valid JSON file": [
+        "请提供有效的 JSON 文件"
+      ],
+      "Invalid settings: must be an object": [
+        "无效设置：必须是对象"
+      ],
+      "Error uploading settings": [
+        "上传设置出错"
+      ],
+      "Incorrect key": [
+        "钥匙不正确"
+      ],
+      "Key succesfully activated": [
+        "成功激活密钥"
+      ],
+      "Instance removed": [
+        "删除实例"
+      ],
+      "Settings": [
+        "设置"
+      ],
+      "Export": [
+        "导出"
+      ],
+      "Import": [
+        "导入"
+      ],
+      "Update": [
+        "更新"
+      ],
+      "Licence key": [
+        "许可证密钥"
+      ],
+      "Activating uiXpress enables updates and features": [
+        "激活 uiXpress 可实现更新和功能"
+      ],
+      "Licence Active": [
+        "许可证有效"
+      ],
+      "Remove key": [
+        "移除秘钥"
+      ],
+      "uiXpress licence key": [
+        "uiXpress 许可证密钥"
+      ],
+      "Activate": [
+        "启用"
+      ],
+      "Development server detected, no need to activate your licence key.": [
+        "已检测到开发服务器，无需激活许可证密钥。"
+      ],
+      "Please add your licence key to unlock the plugin settings": [
+        "请添加许可证密钥以解锁插件设置"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Optional logo for to be displayed in the menu": [
+        "可选择在菜单中显示徽标"
+      ],
+      "Logo url": [
+        "Logo URL"
+      ],
+      "Dark mode logo": [
+        "黑暗模式徽标"
+      ],
+      "Set an alternative logo to use in dark mode. If one isn't set it will fall back to the standard logo.": [
+        "设置在黑暗模式下使用的替代徽标。如果没有设置，就会返回到标准徽标。"
+      ],
+      "Dark Logo url": [
+        "黑暗标志网址"
+      ],
+      "Disable theme": [
+        "禁用主题"
+      ],
+      "Choose roles or usersnames to disable the theme for.": [
+        "选择要禁用主题的角色或用户名。"
+      ],
+      "Search post types": [
+        "搜索帖子类型"
+      ],
+      "Choose which post types are available in the global search": [
+        "选择可在全局搜索中使用的职位类型"
+      ],
+      "Disable global search": [
+        "禁用全局搜索"
+      ],
+      "Disable global search for all users.": [
+        "对所有用户禁用全局搜索。"
+      ],
+      "Admin layout": [
+        "管理布局"
+      ],
+      "Choose your prefered admin layout": [
+        "选择您喜欢的管理布局"
+      ],
+      "Default": [
+        "默认"
+      ],
+      "Rounded": [
+        "圆角"
+      ],
+      "Bubble": [
+        "气泡"
+      ],
+      "Modernise login page": [
+        "登录页面现代化"
+      ],
+      "When enabled, uiXpress will modernise the default login page.": [
+        "启用后，uiXpress 将更新默认登录页面。"
+      ],
+      "Login image": [
+        "登录图像"
+      ],
+      "Optional image that will be added to the empty panel in the login page": [
+        "可选图片，将添加到登录页面的空白面板中"
+      ],
+      "Image url": [
+        "图片网址"
+      ],
+      "Login path": [
+        "登录路径"
+      ],
+      "Change the login url from wp-login.php to a custom slug. Ensure you remember what you change this to.": [
+        "将登录网址从 wp-login.php 改为自定义标题。确保您记住更改后的网址。"
+      ],
+      "Hide language selector": [
+        "隐藏语言选择器"
+      ],
+      "When hidden the language selector on the login page will not be displayed": [
+        "隐藏后将不显示登录页面上的语言选择器"
+      ],
+      "Enable TurnStyle": [
+        "启用 TurnStyle"
+      ],
+      "When enabled, a cloudflare turnstyle challenge will be displayed on the login page to enhance security. Cloudflare account is required": [
+        "启用后，登录页面上将显示 cloudflare turnstyle 挑战，以提高安全性。需要 Cloudflare 账户"
+      ],
+      "Turnstyle site key": [
+        "Turnstyle 站点密钥"
+      ],
+      "This is the site key for your turnstyle which can be created from your cloudflare dashboard.": [
+        "这是 turnstyle 的网站密钥，可从 cloudflare 面板创建。"
+      ],
+      "Turnstyle secret key": [
+        "Turnstyle 密钥"
+      ],
+      "This is the secret key for your turnstyle which can be created from your cloudflare dashboard.": [
+        "这是 turnstyle 的密钥，可从 cloudflare 面板创建。"
+      ],
+      "Magic dark mode": [
+        "神奇的黑暗模式"
+      ],
+      "When enabled, uiXpress automatically applies dark mode styles to pages lacking dedicated dark mode support, ensuring a consistent visual experience.": [
+        "启用后，uiXpress 会自动将暗色模式样式应用到缺乏专用暗色模式支持的页面，确保一致的视觉体验。"
+      ],
+      "Force global theme": [
+        "强制全球主题"
+      ],
+      "When enabled, the light / dark toggle will be removed and the selected theme set for all users.": [
+        "启用后，明暗切换将被移除，并为所有用户设置所选主题。"
+      ],
+      "Hide screen options": [
+        "隐藏屏幕选项"
+      ],
+      "Hide the screen options toggle in the toolbar": [
+        "隐藏工具栏上的屏幕选项切换按钮"
+      ],
+      "Hide help toggle": [
+        "隐藏帮助切换"
+      ],
+      "Hide the help toggle in the toolbar": [
+        "隐藏工具栏上的帮助切换按钮"
+      ],
+      "Base theme colors": [
+        "基本主题颜色"
+      ],
+      "Set a base color and uiXpress will automatically create a color scale for you.": [
+        "设置基色后，uiXpress 会自动为您创建色阶。"
+      ],
+      "Base": [
+        "基础"
+      ],
+      "Clear custom properties": [
+        "清除自定义属性"
+      ],
+      "Accent theme colors": [
+        "强调主题颜色"
+      ],
+      "Set a accent color and uiXpress will automatically create a color scale for you.": [
+        "设置一个重点色，uiXpress 就会自动为您创建一个色标。"
+      ],
+      "Accent base": [
+        "装饰底座"
+      ],
+      "Custom css": [
+        "自定义CSS"
+      ],
+      "Custom css added here will only be added in the admin area and login page.": [
+        "在此添加的自定义 css 将仅在管理区和登录页面中添加。"
+      ],
+      "Update settings": [
+        "更新设置"
+      ],
+      "External stylesheets": [
+        "外部样式表"
+      ],
+      "Add URLs to any external stylesheets you want uiXpress to load into the admin": [
+        "为希望 uiXpress 加载到管理器中的任何外部样式表添加 URL"
+      ],
+      "Add new": [
+        "添加新的"
+      ],
+      "Admin favicon": [
+        "管理员图标"
+      ],
+      "Optional favicon to replace the WordPress favicon in the admin.": [
+        "可选的收藏夹图标，用于替换管理器中的 WordPress 收藏夹图标。"
+      ],
+      "Favicon url": [
+        "Favicon 链接"
+      ],
+      "Rename uiXpress": [
+        "重新命名 uiXpress"
+      ],
+      "This will rename uiXpress in the plugins list as well as renaming it's settings link.": [
+        "这将在插件列表中重命名 uiXpress，并重命名其设置链接。"
+      ],
+      "Text Replacement": [
+        "文本替换"
+      ],
+      "Customize the text displayed in the WordPress admin area. Enter original words or phrases and their replacements to white-label the admin interface.": [
+        "自定义 WordPress 管理区显示的文本。输入原始单词或短语及其替换词，为管理界面贴上白标。"
+      ],
+      "Submenu style": [
+        "子菜单风格"
+      ],
+      "Choose from whether the submenu opens on click or hover.": [
+        "选择是点击还是悬停打开子菜单。"
+      ],
+      "Classic Post List View": [
+        "经典帖子列表视图"
+      ],
+      "Switch to WordPress's traditional table layout for posts, removing the modern interface.": [
+        "改用 WordPress 传统的帖子表格布局，移除现代界面。"
+      ],
+      "Modern Plugin Manager": [
+        "现代插件管理器"
+      ],
+      "Replace the classic plugins page with a modern plugin manager with plugin profiling and improved features.": [
+        "用具有插件剖析和改进功能的现代插件管理器取代传统插件页面。"
+      ],
+      "Name": [
+        "名称"
+      ],
+      "Modified": [
+        "修改"
+      ],
+      "ID": [
+        "ID"
+      ],
+      "All": [
+        "所有"
+      ],
+      "Draft": [
+        "草稿"
+      ],
+      "Menu created": [
+        "创建菜单"
+      ],
+      "Fixed product menu": [
+        "固定产品菜单"
+      ],
+      "Fixed basket menu": [
+        "固定篮子菜单"
+      ],
+      "Percentage menu": [
+        "百分比菜单"
+      ],
+      "Search menus": [
+        "搜索菜单"
+      ],
+      "New menu": [
+        "新建菜单"
+      ],
+      "No menus yet": [
+        "尚无菜单"
+      ],
+      "When you create new menus they will show up here.": [
+        "创建新菜单时，它们将显示在这里。"
+      ],
+      "Active": [
+        "激活"
+      ],
+      "Menu updated": [
+        "菜单更新"
+      ],
+      "Are you sure?": [
+        "你确定？"
+      ],
+      "Deleted menus cannot be retrieved.": [
+        "已删除的菜单无法恢复。"
+      ],
+      "Yes delete it": [
+        "是，删除它"
+      ],
+      "Menu deleted": [
+        "删除菜单"
+      ],
+      "Custom menu item": [
+        "自定义菜单项"
+      ],
+      "Custom Separator": [
+        "自定义分隔符"
+      ],
+      "Invalid menu_meta: must be an object": [
+        "menu_meta 无效：必须是对象"
+      ],
+      "Error uploading menu": [
+        "上载菜单出错"
+      ],
+      "Menu imported": [
+        "导入菜单"
+      ],
+      "Unable to upload menu": [
+        "无法上传菜单"
+      ],
+      "Back to list": [
+        "返回列表"
+      ],
+      "Delete": [
+        "删除"
+      ],
+      "New Separator": [
+        "新分离器"
+      ],
+      "New Link": [
+        "新链接"
+      ],
+      "Menu Settings": [
+        "菜单设置"
+      ],
+      "Whether this menu is active or not": [
+        "该菜单是否处于活动状态"
+      ],
+      "Menu name": [
+        "菜单名"
+      ],
+      "Name of your custom menu.": [
+        "自定义菜单的名称。"
+      ],
+      "Apply menu to everyone": [
+        "将菜单应用于每个人"
+      ],
+      "This menu will be applied to everyone if enabled.": [
+        "如果启用，该菜单将适用于所有人。"
+      ],
+      "Apply to roles or users": [
+        "适用于角色或用户"
+      ],
+      "Set specific roles or users this menu applies to.": [
+        "设置本菜单适用的特定角色或用户。"
+      ],
+      "Exclude roles or users": [
+        "排除角色或用户"
+      ],
+      "Set specific roles or users this menu won't apply to.": [
+        "设置本菜单不适用于的特定角色或用户。"
+      ],
+      "Separator": [
+        "分隔符"
+      ],
+      "Delete item": [
+        "删除项目"
+      ],
+      "Reset item": [
+        "重置项目"
+      ],
+      "Rename menu item": [
+        "重命名菜单项"
+      ],
+      "URL": [
+        "网址"
+      ],
+      "Change the link of the URL": [
+        "更改 URL 的链接"
+      ],
+      "Icon": [
+        "图标"
+      ],
+      "Choose custom icon from the list or add a Base64 encoded Data URI. Icons only show for top level items. ": [
+        "从列表中选择自定义图标或添加 Base64 编码的数据 URI。图标只显示顶级项目。"
+      ],
+      "Open in new tab": [
+        "在新标签页中打开"
+      ],
+      "This link will open in a new tab": [
+        "此链接将在新标签页中打开"
+      ],
+      "Hidden": [
+        "隐藏"
+      ],
+      "The item will not be shown if hidden": [
+        "如果项目隐藏，则不会显示"
+      ],
+      "Search posts": [
+        "搜索文章"
+      ],
+      "New post": [
+        "新文章"
+      ],
+      "Nothing found": [
+        "什么都没找到"
+      ],
+      "When you create new items they will show up here.": [
+        "创建新项目时，它们将显示在这里。"
+      ],
+      "%s child items": [
+        "%s 儿童项目"
+      ],
+      "%s child item": [
+        "%s 儿童项目"
+      ],
+      "Publish items": [
+        "发布项目"
+      ],
+      "Duplicate items": [
+        "重复项目"
+      ],
+      "Delete items": [
+        "删除项目"
+      ],
+      "Inactive": [
+        "未激活"
+      ],
+      "Has update": [
+        "已更新"
+      ],
+      "Auto updates enabled": [
+        "启用自动更新"
+      ],
+      "Auto updates disabled": [
+        "禁用自动更新"
+      ],
+      "Are you sure you want to delete these plugins? ": [
+        "您确定要删除这些插件吗？"
+      ],
+      "Yes delete them": [
+        "是 删除它们"
+      ],
+      "Activate plugin?": [
+        "激活插件？"
+      ],
+      "The plugin was succesfully uploaded, would you like to activate it? ": [
+        "插件已成功上传，您想激活它吗？"
+      ],
+      "Upload plugin": [
+        "上传插件"
+      ],
+      "Active plugins": [
+        "启用插件"
+      ],
+      "Inactive plugins": [
+        "未启用插件"
+      ],
+      "No plugins found": [
+        "找不到插件"
+      ],
+      "Upload plugin zip files or search the repository": [
+        "上传插件压缩文件或搜索软件源"
+      ],
+      "Deactivate": [
+        "停用"
+      ],
+      "Slug": [
+        "别名"
+      ],
+      "Rating": [
+        "评分"
+      ],
+      "Popularity": [
+        "人气"
+      ],
+      "Downloaded": [
+        "已下载"
+      ],
+      "Active installs": [
+        "活动安装"
+      ],
+      "Last updated": [
+        "最近更新"
+      ],
+      "Add plugin": [
+        "添加插件"
+      ],
+      "Search plugins": [
+        "搜索插件"
+      ],
+      "Plugin installed": [
+        "插件安装"
+      ],
+      "There was an error fetching this plugins information": [
+        "获取此插件信息时出现错误"
+      ],
+      "Back to plugins": [
+        "返回插件"
+      ],
+      "Installs": [
+        "用户安装量"
+      ],
+      "Downloads": [
+        "下载"
+      ],
+      "Version": [
+        "版本"
+      ],
+      "Description": [
+        "描述"
+      ],
+      "Screenshots": [
+        "截图"
+      ],
+      "Installation": [
+        "安装"
+      ],
+      "FAQ": [
+        "常见问题"
+      ],
+      "Reviews": [
+        "评论"
+      ],
+      "Changelog": [
+        "更新日志"
+      ],
+      "Install plugin": [
+        "安装插件"
+      ],
+      "Frontend performance": [
+        "前端性能"
+      ],
+      "Backend performance": [
+        "后台性能"
+      ],
+      "These metrics represent plugin performance during a home page load. While this provides valuable insight into plugin behavior, actual performance may vary across different pages and user interactions.": [
+        "这些指标代表了首页加载期间的插件性能。虽然这为了解插件行为提供了宝贵的信息，但实际性能可能会因不同页面和用户交互而异。"
+      ],
+      "These metrics represent plugin performance during a admin dashboard page load. While this provides valuable insight into plugin behavior, actual performance may vary across different pages and user interactions.": [
+        "这些指标代表管理仪表板页面加载期间的插件性能。虽然这为了解插件行为提供了宝贵的信息，但实际性能可能会因不同页面和用户交互而异。"
+      ],
+      "Total Queries": [
+        "查询总数"
+      ],
+      "Query time": [
+        "查询时间"
+      ],
+      "Total hooks": [
+        "钩总数"
+      ],
+      "Execution time": [
+        "执行时间"
+      ],
+      "Memory usage": [
+        "内存利用率"
+      ],
+      "Total scripts": [
+        "脚本总数"
+      ],
+      "Total styles": [
+        "总款式"
+      ],
+      "Total asset size": [
+        "总资产规模"
+      ],
+      "HTTP requests": [
+        "HTTP 请求"
+      ],
+      "Scripts": [
+        "脚本"
+      ],
+      "Handle": [
+        "处理"
+      ],
+      "Size": [
+        "大小"
+      ],
+      "File": [
+        "文件"
+      ],
+      "Styles": [
+        "样式"
+      ],
+      "Queries": [
+        "查询"
+      ],
+      "Hooks": [
+        "Hooks"
+      ],
+      "Hook": [
+        "钩子"
+      ],
+      "Callback": [
+        "回调"
+      ],
+      "Priority": [
+        "优先级"
+      ],
+      "Method": [
+        "方法"
+      ],
+      "Depreciated functions": [
+        "折旧功能"
+      ],
+      "Function": [
+        "功能"
+      ],
+      "Line": [
+        "行"
+      ],
+      "Errors": [
+        "错误"
+      ],
+      "Type": [
+        "类型"
+      ],
+      "Message": [
+        "信息"
+      ],
+      "Toggle menu": [
+        "切换菜单"
+      ],
+      "Screen options": [
+        "屏幕选项"
+      ],
+      "Help": [
+        "帮助"
+      ],
+      "View site": [
+        "查看网站"
+      ],
+      "View dashboard": [
+        "查看仪表板"
+      ],
+      "System": [
+        "系统"
+      ],
+      "Logout": [
+        "注销"
+      ],
+      "Minify menu": [
+        "最小化菜单"
+      ],
+      "Search menu": [
+        "搜索菜单"
+      ],
+      "Shortcuts": [
+        "快捷键"
+      ],
+      "Are you sure you want to delete these items? This action cannot be undone.": [
+        "您确定要删除这些项目吗？此操作无法撤销。"
+      ],
+      "Selection deleted": [
+        "已删除的选择"
+      ],
+      "Bulk options": [
+        "批量选项"
+      ],
+      "Delete selected": [
+        "删除所选"
+      ],
+      "Users": [
+        "用户"
+      ],
+      "Roles": [
+        "角色"
+      ],
+      "Items selected": [
+        "没有项目被选择"
+      ],
+      "Select users or roles": [
+        "选择用户或角色"
+      ],
+      "Search icons": [
+        "搜索图标"
+      ],
+      "Find": [
+        "查找"
+      ],
+      "Replace": [
+        "替换"
+      ],
+      "New item": [
+        "新项目"
+      ],
+      "Select post types": [
+        "选择文章类型"
+      ],
+      "Select or Upload Media": [
+        "选择或上传媒体"
+      ],
+      "Use this media": [
+        "使用这个媒体"
+      ],
+      "url": [
+        "网址"
+      ],
+      "Edit CSS": [
+        "编辑CSS"
+      ],
+      "Finished": [
+        "已完成"
+      ],
+      "Are you sure you want to publish these items?": [
+        "你确定要发布这些项目吗？"
+      ],
+      "Yes publish them": [
+        "是的，出版它们"
+      ],
+      "Items published": [
+        "出版项目"
+      ],
+      "Items duplicated": [
+        "重复的项目"
+      ],
+      "Items deleted": [
+        "项目已删除"
+      ],
+      "Item author updated": [
+        "项目作者已更新"
+      ],
+      "Edit": [
+        "编辑"
+      ],
+      "View": [
+        "查看"
+      ],
+      "Duplicate": [
+        "复制"
+      ],
+      "Restore": [
+        "恢复"
+      ],
+      "Item duplicated": [
+        "重复的项目"
+      ],
+      "Are you sure you want to delete this item? This action cannot be undone.": [
+        "您确定要删除此项目吗？此操作无法撤销。"
+      ],
+      "Item deleted": [
+        "项目已删除"
+      ],
+      "Item restored": [
+        "已恢复"
+      ],
+      "Item title updated": [
+        "更新了项目标题"
+      ],
+      "Item status updated": [
+        "项目状态已更新"
+      ],
+      "Unknown user": [
+        "未知用户"
+      ],
+      "Update author": [
+        "更新作者"
+      ],
+      "Update status": [
+        "更新状态"
+      ],
+      "Publish changes?": [
+        "发布更改？"
+      ],
+      "Are you sure you want to batch update these items?": [
+        "您确定要批量更新这些项目吗？"
+      ],
+      "Yes update them": [
+        "是的，更新它们"
+      ],
+      "Items updated": [
+        "项数据已更新"
+      ],
+      "Batch edit": [
+        "批量编辑"
+      ],
+      "Categories": [
+        "类别"
+      ],
+      "Tags": [
+        "标签"
+      ],
+      "Author": [
+        "作者"
+      ],
+      "Cancel": [
+        "取消"
+      ],
+      "Featured image updated": [
+        "特色图片已更新"
+      ],
+      "Drafts": [
+        "草稿"
+      ],
+      "Filters": [
+        "筛选"
+      ],
+      "Date range": [
+        "日期范围"
+      ],
+      "Table settings": [
+        "表格设置"
+      ],
+      "Per page": [
+        "每页"
+      ],
+      "Order": [
+        "排序"
+      ],
+      "Order by": [
+        "排序"
+      ],
+      "Expand all posts": [
+        "展开所有帖子"
+      ],
+      "Columns": [
+        "列"
+      ],
+      "Install": [
+        "安装"
+      ],
+      "Are you sure you want to delete this plugin? ": [
+        "您确定要删除此插件吗？"
+      ],
+      "Requires other plugins to activate:": [
+        "需要其他插件才能激活："
+      ],
+      "Plugin deactivated": [
+        "插件禁用"
+      ],
+      "Plugin activated": [
+        "插件激活"
+      ],
+      "Plugin updated": [
+        "插件更新"
+      ],
+      "Plugin deleted": [
+        "已删除插件"
+      ],
+      "New Orders": [
+        "新订单"
+      ],
+      "Dismiss all": [
+        "忽略所有"
+      ],
+      "New Post": [
+        "最新帖子"
+      ],
+      "New Page": [
+        "新页面"
+      ],
+      "Site settings": [
+        "网站设置"
+      ],
+      "Dark mode": [
+        "黑暗模式"
+      ],
+      "Light mode": [
+        "亮色模式"
+      ],
+      "Search posts, pages, categories, users...": [
+        "搜索帖子、页面、类别、用户..."
+      ],
+      "Quick Actions": [
+        "快速操作"
+      ],
+      "to navigate": [
+        "导航"
+      ],
+      "to select": [
+        "选择"
+      ],
+      "to close": [
+        "关闭"
+      ],
+      "Notifications": [
+        "通知"
+      ],
+      "Close": [
+        "关闭"
+      ],
+      "No notifications": [
+        "没有通知"
+      ],
+      "Date": [
+        "日期"
+      ],
+      "Title": [
+        "标题"
+      ],
+      "File updated": [
+        "文件已更新"
+      ],
+      "File deleted": [
+        "%u 个文件已删除"
+      ],
+      "Files duplicated": [
+        "复制的文件"
+      ],
+      "Are you sure you want to delete these files? This action cannot be undone.": [
+        "您确定要删除这些文件吗？此操作无法撤销。"
+      ],
+      "Files deleted": [
+        "删除的文件"
+      ],
+      "File uploaded": [
+        "已上传文件"
+      ],
+      "Media Library": [
+        "媒体库"
+      ],
+      "File type": [
+        "文件类型"
+      ],
+      "Upload": [
+        "上传"
+      ],
+      "No results found": [
+        "未找到结果"
+      ],
+      "Edit your search criteria, or upload a new file.": [
+        "编辑搜索标准或上传新文件。"
+      ],
+      "Alt text": [
+        "Alt 文本"
+      ],
+      "Caption": [
+        "标题"
+      ],
+      "Delete file": [
+        "删除文件"
+      ],
+      "Duplicate selected": [
+        "复制所选"
+      ],
+      "Clear selection": [
+        "清除选择"
+      ],
+      "Done": [
+        "完成"
+      ],
+      "Auto update enabled": [
+        "启用自动更新"
+      ],
+      "Auto update disabled": [
+        "禁用自动更新"
+      ],
+      "View plugin info": [
+        "查看插件信息"
+      ],
+      "Plugin performance": [
+        "插件性能"
+      ],
+      "Enable auto updates": [
+        "启用自动更新"
+      ],
+      "Disable auto updates": [
+        "禁用自动更新"
+      ],
+      "Plugin site": [
+        "站点插件"
+      ],
+      "No products found": [
+        "没有找到产品"
+      ],
+      "Select date": [
+        "选择日期"
+      ],
+      "Set date": [
+        "设置日期"
+      ],
+      "You do not have permissions to view this data.": [
+        "您没有权限查看此对象。"
+      ],
+      "Draft menu": [
+        "菜单草案"
+      ],
+      "Ascending": [
+        "升序"
+      ],
+      "Descending": [
+        "降序"
+      ]
+    }
+  }
+}

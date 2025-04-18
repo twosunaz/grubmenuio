@@ -1,0 +1,1681 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SnipVault\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-27T12:02:54.289Z\n"
+"PO-Revision-Date: 2025-01-27 12:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: SnipVault\n"
+
+#: admin/src/Pages/CustomPluginsPage.php:168 admin/src/Rest/PostsTables.php:87
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Du hast nicht die erforderlichen Rechte, um auf diese Seite zuzugreifen."
+
+#: admin/src/Rest/PostsTables.php:83
+msgid "Invalid request"
+msgstr "Ungültige Anfrage"
+
+#: app/src/components/utility/multiselect-roles-and-users/index.vue:203
+#: app/src/pages/plugins/index.vue:380 app/src/pages/plugins/index.vue:432
+#: app/src/pages/posts/src/inline-user-select.vue:166
+#: app/src/pages/posts/src/inline-status-select.vue:98
+#: app/src/pages/posts/src/table-filters.vue:185
+#: app/src/components/utility/media-library/index.vue:805
+msgid "Search"
+msgstr "Suche"
+
+#: admin/src/Pages/MenuBuilder.php:63 app/src/uixpressMenuCreator.js:61
+msgid "Menu Creator"
+msgstr "Menü-Ersteller"
+
+#: admin/src/Pages/MenuBuilder.php:294
+msgid "Add New Admin Menu"
+msgstr "Neues Admin-Menü hinzufügen"
+
+#: admin/src/Pages/MenuBuilder.php:295
+msgid "New Admin Menu"
+msgstr "Erstellt ein neues Admin-Menü."
+
+#: admin/src/Pages/MenuBuilder.php:296
+msgid "Edit Admin Menu"
+msgstr "Verwaltungsmenü bearbeiten"
+
+#: admin/src/Pages/MenuBuilder.php:297
+msgid "View Admin Menu"
+msgstr "Verwaltungsmenü anzeigen"
+
+#: admin/src/Pages/MenuBuilder.php:298
+msgid "All Admin Menus"
+msgstr "Alle Verwaltungsmenüs"
+
+#: admin/src/Pages/MenuBuilder.php:299
+msgid "Search Admin Menus"
+msgstr "Admin-Menüs durchsuchen"
+
+#: admin/src/Pages/MenuBuilder.php:300
+msgid "No Admin Menus found."
+msgstr "Keine Admin-Menüs gefunden."
+
+#: admin/src/Pages/MenuBuilder.php:301
+msgid "No Admin Menus found in Trash."
+msgstr "Keine Admin-Menüs im Papierkorb gefunden."
+
+#: admin/src/Pages/MenuBuilder.php:305
+msgid "Post type used for the uixpresss menus"
+msgstr "Für die uixpress-Menüs verwendeter Posttyp"
+
+#: admin/src/Rest/PostsTables.php:333
+#: app/src/pages/menu-creator/src/table.vue:47
+#: app/src/pages/menu-creator/src/edit.vue:821
+#: app/src/pages/posts/src/batch-edit.vue:158
+msgid "Status"
+msgstr "Status"
+
+#: admin/src/Rest/PostsTables.php:352
+#: app/src/pages/menu-creator/src/table.vue:53
+#: app/src/pages/menu-creator/src/table.vue:147
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: admin/src/Rest/PostsTables.php:353
+msgid "Comments"
+msgstr "Kommentare"
+
+#: admin/src/Rest/PostsTables.php:563
+msgid "(No title)"
+msgstr "(kein Titel)"
+
+#: admin/src/Rest/PostsTables.php:581
+msgid "Scheduled for %s from now"
+msgstr "Geplant für %s ab jetzt"
+
+#: admin/src/Rest/PostsTables.php:584
+msgid "%s ago"
+msgstr "vor %s"
+
+#: app/src/uixpressMenuCreator.js:67
+msgid "Menu editor"
+msgstr "Menü-Editor"
+
+#: app/src/uixpressPlugins.js:24 app/src/pages/settings/index.vue:294
+#: app/src/pages/plugins/index.vue:374
+msgid "Plugins"
+msgstr "Plugins"
+
+#: app/src/pages/settings/index.vue:288
+msgid "General"
+msgstr "Allgemein"
+
+#: app/src/pages/settings/index.vue:289
+msgid "Login"
+msgstr "Anmelden"
+
+#: app/src/pages/settings/index.vue:290
+#: app/src/components/app/toolbar/index.vue:345
+msgid "Theme"
+msgstr "Theme"
+
+#: app/src/pages/settings/index.vue:291
+msgid "White label"
+msgstr "White-Label"
+
+#: app/src/pages/settings/index.vue:292
+msgid "Menu"
+msgstr "Menü"
+
+#: app/src/pages/settings/index.vue:293 app/src/pages/posts/index.vue:451
+msgid "Posts"
+msgstr "Beiträge"
+
+#: app/src/pages/settings/index.vue:297
+msgid "Click"
+msgstr "Klick"
+
+#: app/src/pages/settings/index.vue:298
+msgid "Hover"
+msgstr "Hover"
+
+#: app/src/pages/settings/index.vue:301
+msgid "Off"
+msgstr "Aus"
+
+#: app/src/pages/settings/index.vue:302
+#: app/src/components/app/toolbar/index.vue:363
+msgid "Light"
+msgstr "Hell"
+
+#: app/src/pages/settings/index.vue:303
+#: app/src/components/app/toolbar/index.vue:372
+msgid "Dark"
+msgstr "Dunkel"
+
+#: app/src/pages/settings/index.vue:418
+msgid "Settings updated!"
+msgstr "Einstellungen gespeichert!"
+
+#: app/src/pages/settings/index.vue:459
+msgid "Settings imported"
+msgstr "Einstellungen importiert"
+
+#: app/src/pages/settings/index.vue:467
+#: app/src/pages/menu-creator/src/edit.vue:501
+msgid "Please provide a valid JSON file"
+msgstr "Bitte geben Sie eine gültige JSON-Datei an"
+
+#: app/src/pages/settings/index.vue:477 app/src/pages/settings/index.vue:483
+msgid "Invalid settings: must be an object"
+msgstr "Ungültige Einstellungen: muss ein Objekt sein"
+
+#: app/src/pages/settings/index.vue:492
+msgid "Error uploading settings"
+msgstr "Fehler beim Hochladen der Einstellungen"
+
+#: app/src/pages/settings/index.vue:536
+msgid "Incorrect key"
+msgstr "Falscher Schlüssel"
+
+#: app/src/pages/settings/index.vue:540
+msgid "Key succesfully activated"
+msgstr "Schlüssel erfolgreich aktiviert"
+
+#: app/src/pages/settings/index.vue:631
+msgid "Instance removed"
+msgstr "Instanz entfernt"
+
+#: app/src/pages/settings/index.vue:767
+#: app/src/pages/menu-creator/src/edit.vue:639
+#: app/src/pages/posts/src/table-filters.vue:163
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: app/src/pages/settings/index.vue:775
+#: app/src/pages/menu-creator/src/edit.vue:607
+msgid "Export"
+msgstr "Exportieren"
+
+#: app/src/pages/settings/index.vue:785
+#: app/src/pages/menu-creator/src/edit.vue:619
+msgid "Import"
+msgstr "Importieren"
+
+#: app/src/pages/settings/index.vue:804
+#: app/src/pages/menu-creator/src/edit.vue:651
+#: app/src/pages/plugins/index.vue:553
+#: app/src/pages/posts/src/batch-edit.vue:196
+#: app/src/pages/plugins/src/plugin-card.vue:378
+#: app/src/pages/plugins/src/plugin-actions.vue:160
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: app/src/pages/settings/index.vue:819
+msgid "Licence key"
+msgstr "Lizenzschlüssel"
+
+#: app/src/pages/settings/index.vue:820
+msgid "Activating uiXpress enables updates and features"
+msgstr "Die Aktivierung von uiXpress ermöglicht Updates und Funktionen"
+
+#: app/src/pages/settings/index.vue:827
+msgid "Licence Active"
+msgstr "Lizenz Aktiv"
+
+#: app/src/pages/settings/index.vue:836
+msgid "Remove key"
+msgstr "API Key entfernen"
+
+#: app/src/pages/settings/index.vue:849
+msgid "uiXpress licence key"
+msgstr "uiXpress-Lizenzschlüssel"
+
+#: app/src/pages/settings/index.vue:858 app/src/pages/plugins/index.vue:331
+#: app/src/pages/plugins/index.vue:531
+#: app/src/pages/plugins/src/plugin-inspect.vue:472
+#: app/src/pages/plugins/src/plugin-card.vue:406
+#: app/src/pages/plugins/src/plugin-actions.vue:167
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: app/src/pages/settings/index.vue:864
+msgid "Development server detected, no need to activate your licence key."
+msgstr ""
+"Entwicklungsserver erkannt, Lizenzschlüssel muss nicht aktiviert werden."
+
+#: app/src/pages/settings/index.vue:871
+msgid "Please add your licence key to unlock the plugin settings"
+msgstr ""
+"Bitte fügen Sie Ihren Lizenzschlüssel hinzu, um die Plugin-Einstellungen "
+"freizuschalten"
+
+#: app/src/pages/settings/index.vue:876
+msgid "Logo"
+msgstr "Logo"
+
+#: app/src/pages/settings/index.vue:877
+msgid "Optional logo for to be displayed in the menu"
+msgstr "Optionales Logo, das im Menü angezeigt werden kann"
+
+#: app/src/pages/settings/index.vue:883
+#, fuzzy
+msgid "Logo url"
+msgstr "Dunkles Logo Url"
+
+#: app/src/pages/settings/index.vue:888
+msgid "Dark mode logo"
+msgstr "Logo für den dunklen Modus"
+
+#: app/src/pages/settings/index.vue:889
+msgid ""
+"Set an alternative logo to use in dark mode. If one isn't set it will fall "
+"back to the standard logo."
+msgstr ""
+"Legen Sie ein alternatives Logo fest, das im dunklen Modus verwendet werden "
+"soll. Wenn kein Logo eingestellt ist, wird das Standardlogo verwendet."
+
+#: app/src/pages/settings/index.vue:895
+#, fuzzy
+msgid "Dark Logo url"
+msgstr "Dunkles Logo Url"
+
+#: app/src/pages/settings/index.vue:900
+msgid "Disable theme"
+msgstr "Thema deaktivieren"
+
+#: app/src/pages/settings/index.vue:901
+msgid "Choose roles or usersnames to disable the theme for."
+msgstr ""
+"Wählen Sie Rollen oder Benutzernamen, für die das Thema deaktiviert werden "
+"soll."
+
+#: app/src/pages/settings/index.vue:912
+msgid "Search post types"
+msgstr "Suche nach Beitrags-Typen"
+
+#: app/src/pages/settings/index.vue:913
+msgid "Choose which post types are available in the global search"
+msgstr "Wählen Sie, welche Beitragstypen in der globalen Suche verfügbar sind"
+
+#: app/src/pages/settings/index.vue:924
+msgid "Disable global search"
+msgstr "Globale Suche deaktivieren"
+
+#: app/src/pages/settings/index.vue:925
+msgid "Disable global search for all users."
+msgstr "Deaktivieren Sie die globale Suche für alle Benutzer."
+
+#: app/src/pages/settings/index.vue:936
+msgid "Admin layout"
+msgstr "Admin-Layout"
+
+#: app/src/pages/settings/index.vue:937
+msgid "Choose your prefered admin layout"
+msgstr "Wählen Sie Ihr bevorzugtes Admin-Layout"
+
+#: app/src/pages/settings/index.vue:943
+msgid "Default"
+msgstr "Standard"
+
+#: app/src/pages/settings/index.vue:948
+msgid "Rounded"
+msgstr "Abgerundet"
+
+#: app/src/pages/settings/index.vue:953
+msgid "Bubble"
+msgstr "Sprechblase"
+
+#: app/src/pages/settings/index.vue:962
+msgid "Modernise login page"
+msgstr "Login-Seite modernisieren"
+
+#: app/src/pages/settings/index.vue:963
+msgid "When enabled, uiXpress will modernise the default login page."
+msgstr "Wenn aktiviert, modernisiert uiXpress die Standard-Anmeldeseite."
+
+#: app/src/pages/settings/index.vue:974
+msgid "Login image"
+msgstr "Login-Bild"
+
+#: app/src/pages/settings/index.vue:975
+msgid "Optional image that will be added to the empty panel in the login page"
+msgstr ""
+"Optionales Bild, das dem leeren Feld auf der Anmeldeseite hinzugefügt wird"
+
+#: app/src/pages/settings/index.vue:981
+msgid "Image url"
+msgstr "Bild-URL"
+
+#: app/src/pages/settings/index.vue:986
+msgid "Login path"
+msgstr "Login-Pfad"
+
+#: app/src/pages/settings/index.vue:987
+msgid ""
+"Change the login url from wp-login.php to a custom slug. Ensure you remember "
+"what you change this to."
+msgstr ""
+"Ändern Sie die Login-Url von wp-login.php in einen eigenen Slug. Stellen Sie "
+"sicher, dass Sie sich die Änderung merken."
+
+#: app/src/pages/settings/index.vue:999
+msgid "Hide language selector"
+msgstr "Sprachauswahl ausblenden"
+
+#: app/src/pages/settings/index.vue:1000
+msgid ""
+"When hidden the language selector on the login page will not be displayed"
+msgstr ""
+"Wenn ausgeblendet, wird die Sprachauswahl auf der Anmeldeseite nicht "
+"angezeigt"
+
+#: app/src/pages/settings/index.vue:1011
+msgid "Enable TurnStyle"
+msgstr "TurnStyle einschalten"
+
+#: app/src/pages/settings/index.vue:1012
+msgid ""
+"When enabled, a cloudflare turnstyle challenge will be displayed on the "
+"login page to enhance security. Cloudflare account is required"
+msgstr ""
+"Wenn diese Option aktiviert ist, wird auf der Anmeldeseite eine Cloudflare-"
+"Turnstyle-Challenge angezeigt, um die Sicherheit zu erhöhen. Cloudflare-"
+"Konto ist erforderlich"
+
+#: app/src/pages/settings/index.vue:1025
+msgid "Turnstyle site key"
+msgstr "Turnstyle-Seitenschlüssel"
+
+#: app/src/pages/settings/index.vue:1026
+msgid ""
+"This is the site key for your turnstyle which can be created from your "
+"cloudflare dashboard."
+msgstr ""
+"Dies ist der Site-Key für Ihren Turnstyle, den Sie über Ihr Cloudflare-"
+"Dashboard erstellen können."
+
+#: app/src/pages/settings/index.vue:1038
+msgid "Turnstyle secret key"
+msgstr "Turnstyle Geheimschlüssel"
+
+#: app/src/pages/settings/index.vue:1039
+msgid ""
+"This is the secret key for your turnstyle which can be created from your "
+"cloudflare dashboard."
+msgstr ""
+"Dies ist der geheime Schlüssel für Ihren Turnstyle, den Sie über Ihr "
+"Cloudflare-Dashboard erstellen können."
+
+#: app/src/pages/settings/index.vue:1057
+msgid "Magic dark mode"
+msgstr "Magischer Dunkelmodus"
+
+#: app/src/pages/settings/index.vue:1058
+msgid ""
+"When enabled, uiXpress automatically applies dark mode styles to pages "
+"lacking dedicated dark mode support, ensuring a consistent visual experience."
+msgstr ""
+"Wenn diese Funktion aktiviert ist, wendet uiXpress automatisch Stile für den "
+"dunklen Modus auf Seiten an, die keine spezielle Unterstützung für den "
+"dunklen Modus bieten, und sorgt so für ein einheitliches visuelles Erlebnis."
+
+#: app/src/pages/settings/index.vue:1069
+msgid "Force global theme"
+msgstr "Globales Thema erzwingen"
+
+#: app/src/pages/settings/index.vue:1070
+msgid ""
+"When enabled, the light / dark toggle will be removed and the selected theme "
+"set for all users."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird der Wechsel zwischen hell und dunkel "
+"aufgehoben und das gewählte Thema für alle Benutzer festgelegt."
+
+#: app/src/pages/settings/index.vue:1082
+msgid "Hide screen options"
+msgstr "Bildschirmoptionen ausblenden"
+
+#: app/src/pages/settings/index.vue:1083
+msgid "Hide the screen options toggle in the toolbar"
+msgstr ""
+"Ausblenden des Umschalters für die Bildschirmoptionen in der Symbolleiste"
+
+#: app/src/pages/settings/index.vue:1094
+msgid "Hide help toggle"
+msgstr "Hilfe-Toggle ausblenden"
+
+#: app/src/pages/settings/index.vue:1095
+msgid "Hide the help toggle in the toolbar"
+msgstr "Ausblenden der Hilfefunktion in der Symbolleiste"
+
+#: app/src/pages/settings/index.vue:1106
+msgid "Base theme colors"
+msgstr "Farben des Basisthemas"
+
+#: app/src/pages/settings/index.vue:1107
+msgid ""
+"Set a base color and uiXpress will automatically create a color scale for "
+"you."
+msgstr ""
+"Legen Sie eine Grundfarbe fest und uiXpress erstellt automatisch eine "
+"Farbskala für Sie."
+
+#: app/src/pages/settings/index.vue:1112
+msgid "Base"
+msgstr "Basis"
+
+#: app/src/pages/settings/index.vue:1140 app/src/pages/settings/index.vue:1183
+msgid "Clear custom properties"
+msgstr "Benutzerdefinierte Eigenschaften löschen"
+
+#: app/src/pages/settings/index.vue:1149
+msgid "Accent theme colors"
+msgstr "Akzentuierte Themenfarben"
+
+#: app/src/pages/settings/index.vue:1150
+msgid ""
+"Set a accent color and uiXpress will automatically create a color scale for "
+"you."
+msgstr ""
+"Legen Sie eine Akzentfarbe fest und uiXpress erstellt automatisch eine "
+"Farbskala für Sie."
+
+#: app/src/pages/settings/index.vue:1155
+msgid "Accent base"
+msgstr "Sockel mit Akzent"
+
+#: app/src/pages/settings/index.vue:1192
+msgid "Custom css"
+msgstr "Benutzerdefiniertes CSS"
+
+#: app/src/pages/settings/index.vue:1193
+msgid ""
+"Custom css added here will only be added in the admin area and login page."
+msgstr ""
+"Das hier hinzugefügte benutzerdefinierte CSS wird nur im Verwaltungsbereich "
+"und auf der Anmeldeseite hinzugefügt."
+
+#: app/src/pages/settings/index.vue:1208
+msgid "Update settings"
+msgstr "Einstellungen aktualisieren"
+
+#: app/src/pages/settings/index.vue:1218
+msgid "External stylesheets"
+msgstr "Externe Stylesheets"
+
+#: app/src/pages/settings/index.vue:1219
+msgid ""
+"Add URLs to any external stylesheets you want uiXpress to load into the admin"
+msgstr ""
+"Fügen Sie URLs zu externen Stylesheets hinzu, die uiXpress in die Verwaltung "
+"laden soll"
+
+#: app/src/pages/settings/index.vue:1248 app/src/pages/posts/index.vue:496
+#: app/src/pages/posts/index.vue:521 app/src/pages/plugins/index.vue:392
+msgid "Add new"
+msgstr "Neu hinzufügen"
+
+#: app/src/pages/settings/index.vue:1260
+msgid "Admin favicon"
+msgstr "Verwaltungs-Favicon"
+
+#: app/src/pages/settings/index.vue:1261
+msgid "Optional favicon to replace the WordPress favicon in the admin."
+msgstr ""
+"Optionales Favicon zum Ersetzen des WordPress-Favicons im Adminbereich."
+
+#: app/src/pages/settings/index.vue:1267
+msgid "Favicon url"
+msgstr "Favicon url"
+
+#: app/src/pages/settings/index.vue:1272
+msgid "Rename uiXpress"
+msgstr "UiXpress umbenennen"
+
+#: app/src/pages/settings/index.vue:1273
+msgid ""
+"This will rename uiXpress in the plugins list as well as renaming it's "
+"settings link."
+msgstr ""
+"Dadurch wird uiXpress in der Plugin-Liste umbenannt und auch der Link zu den "
+"Einstellungen wird umbenannt."
+
+#: app/src/pages/settings/index.vue:1286
+msgid "Text Replacement"
+msgstr "Text Ersetzung"
+
+#: app/src/pages/settings/index.vue:1287
+msgid ""
+"Customize the text displayed in the WordPress admin area. Enter original "
+"words or phrases and their replacements to white-label the admin interface."
+msgstr ""
+"Passen Sie den im WordPress-Verwaltungsbereich angezeigten Text an. Geben "
+"Sie Originalwörter oder -phrasen und ihre Ersetzungen ein, um die "
+"Verwaltungsoberfläche mit einem White-Label zu versehen."
+
+#: app/src/pages/settings/index.vue:1301
+msgid "Submenu style"
+msgstr "Stil des Untermenüs"
+
+#: app/src/pages/settings/index.vue:1302
+msgid "Choose from whether the submenu opens on click or hover."
+msgstr "Wählen Sie aus, ob das Untermenü bei Klick oder Hover geöffnet wird."
+
+#: app/src/pages/settings/index.vue:1318
+msgid "Classic Post List View"
+msgstr "Klassische Beitragslistenansicht"
+
+#: app/src/pages/settings/index.vue:1319
+msgid ""
+"Switch to WordPress's traditional table layout for posts, removing the "
+"modern interface."
+msgstr ""
+"Wechseln Sie zum traditionellen Tabellenlayout von WordPress für Beiträge "
+"und entfernen Sie die moderne Schnittstelle."
+
+#: app/src/pages/settings/index.vue:1334
+msgid "Modern Plugin Manager"
+msgstr "Moderner Plugin-Manager"
+
+#: app/src/pages/settings/index.vue:1335
+msgid ""
+"Replace the classic plugins page with a modern plugin manager with plugin "
+"profiling and improved features."
+msgstr ""
+"Ersetzen Sie die klassische Plugin-Seite durch einen modernen Plugin-Manager "
+"mit Plugin-Profiling und verbesserten Funktionen."
+
+#: app/src/pages/menu-creator/src/table.vue:46
+#: app/src/pages/menu-creator/src/edit.vue:927
+#: app/src/pages/plugins/src/plugin-repo.vue:70
+msgid "Name"
+msgstr "Name"
+
+#: app/src/pages/menu-creator/src/table.vue:48
+#: app/src/components/utility/media-library/index.vue:198
+msgid "Modified"
+msgstr "Geändert"
+
+#: app/src/pages/menu-creator/src/table.vue:49
+#: app/src/components/utility/media-library/index.vue:197
+msgid "ID"
+msgstr "ID"
+
+#: app/src/pages/menu-creator/src/table.vue:52
+#: app/src/pages/plugins/index.vue:104 app/src/pages/posts/src/constants.js:18
+msgid "All"
+msgstr "Alle"
+
+#: app/src/pages/menu-creator/src/table.vue:54
+#: app/src/pages/menu-creator/src/table.vue:148
+#: app/src/pages/menu-creator/src/edit.vue:143
+msgid "Draft"
+msgstr "Entwurf"
+
+#: app/src/pages/menu-creator/src/table.vue:110
+msgid "Menu created"
+msgstr "Menü erstellt"
+
+#: app/src/pages/menu-creator/src/table.vue:154
+msgid "Fixed product menu"
+msgstr "Festes Produktmenü"
+
+#: app/src/pages/menu-creator/src/table.vue:155
+msgid "Fixed basket menu"
+msgstr "Festes Warenkorb-Menü"
+
+#: app/src/pages/menu-creator/src/table.vue:156
+msgid "Percentage menu"
+msgstr "Menü \"Prozentsatz"
+
+#: app/src/pages/menu-creator/src/table.vue:207
+msgid "Search menus"
+msgstr "Menüs durchsuchen"
+
+#: app/src/pages/menu-creator/src/table.vue:234
+#: app/src/pages/menu-creator/src/table.vue:255
+msgid "New menu"
+msgstr "Neues Menü"
+
+#: app/src/pages/menu-creator/src/table.vue:246
+msgid "No menus yet"
+msgstr "Noch keine Menüs"
+
+#: app/src/pages/menu-creator/src/table.vue:247
+msgid "When you create new menus they will show up here."
+msgstr "Wenn Sie neue Menüs erstellen, werden sie hier angezeigt."
+
+#: app/src/pages/menu-creator/src/edit.vue:147
+#: app/src/pages/plugins/index.vue:105
+msgid "Active"
+msgstr "Aktiv"
+
+#: app/src/pages/menu-creator/src/edit.vue:263
+msgid "Menu updated"
+msgstr "Menü aktualisiert"
+
+#: app/src/pages/menu-creator/src/edit.vue:285
+#: app/src/pages/plugins/index.vue:267
+#: app/src/components/app/batch-options/index.vue:62
+#: app/src/pages/posts/src/batchPublishPosts.js:21
+#: app/src/pages/posts/src/batchDeletePosts.js:21
+#: app/src/pages/posts/src/post-actions.vue:150
+#: app/src/pages/plugins/src/plugin-card.vue:273
+#: app/src/components/utility/media-library/index.vue:431
+#: app/src/components/utility/media-library/index.vue:521
+msgid "Are you sure?"
+msgstr "Sind Sie sicher?"
+
+#: app/src/pages/menu-creator/src/edit.vue:286
+msgid "Deleted menus cannot be retrieved."
+msgstr "Gelöschte Menüs können nicht wiederhergestellt werden."
+
+#: app/src/pages/menu-creator/src/edit.vue:287
+#: app/src/pages/posts/src/post-actions.vue:152
+#: app/src/pages/plugins/src/plugin-card.vue:275
+#: app/src/components/utility/media-library/index.vue:433
+msgid "Yes delete it"
+msgstr "Ja, löschen Sie es"
+
+#: app/src/pages/menu-creator/src/edit.vue:302
+msgid "Menu deleted"
+msgstr "Menü gelöscht"
+
+#: app/src/pages/menu-creator/src/edit.vue:449
+msgid "Custom menu item"
+msgstr "Benutzerdefinierter Menüpunkt"
+
+#: app/src/pages/menu-creator/src/edit.vue:462
+msgid "Custom Separator"
+msgstr "Eigener Separater"
+
+#: app/src/pages/menu-creator/src/edit.vue:511
+#: app/src/pages/menu-creator/src/edit.vue:517
+msgid "Invalid menu_meta: must be an object"
+msgstr "Ungültige menu_meta: muss ein Objekt sein"
+
+#: app/src/pages/menu-creator/src/edit.vue:533
+msgid "Error uploading menu"
+msgstr "Fehler beim Hochladen des Menüs"
+
+#: app/src/pages/menu-creator/src/edit.vue:543
+msgid "Menu imported"
+msgstr "Menü importiert"
+
+#: app/src/pages/menu-creator/src/edit.vue:546
+msgid "Unable to upload menu"
+msgstr "Menü kann nicht hochgeladen werden"
+
+#: app/src/pages/menu-creator/src/edit.vue:585
+msgid "Back to list"
+msgstr "Zurück zur Liste"
+
+#: app/src/pages/menu-creator/src/edit.vue:596
+#: app/src/pages/plugins/src/plugin-inspect.vue:446
+#: app/src/pages/posts/src/post-actions.vue:78
+#: app/src/pages/plugins/src/plugin-actions.vue:245
+msgid "Delete"
+msgstr "Löschen"
+
+#: app/src/pages/menu-creator/src/edit.vue:679
+msgid "New Separator"
+msgstr "Neuer Abscheider"
+
+#: app/src/pages/menu-creator/src/edit.vue:688
+msgid "New Link"
+msgstr "Neuer Link"
+
+#: app/src/pages/menu-creator/src/edit.vue:817
+msgid "Menu Settings"
+msgstr "Menüeinstellungen"
+
+#: app/src/pages/menu-creator/src/edit.vue:822
+msgid "Whether this menu is active or not"
+msgstr "Ob dieses Menü aktiv ist oder nicht"
+
+#: app/src/pages/menu-creator/src/edit.vue:834
+msgid "Menu name"
+msgstr "Menübezeichnung"
+
+#: app/src/pages/menu-creator/src/edit.vue:835
+msgid "Name of your custom menu."
+msgstr "Name des benutzerdefinierten Menüs."
+
+#: app/src/pages/menu-creator/src/edit.vue:847
+msgid "Apply menu to everyone"
+msgstr "Menü auf alle anwenden"
+
+#: app/src/pages/menu-creator/src/edit.vue:848
+msgid "This menu will be applied to everyone if enabled."
+msgstr "Wenn dieses Menü aktiviert ist, gilt es für alle."
+
+#: app/src/pages/menu-creator/src/edit.vue:862
+msgid "Apply to roles or users"
+msgstr "Auf Rollen oder Benutzer anwenden"
+
+#: app/src/pages/menu-creator/src/edit.vue:863
+msgid "Set specific roles or users this menu applies to."
+msgstr ""
+"Legen Sie bestimmte Rollen oder Benutzer fest, für die dieses Menü gilt."
+
+#: app/src/pages/menu-creator/src/edit.vue:874
+msgid "Exclude roles or users"
+msgstr "Rollen oder Benutzer ausschließen"
+
+#: app/src/pages/menu-creator/src/edit.vue:875
+msgid "Set specific roles or users this menu won't apply to."
+msgstr ""
+"Legen Sie bestimmte Rollen oder Benutzer fest, für die dieses Menü nicht "
+"gelten soll."
+
+#: app/src/pages/menu-creator/src/edit.vue:898
+msgid "Separator"
+msgstr "Separator"
+
+#: app/src/pages/menu-creator/src/edit.vue:909
+msgid "Delete item"
+msgstr "Artikel löschen"
+
+#: app/src/pages/menu-creator/src/edit.vue:920
+msgid "Reset item"
+msgstr "Element zurücksetzen"
+
+#: app/src/pages/menu-creator/src/edit.vue:928
+msgid "Rename menu item"
+msgstr "Menüpunkt umbenennen"
+
+#: app/src/pages/menu-creator/src/edit.vue:942
+#: app/src/pages/plugins/src/plugin-performance.vue:550
+#: app/src/components/utility/media-library/index.vue:1080
+msgid "URL"
+msgstr "URL"
+
+#: app/src/pages/menu-creator/src/edit.vue:943
+msgid "Change the link of the URL"
+msgstr "Ändern Sie den Link der URL"
+
+#: app/src/pages/menu-creator/src/edit.vue:955
+msgid "Icon"
+msgstr "Icon"
+
+#: app/src/pages/menu-creator/src/edit.vue:956
+msgid ""
+"Choose custom icon from the list or add a Base64 encoded Data URI. Icons "
+"only show for top level items. "
+msgstr ""
+"Wählen Sie ein benutzerdefiniertes Symbol aus der Liste oder fügen Sie einen "
+"Base64-kodierten Daten-URI hinzu. Symbole werden nur für Elemente der "
+"obersten Ebene angezeigt."
+
+#: app/src/pages/menu-creator/src/edit.vue:975
+msgid "Open in new tab"
+msgstr "Öffne in neuem Tab"
+
+#: app/src/pages/menu-creator/src/edit.vue:976
+msgid "This link will open in a new tab"
+msgstr "Dieser Link wird in einer neuen Registerkarte geöffnet"
+
+#: app/src/pages/menu-creator/src/edit.vue:989
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: app/src/pages/menu-creator/src/edit.vue:990
+msgid "The item will not be shown if hidden"
+msgstr "Das Element wird nicht angezeigt, wenn es ausgeblendet ist"
+
+#: app/src/pages/posts/index.vue:467
+msgid "Search posts"
+msgstr "Berichte duchsuchen"
+
+#: app/src/pages/posts/index.vue:488 app/src/pages/posts/index.vue:513
+msgid "New post"
+msgstr "Neuer Beitrag"
+
+#: app/src/pages/posts/index.vue:509
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+#: app/src/pages/posts/index.vue:510
+msgid "When you create new items they will show up here."
+msgstr "Wenn Sie neue Artikel erstellen, werden sie hier angezeigt."
+
+#: app/src/pages/posts/index.vue:607
+msgid "%s child items"
+msgstr "%s untergeordnete Elemente"
+
+#: app/src/pages/posts/index.vue:610
+msgid "%s child item"
+msgstr "%s untergeordneter Artikel"
+
+#: app/src/pages/posts/index.vue:653
+msgid "Publish items"
+msgstr "Artikel veröffentlichen"
+
+#: app/src/pages/posts/index.vue:667
+msgid "Duplicate items"
+msgstr "Doppelte Einträge"
+
+#: app/src/pages/posts/index.vue:681
+msgid "Delete items"
+msgstr "Elemente löschen"
+
+#: app/src/pages/plugins/index.vue:106
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: app/src/pages/plugins/index.vue:107
+msgid "Has update"
+msgstr "Hat Update"
+
+#: app/src/pages/plugins/index.vue:108
+msgid "Auto updates enabled"
+msgstr "Automatische Updates aktiviert"
+
+#: app/src/pages/plugins/index.vue:109
+msgid "Auto updates disabled"
+msgstr "Automatische Updates deaktiviert"
+
+#: app/src/pages/plugins/index.vue:268
+msgid "Are you sure you want to delete these plugins? "
+msgstr "Sind Sie sicher, dass Sie diese Plugins löschen wollen?"
+
+#: app/src/pages/plugins/index.vue:269
+#: app/src/components/app/batch-options/index.vue:64
+#: app/src/pages/posts/src/batchDeletePosts.js:23
+#: app/src/components/utility/media-library/index.vue:523
+msgid "Yes delete them"
+msgstr "Ja, löschen Sie sie"
+
+#: app/src/pages/plugins/index.vue:329
+msgid "Activate plugin?"
+msgstr "Plugin aktivieren?"
+
+#: app/src/pages/plugins/index.vue:330
+msgid "The plugin was succesfully uploaded, would you like to activate it? "
+msgstr "Das Plugin wurde erfolgreich hochgeladen, möchten Sie es aktivieren?"
+
+#: app/src/pages/plugins/index.vue:406
+msgid "Upload plugin"
+msgstr "Plugin hochladen"
+
+#: app/src/pages/plugins/index.vue:453
+msgid "Active plugins"
+msgstr "Aktive Plugins"
+
+#: app/src/pages/plugins/index.vue:481
+msgid "Inactive plugins"
+msgstr "Deaktivierte Plugins"
+
+#: app/src/pages/plugins/index.vue:512
+msgid "No plugins found"
+msgstr "Keine Plugins gefunden"
+
+#: app/src/pages/plugins/index.vue:513
+msgid "Upload plugin zip files or search the repository"
+msgstr "Plugin-Zip-Dateien hochladen oder das Repository durchsuchen"
+
+#: app/src/pages/plugins/index.vue:542
+#: app/src/pages/plugins/src/plugin-inspect.vue:459
+#: app/src/pages/plugins/src/plugin-card.vue:392
+#: app/src/pages/plugins/src/plugin-actions.vue:174
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:71
+#: app/src/components/utility/media-library/index.vue:199
+msgid "Slug"
+msgstr "Slug"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:72
+#: app/src/pages/plugins/src/plugin-inspect.vue:321
+msgid "Rating"
+msgstr "Bewertung"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:73
+msgid "Popularity"
+msgstr "Beliebtheit"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:74
+msgid "Downloaded"
+msgstr "Heruntergeladen"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:75
+#: app/src/pages/plugins/src/plugin-repo-card.vue:194
+msgid "Active installs"
+msgstr "Aktive Installationen"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:76
+#: app/src/pages/plugins/src/plugin-inspect.vue:337
+msgid "Last updated"
+msgstr "Letzte Aktualisierung"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:151
+msgid "Add plugin"
+msgstr "Plugin hinzufügen"
+
+#: app/src/pages/plugins/src/plugin-repo.vue:157
+msgid "Search plugins"
+msgstr "Suche Plugins"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:207
+#: app/src/pages/plugins/src/plugin-repo-card.vue:128
+msgid "Plugin installed"
+msgstr "Plugin installiert"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:259
+msgid "There was an error fetching this plugins information"
+msgstr ""
+"Es ist ein Fehler beim Abrufen der Informationen dieses Plugins aufgetreten"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:285
+msgid "Back to plugins"
+msgstr "Back to plugins"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:325
+msgid "Installs"
+msgstr "Installiert"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:329
+msgid "Downloads"
+msgstr "Downloads"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:333
+msgid "Version"
+msgstr "Version"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:343
+#: app/src/components/utility/media-library/index.vue:1069
+msgid "Description"
+msgstr "Beschreibung"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:355
+msgid "Screenshots"
+msgstr "Screenshots"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:377
+msgid "Installation"
+msgstr "Installation"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:389
+msgid "FAQ"
+msgstr "FAQ"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:401
+msgid "Reviews"
+msgstr "Bewertungen"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:413
+msgid "Changelog"
+msgstr "Änderungsprotokoll"
+
+#: app/src/pages/plugins/src/plugin-inspect.vue:433
+msgid "Install plugin"
+msgstr "Plugin installieren"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:164
+msgid "Frontend performance"
+msgstr "Frontend-Leistung"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:165
+msgid "Backend performance"
+msgstr "Backend-Leistung"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:167
+msgid ""
+"These metrics represent plugin performance during a home page load. While "
+"this provides valuable insight into plugin behavior, actual performance may "
+"vary across different pages and user interactions."
+msgstr ""
+"Diese Metriken stellen die Plugin-Leistung beim Laden einer Homepage dar. "
+"Obwohl dies einen wertvollen Einblick in das Plugin-Verhalten bietet, kann "
+"die tatsächliche Leistung auf verschiedenen Seiten und bei verschiedenen "
+"Benutzerinteraktionen variieren."
+
+#: app/src/pages/plugins/src/plugin-performance.vue:171
+msgid ""
+"These metrics represent plugin performance during a admin dashboard page "
+"load. While this provides valuable insight into plugin behavior, actual "
+"performance may vary across different pages and user interactions."
+msgstr ""
+"Diese Metriken stellen die Plugin-Leistung während des Ladens einer Seite "
+"des Admin-Dashboards dar. Obwohl dies einen wertvollen Einblick in das "
+"Plugin-Verhalten bietet, kann die tatsächliche Leistung auf verschiedenen "
+"Seiten und bei verschiedenen Benutzerinteraktionen variieren."
+
+#: app/src/pages/plugins/src/plugin-performance.vue:394
+msgid "Total Queries"
+msgstr "Abfragen insgesamt"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:398
+msgid "Query time"
+msgstr "Abfragezeit"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:402
+msgid "Total hooks"
+msgstr "Haken insgesamt"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:406
+msgid "Execution time"
+msgstr "Ausführungszeit"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:410
+msgid "Memory usage"
+msgstr "Speicherverbrauch"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:417
+msgid "Total scripts"
+msgstr "Skripte insgesamt"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:421
+msgid "Total styles"
+msgstr "Stile insgesamt"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:425
+msgid "Total asset size"
+msgstr "Gesamtumfang der Vermögenswerte"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:429
+#: app/src/pages/plugins/src/plugin-performance.vue:543
+msgid "HTTP requests"
+msgstr "HTTP-Anfragen"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:437
+msgid "Scripts"
+msgstr "Skripte"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:442
+#: app/src/pages/plugins/src/plugin-performance.vue:469
+msgid "Handle"
+msgstr "Handle"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:443
+#: app/src/pages/plugins/src/plugin-performance.vue:470
+msgid "Size"
+msgstr "Grösse"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:444
+#: app/src/pages/plugins/src/plugin-performance.vue:471
+#: app/src/pages/plugins/src/plugin-performance.vue:521
+#: app/src/pages/plugins/src/plugin-performance.vue:577
+#: app/src/pages/plugins/src/plugin-performance.vue:604
+msgid "File"
+msgstr "Datei"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:464
+msgid "Styles"
+msgstr "Stile"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:491
+msgid "Queries"
+msgstr "Abfragen"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:514
+msgid "Hooks"
+msgstr "Hooks"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:519
+#: app/src/pages/plugins/src/plugin-performance.vue:548
+msgid "Hook"
+msgstr "Hook"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:520
+msgid "Callback"
+msgstr "Callback"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:522
+msgid "Priority"
+msgstr "Priorität"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:549
+msgid "Method"
+msgstr "Methode"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:570
+msgid "Depreciated functions"
+msgstr "Abgeschriebene Funktionen"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:575
+msgid "Function"
+msgstr "Funktion"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:576
+msgid "Line"
+msgstr "Linie"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:597
+msgid "Errors"
+msgstr "Fehler"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:602
+msgid "Type"
+msgstr "Typ"
+
+#: app/src/pages/plugins/src/plugin-performance.vue:603
+#, fuzzy
+msgid "Message"
+msgstr "Nachricht"
+
+#: app/src/components/app/toolbar/index.vue:180
+#: app/src/components/app/toolbar/index.vue:207
+msgid "Toggle menu"
+msgstr "Aufklappmenü"
+
+#: app/src/components/app/toolbar/index.vue:253
+#, fuzzy
+msgid "Screen options"
+msgstr "Bildschirmoptionen anzeigen"
+
+#: app/src/components/app/toolbar/index.vue:270
+msgid "Help"
+msgstr "Hilfe"
+
+#: app/src/components/app/toolbar/index.vue:290
+#: app/src/components/app/search/index.vue:117
+msgid "View site"
+msgstr "Seite ansehen"
+
+#: app/src/components/app/toolbar/index.vue:308
+#: app/src/components/app/search/index.vue:116
+msgid "View dashboard"
+msgstr "Ansicht Dashboard"
+
+#: app/src/components/app/toolbar/index.vue:354
+msgid "System"
+msgstr "System"
+
+#: app/src/components/app/toolbar/index.vue:383
+#: app/src/components/app/toolbar/index.vue:387
+msgid "Logout"
+msgstr "Abmelden"
+
+#: app/src/components/app/menu/index.vue:627
+msgid "Minify menu"
+msgstr "Menü verkleinern"
+
+#: app/src/components/app/menu/index.vue:658
+msgid "Search menu"
+msgstr "Suchmenü"
+
+#: app/src/components/app/menu/index.vue:788
+msgid "Shortcuts"
+msgstr "Shortcuts"
+
+#: app/src/components/app/batch-options/index.vue:63
+#: app/src/pages/posts/src/batchDeletePosts.js:22
+msgid ""
+"Are you sure you want to delete these items? This action cannot be undone."
+msgstr ""
+"Sind Sie sicher, dass Sie diese Elemente löschen möchten? Diese Aktion kann "
+"nicht rückgängig gemacht werden."
+
+#: app/src/components/app/batch-options/index.vue:77
+msgid "Selection deleted"
+msgstr "Auswahl gelöscht"
+
+#: app/src/components/app/batch-options/index.vue:98
+msgid "Bulk options"
+msgstr "Massenoptionen"
+
+#: app/src/components/app/batch-options/index.vue:119
+#: app/src/components/utility/media-library/index.vue:1170
+msgid "Delete selected"
+msgstr "Auswahl löschen"
+
+#: app/src/components/utility/multiselect-roles-and-users/index.vue:66
+#: app/src/pages/posts/src/inline-user-select.vue:71
+msgid "Users"
+msgstr "Besucher"
+
+#: app/src/components/utility/multiselect-roles-and-users/index.vue:66
+#: app/src/pages/posts/src/inline-user-select.vue:71
+msgid "Roles"
+msgstr "Rollen"
+
+#: app/src/components/utility/multiselect-roles-and-users/index.vue:171
+#: app/src/components/utility/post-type-select/index.vue:131
+msgid "Items selected"
+msgstr "Ausgewählte Artikel"
+
+#: app/src/components/utility/multiselect-roles-and-users/index.vue:172
+msgid "Select users or roles"
+msgstr "Benutzer oder Rollen auswählen"
+
+#: app/src/components/utility/icon-select/index.vue:143
+msgid "Search icons"
+msgstr "Icons suchen"
+
+#: app/src/pages/settings/src/text-pairs.vue:41
+msgid "Find"
+msgstr "Suchen"
+
+#: app/src/pages/settings/src/text-pairs.vue:47
+msgid "Replace"
+msgstr "Ersetzen"
+
+#: app/src/pages/settings/src/text-pairs.vue:67
+msgid "New item"
+msgstr "Neues Element"
+
+#: app/src/components/utility/post-type-select/index.vue:132
+msgid "Select post types"
+msgstr "Post Types auswählen"
+
+#: app/src/components/utility/image-select/index.vue:56
+msgid "Select or Upload Media"
+msgstr "Medien auswählen oder hochladen"
+
+#: app/src/components/utility/image-select/index.vue:58
+msgid "Use this media"
+msgstr "Dieses Medium verwenden"
+
+#: app/src/components/utility/image-select/index.vue:115
+msgid "url"
+msgstr "URL"
+
+#: app/src/components/utility/code-editor/index.vue:136
+msgid "Edit CSS"
+msgstr "CSS bearbeiten"
+
+#: app/src/components/utility/code-editor/index.vue:179
+msgid "Finished"
+msgstr "Beendet"
+
+#: app/src/pages/posts/src/batchPublishPosts.js:22
+msgid "Are you sure you want to publish these items?"
+msgstr "Sind Sie sicher, dass Sie diese Artikel veröffentlichen wollen?"
+
+#: app/src/pages/posts/src/batchPublishPosts.js:23
+msgid "Yes publish them"
+msgstr "Ja, veröffentlichen Sie sie"
+
+#: app/src/pages/posts/src/batchPublishPosts.js:45
+msgid "Items published"
+msgstr "Veröffentlichte Artikel"
+
+#: app/src/pages/posts/src/batchDuplicatePosts.js:47
+msgid "Items duplicated"
+msgstr "Duplizierte Artikel"
+
+#: app/src/pages/posts/src/batchDeletePosts.js:45
+#, fuzzy
+msgid "Items deleted"
+msgstr "Gelöschte Elemente"
+
+#: app/src/pages/posts/src/updatePostAuthor.js:20
+msgid "Item author updated"
+msgstr "Artikelautor aktualisiert"
+
+#: app/src/pages/posts/src/post-actions.vue:36
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: app/src/pages/posts/src/post-actions.vue:46
+msgid "View"
+msgstr "Ansicht"
+
+#: app/src/pages/posts/src/post-actions.vue:53
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: app/src/pages/posts/src/post-actions.vue:62
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: app/src/pages/posts/src/post-actions.vue:143
+msgid "Item duplicated"
+msgstr "Gegenstand vervielfältigt"
+
+#: app/src/pages/posts/src/post-actions.vue:151
+#: app/src/components/utility/media-library/index.vue:432
+msgid ""
+"Are you sure you want to delete this item? This action cannot be undone."
+msgstr ""
+"Sind Sie sicher, dass Sie diesen Artikel löschen möchten? Diese Aktion kann "
+"nicht rückgängig gemacht werden."
+
+#: app/src/pages/posts/src/post-actions.vue:166
+msgid "Item deleted"
+msgstr "Element gelöscht"
+
+#: app/src/pages/posts/src/post-actions.vue:177
+msgid "Item restored"
+msgstr "Bild wiederhergestellt"
+
+#: app/src/pages/posts/src/inlineTitleUpdate.js:27
+msgid "Item title updated"
+msgstr "Titel des Artikels aktualisiert"
+
+#: app/src/pages/posts/src/updatePostStatus.js:18
+msgid "Item status updated"
+msgstr "Artikelstatus aktualisiert"
+
+#: app/src/pages/posts/src/inline-user-select.vue:152
+msgid "Unknown user"
+msgstr "Unbekannter Benutzer"
+
+#: app/src/pages/posts/src/inline-user-select.vue:161
+msgid "Update author"
+msgstr "Autor aktualisieren"
+
+#: app/src/pages/posts/src/inline-status-select.vue:93
+msgid "Update status"
+msgstr "Status aktualisieren"
+
+#: app/src/pages/posts/src/batch-edit.vue:57
+msgid "Publish changes?"
+msgstr "Änderungen veröffentlichen?"
+
+#: app/src/pages/posts/src/batch-edit.vue:58
+msgid "Are you sure you want to batch update these items?"
+msgstr ""
+"Sind Sie sicher, dass Sie diese Elemente im Stapelverfahren aktualisieren "
+"wollen?"
+
+#: app/src/pages/posts/src/batch-edit.vue:59
+msgid "Yes update them"
+msgstr "Ja, aktualisieren Sie sie"
+
+#: app/src/pages/posts/src/batch-edit.vue:89
+msgid "Items updated"
+msgstr "Aktualisierte Artikel"
+
+#: app/src/pages/posts/src/batch-edit.vue:118
+#: app/src/pages/posts/src/batch-edit.vue:129
+msgid "Batch edit"
+msgstr "Stapelbearbeitung"
+
+#: app/src/pages/posts/src/batch-edit.vue:134
+#: app/src/pages/posts/src/table-filters.vue:179
+#: app/src/pages/posts/src/category-select.vue:373
+msgid "Categories"
+msgstr "Kategorien"
+
+#: app/src/pages/posts/src/batch-edit.vue:147
+#: app/src/pages/posts/src/tag-select.vue:373
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: app/src/pages/posts/src/batch-edit.vue:168
+msgid "Author"
+msgstr "Autor"
+
+#: app/src/pages/posts/src/batch-edit.vue:185
+#: app/src/components/utility/media-library/index.vue:1210
+#: app/src/components/utility/date-range-picker/index.vue:140
+#, fuzzy
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: app/src/pages/posts/src/inline-image-select.vue:57
+msgid "Featured image updated"
+msgstr "Gekennzeichnetes Bild aktualisiert"
+
+#: app/src/pages/posts/src/constants.js:19
+msgid "Drafts"
+msgstr "Entwürfe"
+
+#: app/src/pages/posts/src/table-filters.vue:174
+msgid "Filters"
+msgstr "Filter"
+
+#: app/src/pages/posts/src/table-filters.vue:190
+msgid "Date range"
+msgstr "Zeitraum"
+
+#: app/src/pages/posts/src/table-filters.vue:198
+msgid "Table settings"
+msgstr "Tabellen-Einstellungen"
+
+#: app/src/pages/posts/src/table-filters.vue:201
+msgid "Per page"
+msgstr "Pro Seite"
+
+#: app/src/pages/posts/src/table-filters.vue:212
+msgid "Order"
+msgstr "Bestellung"
+
+#: app/src/pages/posts/src/table-filters.vue:221
+msgid "Order by"
+msgstr "Sortieren nach"
+
+#: app/src/pages/posts/src/table-filters.vue:230
+msgid "Expand all posts"
+msgstr "Alle Beiträge erweitern"
+
+#: app/src/pages/posts/src/table-filters.vue:239
+msgid "Columns"
+msgstr "Spalten"
+
+#: app/src/pages/plugins/src/plugin-repo-card.vue:178
+msgid "Install"
+msgstr "Installieren"
+
+#: app/src/pages/plugins/src/plugin-card.vue:274
+msgid "Are you sure you want to delete this plugin? "
+msgstr "Sind Sie sicher, dass Sie dieses Plugin löschen wollen?"
+
+#: app/src/pages/plugins/src/plugin-card.vue:356
+msgid "Requires other plugins to activate:"
+msgstr "Erfordert andere Plugins zur Aktivierung:"
+
+#: app/src/pages/plugins/src/deactivatePlugin.js:24
+msgid "Plugin deactivated"
+msgstr "Plugin deaktiviert"
+
+#: app/src/pages/plugins/src/activatePlugin.js:24
+msgid "Plugin activated"
+msgstr "Plugin aktiviert"
+
+#: app/src/pages/plugins/src/updatePlugin.js:22
+msgid "Plugin updated"
+msgstr "Plugin aktualisiert"
+
+#: app/src/pages/plugins/src/deletePlugin.js:23
+msgid "Plugin deleted"
+msgstr "Plugin gelöscht"
+
+#: app/src/components/app/notifications/index.vue:105
+msgid "New Orders"
+msgstr "Neue Bestellungen"
+
+#: app/src/components/app/notifications/index.vue:114
+msgid "Dismiss all"
+msgstr "Alle entlassen"
+
+#: app/src/components/app/search/index.vue:114
+msgid "New Post"
+msgstr "Neuer Beitrag"
+
+#: app/src/components/app/search/index.vue:115
+msgid "New Page"
+msgstr "Neue Seite"
+
+#: app/src/components/app/search/index.vue:118
+msgid "Site settings"
+msgstr "Website-Einstellungen"
+
+#: app/src/components/app/search/index.vue:119
+msgid "Dark mode"
+msgstr "Dunkler Modus"
+
+#: app/src/components/app/search/index.vue:120
+msgid "Light mode"
+msgstr "Heller Modus"
+
+#: app/src/components/app/search/index.vue:390
+msgid "Search posts, pages, categories, users..."
+msgstr "Suche nach Beiträgen, Seiten, Kategorien, Benutzern..."
+
+#: app/src/components/app/search/index.vue:424
+msgid "Quick Actions"
+msgstr "Schnell-Auswahl"
+
+#: app/src/components/app/search/index.vue:539
+msgid "to navigate"
+msgstr "Navigieren"
+
+#: app/src/components/app/search/index.vue:545
+msgid "to select"
+msgstr "zur Auswahl"
+
+#: app/src/components/app/search/index.vue:549
+msgid "to close"
+msgstr "zu schließen"
+
+#: app/src/components/app/wp-notifications/index.vue:118
+#: app/src/components/app/wp-notifications/index.vue:181
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: app/src/components/app/wp-notifications/index.vue:184
+msgid "Close"
+msgstr "Schließen"
+
+#: app/src/components/app/wp-notifications/index.vue:194
+msgid "No notifications"
+msgstr "Keine Benachrichtigungen"
+
+#: app/src/components/utility/media-library/index.vue:196
+msgid "Date"
+msgstr "Datum"
+
+#: app/src/components/utility/media-library/index.vue:200
+#: app/src/components/utility/media-library/index.vue:1036
+msgid "Title"
+msgstr "Titel"
+
+#: app/src/components/utility/media-library/index.vue:420
+msgid "File updated"
+msgstr "Datei aktualisiert"
+
+#: app/src/components/utility/media-library/index.vue:445
+msgid "File deleted"
+msgstr "Datei gelöscht"
+
+#: app/src/components/utility/media-library/index.vue:510
+msgid "Files duplicated"
+msgstr "Duplizierte Dateien"
+
+#: app/src/components/utility/media-library/index.vue:522
+msgid ""
+"Are you sure you want to delete these files? This action cannot be undone."
+msgstr ""
+"Sind Sie sicher, dass Sie diese Dateien löschen wollen? Diese Aktion kann "
+"nicht rückgängig gemacht werden."
+
+#: app/src/components/utility/media-library/index.vue:539
+msgid "Files deleted"
+msgstr "Dateien gelöscht"
+
+#: app/src/components/utility/media-library/index.vue:639
+msgid "File uploaded"
+msgstr "Datei hochgeladen"
+
+#: app/src/components/utility/media-library/index.vue:787
+msgid "Media Library"
+msgstr "Medienbibliothek"
+
+#: app/src/components/utility/media-library/index.vue:816
+msgid "File type"
+msgstr "Dateityp"
+
+#: app/src/components/utility/media-library/index.vue:918
+msgid "Upload"
+msgstr "Hochladen"
+
+#: app/src/components/utility/media-library/index.vue:1006
+msgid "No results found"
+msgstr "Keine Ergebnisse gefunden"
+
+#: app/src/components/utility/media-library/index.vue:1007
+msgid "Edit your search criteria, or upload a new file."
+msgstr ""
+"Bearbeiten Sie Ihre Suchkriterien, oder laden Sie eine neue Datei hoch."
+
+#: app/src/components/utility/media-library/index.vue:1047
+msgid "Alt text"
+msgstr "ALT-Text"
+
+#: app/src/components/utility/media-library/index.vue:1058
+msgid "Caption"
+msgstr "Bildunterschrift"
+
+#: app/src/components/utility/media-library/index.vue:1099
+msgid "Delete file"
+msgstr "Datei löschen"
+
+#: app/src/components/utility/media-library/index.vue:1183
+msgid "Duplicate selected"
+msgstr "Duplikat ausgewählt"
+
+#: app/src/components/utility/media-library/index.vue:1195
+msgid "Clear selection"
+msgstr "Auswahl löschen"
+
+#: app/src/components/utility/media-library/index.vue:1219
+msgid "Done"
+msgstr "Erledigt"
+
+#: app/src/pages/plugins/src/autoUpdate.js:19
+msgid "Auto update enabled"
+msgstr "Automatische Aktualisierung aktiviert"
+
+#: app/src/pages/plugins/src/autoUpdate.js:21
+msgid "Auto update disabled"
+msgstr "Automatische Aktualisierung deaktiviert"
+
+#: app/src/pages/plugins/src/plugin-actions.vue:134
+msgid "View plugin info"
+msgstr "Plugin-Infos anzeigen"
+
+#: app/src/pages/plugins/src/plugin-actions.vue:147
+msgid "Plugin performance"
+msgstr "Plugin-Leistung"
+
+#: app/src/pages/plugins/src/plugin-actions.vue:181
+msgid "Enable auto updates"
+msgstr "Automatische Updates aktivieren"
+
+#: app/src/pages/plugins/src/plugin-actions.vue:188
+msgid "Disable auto updates"
+msgstr "Automatische Updates deaktivieren"
+
+#: app/src/pages/plugins/src/plugin-actions.vue:230
+msgid "Plugin site"
+msgstr "Plugin-Seite"
+
+#: app/src/pages/posts/src/tag-select.vue:418
+#: app/src/pages/posts/src/tag-select.vue:421
+#: app/src/pages/posts/src/category-select.vue:418
+#: app/src/pages/posts/src/category-select.vue:421
+msgid "No products found"
+msgstr "Keine Produkte gefunden"
+
+#: app/src/components/utility/date-range-picker/index.vue:108
+msgid "Select date"
+msgstr "Datum wählen"
+
+#: app/src/components/utility/date-range-picker/index.vue:154
+msgid "Set date"
+msgstr "Datum einstellen"
+
+#: admin/src/Rest/UserRoles.php:57
+msgid "You do not have permissions to view this data."
+msgstr "Sie haben keine Berechtigung, diese Daten einzusehen."
+
+#: app/src/pages/menu-creator/src/table.vue:99
+msgid "Draft menu"
+msgstr "Entwurf des Menüs"
+
+#: app/src/pages/posts/src/table-filters.vue:54
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: app/src/pages/posts/src/table-filters.vue:55
+msgid "Descending"
+msgstr "Absteigend"

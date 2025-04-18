@@ -1,0 +1,10 @@
+.elementor-15 .elementor-element.elementor-element-66ef0c6{--display:flex;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}body.elementor-page-15:not(.elementor-motion-effects-element-type-background), body.elementor-page-15 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#041931;}:root{--page-title-display:none;}/* Start custom CSS */.is-large.wc-block-cart .wc-block-cart-items {
+    background-color: #fff !important;
+    border-radius: 15px !important;
+}
+.wc-block-components-sidebar {
+    padding: 2%;
+    width: 35%;
+    background-color: #fff !important;
+    border-radius: 15px;
+}/* End custom CSS */

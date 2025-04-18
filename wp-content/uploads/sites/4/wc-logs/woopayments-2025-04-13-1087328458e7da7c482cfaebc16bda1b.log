@@ -1,0 +1,62 @@
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001 REQUEST_67fb87ade8e12 (JSON): {
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "url": "https:\/\/public-api.wordpress.com\/wpcom\/v2\/wcpay\/woopay\/compatibility?test_mode=1",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "method": "GET",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "headers": {
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001         "Content-Type": "application\/json; charset=utf-8",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001         "User-Agent": "WooCommerce Payments\/9.1.0",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001         "X-Request-Initiated": 1744537517.953871
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     },
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "timeout": 70,
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "connect_timeout": 70
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001 }
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001 CONTEXT (JSON): {
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "WP_User": "Guest (non logged-in user)",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "HTTP_REFERER": "--",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "HTTP_USER_AGENT": "WordPress\/6.7.2; https:\/\/pdi.grubmenu.io",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "REQUEST_URI": "\/wp-cron.php?doing_wp_cron=1744537515.8047170639038085937500",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "DOING_AJAX": "",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "DOING_CRON": "1",
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001     "WP_CLI": ""
+2025-04-13T09:45:17+00:00 INFO 67fb87ac2541c-0001 }
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0002 HTTP_REQUEST_ERROR Site is not connected to WordPress.com
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 Failed to decode WooPay incompatible extensions list. WCPay\Exceptions\API_Exception: Site is not connected to WordPress.com in /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:61
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 Stack trace:
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #0 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(2249): WC_Payments_Http->remote_request()
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #1 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(2921): WC_Payments_API_Client->request()
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #2 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-scheduler.php(85): WC_Payments_API_Client->get_woopay_compatibility()
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #3 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-includes/class-wp-hook.php(324): WCPay\WooPay\WooPay_Scheduler->update_compatibility_and_maybe_show_incompatibility_warning()
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #4 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #5 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #6 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-cron.php(191): do_action_ref_array()
+2025-04-13T09:45:17+00:00 ERROR 67fb87ac2541c-0003 #7 {main}
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001 REQUEST_67fb9cc49d6be (JSON): {
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "url": "https:\/\/public-api.wordpress.com\/wpcom\/v2\/wcpay\/woopay\/compatibility?test_mode=1",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "method": "GET",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "headers": {
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001         "Content-Type": "application\/json; charset=utf-8",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001         "User-Agent": "WooCommerce Payments\/9.1.0",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001         "X-Request-Initiated": 1744542916.644796
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     },
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "timeout": 70,
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "connect_timeout": 70
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001 }
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001 CONTEXT (JSON): {
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "WP_User": "Guest (non logged-in user)",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "HTTP_REFERER": "--",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "HTTP_USER_AGENT": "WordPress\/6.7.2; https:\/\/pdi.grubmenu.io",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "REQUEST_URI": "\/wp-cron.php?doing_wp_cron=1744542915.7095570564270019531250",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "DOING_AJAX": "",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "DOING_CRON": "1",
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001     "WP_CLI": ""
+2025-04-13T11:15:16+00:00 INFO 67fb9cc409ffe-0001 }
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0002 HTTP_REQUEST_ERROR Site is not connected to WordPress.com
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 Failed to decode WooPay incompatible extensions list. WCPay\Exceptions\API_Exception: Site is not connected to WordPress.com in /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-http.php:61
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 Stack trace:
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #0 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(2249): WC_Payments_Http->remote_request()
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #1 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(2921): WC_Payments_API_Client->request()
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #2 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-scheduler.php(85): WC_Payments_API_Client->get_woopay_compatibility()
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #3 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-includes/class-wp-hook.php(324): WCPay\WooPay\WooPay_Scheduler->update_compatibility_and_maybe_show_incompatibility_warning()
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #4 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #5 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #6 /home/1418327.cloudwaysapps.com/ctftaahrtg/public_html/wp-cron.php(191): do_action_ref_array()
+2025-04-13T11:15:16+00:00 ERROR 67fb9cc409ffe-0003 #7 {main}

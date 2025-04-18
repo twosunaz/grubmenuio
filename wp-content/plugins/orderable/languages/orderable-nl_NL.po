@@ -1,0 +1,1041 @@
+# Copyright (C) 2021 orderable
+# This file is distributed under the same license as the orderable package.
+msgid ""
+msgstr ""
+"Project-Id-Version: orderable\n"
+"POT-Creation-Date: 2021-09-13 18:48+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/class-admin-notices.php:92
+msgid "Dismiss Notice"
+msgstr "Negeer de melding"
+
+#: inc/class-ajax.php:126
+msgid "Sorry, there are no delivery or pickup options available."
+msgstr "Er zijn helaas geen bezorg- of ophaalopties beschikbaar."
+
+#: inc/class-ajax.php:131
+msgid "pickup"
+msgstr "afhalen"
+
+#: inc/class-ajax.php:131
+msgid "delivery"
+msgstr "levering"
+
+#: inc/class-ajax.php:134
+#, php-format
+msgid "Sorry, there are no %s options available. Please try %s instead."
+msgstr ""
+"Sorry, er zijn geen %s opties beschikbaar. Probeer %s in plaats daarvan."
+
+#: inc/class-ajax.php:216 inc/class-settings.php:353
+msgid "Country / State"
+msgstr "Land / Staat"
+
+#: inc/class-assets.php:40
+msgid "Sorry, that product is out of stock."
+msgstr "Sorry, dat product is niet op voorraad."
+
+#: inc/class-assets.php:41
+msgid "Sorry, that product is unavailable."
+msgstr "Sorry, dat product is niet beschikbaar."
+
+#: inc/class-assets.php:42
+msgid "Sorry, that combination does not exist."
+msgstr "Sorry, die combinatie bestaat niet."
+
+#: inc/class-helpers.php:72
+msgid "Available in Pro"
+msgstr "Beschikbaar in Pro"
+
+#: inc/class-helpers.php:96
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: inc/class-helpers.php:97
+#, php-format
+msgid "Add New %s"
+msgstr "Voeg nieuwe %s toe"
+
+#: inc/class-helpers.php:98
+#, php-format
+msgid "New %s"
+msgstr "Nieuwe %s"
+
+#: inc/class-helpers.php:99
+#, php-format
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#: inc/class-helpers.php:100
+#, php-format
+msgid "View %s"
+msgstr "Bekijk %s"
+
+#: inc/class-helpers.php:102
+#, php-format
+msgid "Search %s"
+msgstr "Zoek %s"
+
+#: inc/class-helpers.php:103
+#, php-format
+msgid "Parent %s:"
+msgstr "Bovenliggend(e) %s:"
+
+#: inc/class-helpers.php:104
+#, php-format
+msgid "No %s found."
+msgstr "Geen %s gevonden."
+
+#: inc/class-helpers.php:105
+#, php-format
+msgid "No %s found in trash."
+msgstr "Geen %s gevonden in prullenbak."
+
+#: inc/class-helpers.php:106
+#, php-format
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "%s Featured Image"
+msgstr "%s uitgelichte afbeelding"
+
+#: inc/class-helpers.php:107
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set featured image"
+msgstr "Uitgelichte afbeelding instellen"
+
+#: inc/class-helpers.php:108
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove featured image"
+msgstr "Verwijder uitgelichte afbeelding"
+
+#: inc/class-helpers.php:109
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as featured image"
+msgstr "Gebruik als uitgelichte afbeelding"
+
+#: inc/class-helpers.php:110
+#, php-format
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "%s archives"
+msgstr "%s archieven"
+
+#: inc/class-helpers.php:111
+#, php-format
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into %s"
+msgstr "Toevoegen aan %s"
+
+#: inc/class-helpers.php:112
+#, php-format
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this %s"
+msgstr "Geupload naar deze %s"
+
+#: inc/class-helpers.php:113
+#, php-format
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter %s list"
+msgstr "Filter %s lijst"
+
+#: inc/class-helpers.php:114
+#, php-format
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "%s list navigation"
+msgstr "Navigatie door %slijst"
+
+#: inc/class-helpers.php:115
+#, php-format
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "%s list"
+msgstr "%s lijst"
+
+#: inc/class-products.php:36 inc/modules/timings/class-timings-settings.php:428
+msgid "From"
+msgstr "Van"
+
+#: inc/class-products.php:229
+msgid "Add"
+msgstr "Toevoegen"
+
+#: inc/class-products.php:235
+msgid "Select"
+msgstr "Selecteer"
+
+#: inc/class-products.php:243
+msgid "Out of Stock"
+msgstr "Niet op voorraad"
+
+#: inc/class-settings.php:76 inc/class-settings.php:93
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/class-settings.php:92
+msgid "Orderable Settings"
+msgstr "Orderable instellingen"
+
+#: inc/class-settings.php:133
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: inc/class-settings.php:138
+msgid "Style"
+msgstr "Stijl"
+
+#: inc/class-settings.php:146
+msgid "General"
+msgstr "Algemene"
+
+#: inc/class-settings.php:152
+msgid "Brand Color"
+msgstr "Merk kleur"
+
+#: inc/class-settings.php:153
+msgid "Select an accent color to be used for buttons and other elements."
+msgstr ""
+"Selecteer een accentkleur die moet worden gebruikt voor knoppen en andere "
+"elementen."
+
+#: inc/class-settings.php:159
+msgid "Button Style"
+msgstr "Button Stijl"
+
+#: inc/class-settings.php:160
+msgid "Choose a button style which suits your theme."
+msgstr "Kies een knopstijl die bij uw thema past."
+
+#: inc/class-settings.php:164
+msgid "Rounded"
+msgstr "Afgerond"
+
+#: inc/class-settings.php:165
+msgid "Square"
+msgstr "Vierkant"
+
+#: inc/class-settings.php:174
+msgid "Product Cards"
+msgstr "Productkaarten"
+
+#: inc/class-settings.php:180
+msgid "Product Title Size (px)"
+msgstr "Grootte van producttitel (px)"
+
+#: inc/class-settings.php:181
+msgid "Set the product title font size in pixels."
+msgstr "Stel de tekengrootte van de producttitel in pixels in."
+
+#: inc/class-settings.php:187
+msgid "Product Price Size (px)"
+msgstr "Productprijsgrootte (px)"
+
+#: inc/class-settings.php:188
+msgid "Set the product price font size in pixels."
+msgstr "Stel de tekengrootte van de productprijs in pixels in."
+
+#: inc/class-settings.php:313
+msgid "Installing..."
+msgstr "Installeren..."
+
+#: inc/class-settings.php:315
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/class-settings.php:328
+msgid "Business Name"
+msgstr "Bedrijfsnaam"
+
+#: inc/class-settings.php:335
+msgid "Address line 1"
+msgstr "Adresregel 1"
+
+#: inc/class-settings.php:341
+msgid "Address line 2"
+msgstr "Adresregel 2"
+
+#: inc/class-settings.php:347
+#: inc/modules/services/templates/service-selector.php:27
+msgid "City"
+msgstr "Stad"
+
+#: inc/class-settings.php:360
+#: inc/modules/services/templates/service-selector.php:28
+msgid "Postcode / ZIP"
+msgstr "Postcode"
+
+#: inc/class-settings.php:366
+msgid "Business Email"
+msgstr "E-mail"
+
+#: inc/class-settings.php:374
+msgid ""
+"Please keep me up to date via email on new Orderable training and features"
+msgstr ""
+"Houd me op de hoogte via e-mail over nieuwe Orderable trainingen en functies"
+
+#: inc/class-settings.php:387
+msgid "Which services do you offer?"
+msgstr "Welke diensten biedt je aan?"
+
+#: inc/class-settings.php:391 inc/modules/services/class-services-order.php:34
+#: inc/modules/services/class-services.php:192
+#: inc/modules/services/templates/service-selector.php:30
+#: inc/modules/timings/class-timings-settings.php:134
+#: inc/modules/timings/class-timings-settings.php:279
+#: inc/modules/timings/class-timings-settings.php:446
+msgid "Delivery"
+msgstr "Lever"
+
+#: inc/class-settings.php:392 inc/modules/services/class-services-order.php:35
+#: inc/modules/services/class-services.php:191
+#: inc/modules/services/templates/service-selector.php:31
+#: inc/modules/timings/class-timings-settings.php:135
+#: inc/modules/timings/class-timings-settings.php:284
+#: inc/modules/timings/class-timings-settings.php:452
+msgid "Pickup"
+msgstr "Afhalen"
+
+#: inc/class-settings.php:397
+msgid "Which days of the week are you open?"
+msgstr "Op welke dagen van de week ben je open?"
+
+#: inc/class-settings.php:401 inc/modules/timings/class-timings.php:59
+msgid "Monday"
+msgstr "Maandag"
+
+#: inc/class-settings.php:402 inc/modules/timings/class-timings.php:60
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: inc/class-settings.php:403 inc/modules/timings/class-timings.php:61
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: inc/class-settings.php:404 inc/modules/timings/class-timings.php:62
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: inc/class-settings.php:405 inc/modules/timings/class-timings.php:63
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: inc/class-settings.php:406 inc/modules/timings/class-timings.php:64
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: inc/class-settings.php:407 inc/modules/timings/class-timings.php:58
+msgid "Sunday"
+msgstr "Zondag"
+
+#: inc/class-settings.php:412
+msgid "What are your normal opening hours?"
+msgstr "Wat zijn je normale openingstijden?"
+
+#: inc/class-settings.php:531
+msgid "Local"
+msgstr "Lokaal"
+
+#: inc/class-settings.php:646
+msgid "From:"
+msgstr "Van:"
+
+#: inc/class-settings.php:654
+msgid "To:"
+msgstr "Aan:"
+
+#: inc/class-settings.php:672 inc/class-settings.php:692
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: inc/class-settings.php:674 inc/class-settings.php:696
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/class-settings.php:675 inc/class-settings.php:697
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: inc/class-settings.php:677 inc/class-settings.php:699
+msgid ""
+"Choose whether to hide (on the frontend) this category archive and all "
+"single product pages within this category. Hiding them is recommended if "
+"using this category in the Orderable menu shortcode."
+msgstr ""
+"Kies of u dit categoriearchief en alle afzonderlijke productpagina's binnen "
+"deze categorie wilt verbergen (op de frontend). Het verbergen ervan wordt "
+"aanbevolen als u deze categorie gebruikt in de shortcode van het menu "
+"Orderable."
+
+#: inc/modules/addons/class-addons.php:35
+#: inc/modules/addons/class-addons.php:44
+msgid "Product Addons"
+msgstr "Product uitbereidingen"
+
+#: inc/modules/addons/class-addons.php:35
+msgid "Addons"
+msgstr "Addons"
+
+#: inc/modules/addons/class-addons.php:35
+msgid "Pro"
+msgstr "Pro"
+
+#: inc/modules/drawer/class-drawer-ajax.php:47
+#, php-format
+msgid "You can only have 1 %s in your cart."
+msgstr "Je kunt slechts 1 %s in je winkelmand hebben."
+
+#: inc/modules/drawer/class-drawer-settings.php:58
+msgid "Mini Cart Settings"
+msgstr "Winkelwagen Instellingen"
+
+#: inc/modules/drawer/class-drawer-settings.php:64
+msgid "Cart Icon Position"
+msgstr "Positie winkelwagenpictogram"
+
+#: inc/modules/drawer/class-drawer-settings.php:65
+msgid ""
+"Set the position of the mini cart icon when the cart is not empty. Choose "
+"\"None\" to disable it."
+msgstr ""
+"Stel de positie van het pictogram van de miniwinkelwagen in wanneer de "
+"winkelwagen niet leeg is. Kies \"Geen\" om het uit te schakelen."
+
+#: inc/modules/drawer/class-drawer-settings.php:68
+msgid "None"
+msgstr "Geen"
+
+#: inc/modules/drawer/class-drawer-settings.php:69
+msgid "Bottom Right"
+msgstr "Rechtsonder"
+
+#: inc/modules/drawer/class-drawer-settings.php:70
+msgid "Bottom Left"
+msgstr "Linksonder"
+
+#: inc/modules/drawer/class-drawer-settings.php:71
+msgid "Top Left"
+msgstr "Linksboven"
+
+#: inc/modules/drawer/class-drawer-settings.php:72
+msgid "Top Right"
+msgstr "Rechtsboven"
+
+#: inc/modules/drawer/class-drawer-settings.php:78
+msgid "Fine-Tune Position"
+msgstr "Positie verfijnen"
+
+#: inc/modules/drawer/class-drawer-settings.php:79
+msgid ""
+"Fine-tune the position of the mini cart icon in pixels. These settings will "
+"push the cart icon away from the respective side."
+msgstr ""
+"Verfijn de positie van het minikarpictogram in pixels. Deze instellingen "
+"duwen het winkelwagenpictogram weg van de betreffende kant."
+
+#: inc/modules/drawer/class-drawer-settings.php:118
+msgid "Top (px)"
+msgstr "Top (px)"
+
+#: inc/modules/drawer/class-drawer-settings.php:124
+msgid "Bottom (px)"
+msgstr "Onderkant (px)"
+
+#: inc/modules/drawer/class-drawer-settings.php:130
+msgid "Right (px)"
+msgstr "Rechts (px)"
+
+#: inc/modules/drawer/class-drawer-settings.php:136
+msgid "Left (px)"
+msgstr "Links (px)"
+
+#: inc/modules/drawer/templates/drawer.php:12
+msgid "Close"
+msgstr "Sluiten"
+
+#: inc/modules/drawer/templates/drawer.php:16
+msgid "Your Order"
+msgstr "Uw bestelling"
+
+#: inc/modules/layouts/class-layouts.php:93
+msgid "Product Layouts"
+msgstr "Productlay-outs"
+
+#: inc/modules/layouts/class-layouts.php:94
+msgid "Product Layout"
+msgstr "Product Layout"
+
+#: inc/modules/layouts/class-layouts.php:98
+msgid "Layout Builder"
+msgstr "Lay-out bouwer"
+
+#: inc/modules/layouts/class-layouts.php:131
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/modules/layouts/class-layouts.php:132
+msgid "PHP Function"
+msgstr "PHP, functie"
+
+#: inc/modules/layouts/class-layouts.php:157
+msgid "Layout Settings"
+msgstr "Layout Instellingen"
+
+#: inc/modules/layouts/class-layouts.php:166
+msgid "Layout Preview"
+msgstr "Voorbeeld van lay-out"
+
+#: inc/modules/layouts/class-layouts.php:234
+msgid "This preview is for demo purposes and is not interactive."
+msgstr "Deze preview is voor demodoeleinden en is niet interactief."
+
+#: inc/modules/layouts/class-layouts.php:433
+msgid "What is the Orderable Layout Builder?"
+msgstr "Wat is de Orderable Layout Builder?"
+
+#: inc/modules/layouts/class-layouts.php:434
+msgid ""
+"This is where you can create product layouts and customize their settings. "
+"Save your layouts here and reuse them later using the block editor, "
+"shortcode (great for page builders), or PHP snippet."
+msgstr ""
+"Hier kunt u productlay-outs maken en hun instellingen aanpassen. Sla je lay-"
+"outs hier op en hergebruik ze later met behulp van de blokeditor, shortcode "
+"(geweldig voor paginabouwers) of PHP-fragment."
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:7
+msgid "Categories"
+msgstr "Categorieën"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:9
+msgid "Select which product categories to display in this layout."
+msgstr ""
+"Selecteer welke productcategorieën in deze lay-out moeten worden weergegeven."
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:34
+msgid "Display"
+msgstr "Scherm"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:36
+msgid "How should the products be displayed?"
+msgstr "Hoe moeten de producten worden weergegeven?"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:46
+msgid "Grid"
+msgstr "Raster"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:47
+msgid "List"
+msgstr "Lijst"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:59
+msgid "Sections"
+msgstr "Secties"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:61
+msgid "Separate each category by titles or tabs."
+msgstr "Scheid elke categorie door titels of tabbladen."
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:71
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:73
+msgid "Should product images be displayed?"
+msgstr "Moeten productafbeeldingen worden weergegeven?"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:92
+msgid "Clickable Card"
+msgstr "Klikbare product kaart"
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:94
+msgid ""
+"When enabled, the whole product card is clickable, instead of just the "
+"button."
+msgstr ""
+"Als deze optie is ingeschakeld, kan de hele product kaart worden aanklikbaar "
+"gemaakt in plaats van alleen de knop."
+
+#: inc/modules/live-view/class-live-view.php:159
+msgid "Enable Live View"
+msgstr "Liveweergave inschakelen"
+
+#: inc/modules/live-view/class-live-view.php:164
+msgid "Exit Live View"
+msgstr "Liveweergave afsluiten"
+
+#: inc/modules/live-view/class-live-view.php:165
+msgid "Mute"
+msgstr "Dempen"
+
+#: inc/modules/live-view/class-live-view.php:165
+msgid "Unmute"
+msgstr "Niet meer dempen"
+
+#: inc/modules/live-view/class-live-view.php:197
+msgid "Live Order View"
+msgstr "Live orderweergave"
+
+#: inc/modules/live-view/class-live-view.php:228
+msgid "order_manager"
+msgstr "order_manager"
+
+#: inc/modules/live-view/class-live-view.php:228
+msgid "Order Manager"
+msgstr "Orderbeheer"
+
+#: inc/modules/services/class-services-order.php:33
+msgid "All services"
+msgstr "Alle diensten"
+
+#: inc/modules/services/class-services-order.php:107
+msgid "Service"
+msgstr "Dienst"
+
+#: inc/modules/services/class-services.php:193
+msgid "Pickups"
+msgstr "Ophalen"
+
+#: inc/modules/services/class-services.php:194
+msgid "Deliveries"
+msgstr "Bezorgingen"
+
+#: inc/modules/services/templates/service-selector.php:21
+#, php-format
+msgid "You have selected %s for your order."
+msgstr "U hebt %s geselecteerd voor uw bestelling."
+
+#: inc/modules/services/templates/service-selector.php:22
+msgid "Change?"
+msgstr "Veranderen?"
+
+#: inc/modules/timings/class-timings-checkout.php:48
+#: inc/modules/timings/class-timings-checkout.php:69
+#, php-format
+msgid "%s Date"
+msgstr "%s datum"
+
+#: inc/modules/timings/class-timings-checkout.php:56
+#, php-format
+msgid "Sorry, there are currently no slots available for %s."
+msgstr "Sorry, er zijn tijdstippen beschikbaar voor %s."
+
+#: inc/modules/timings/class-timings-checkout.php:76
+msgid "Select a date..."
+msgstr "Selecteer een datum..."
+
+#: inc/modules/timings/class-timings-checkout.php:78
+#: inc/modules/timings/class-timings-checkout.php:101
+msgid "As soon as possible"
+msgstr "Zo snel mogelijk"
+
+#: inc/modules/timings/class-timings-checkout.php:92
+#, php-format
+msgid "%s Time"
+msgstr "%s tijd"
+
+#: inc/modules/timings/class-timings-checkout.php:99
+msgid "Select a time..."
+msgstr "Selecteer een tijd..."
+
+#: inc/modules/timings/class-timings-checkout.php:117
+msgid "Please select an order date."
+msgstr "Selecteer een besteldatum."
+
+#: inc/modules/timings/class-timings-checkout.php:190
+msgid " (As soon as possible)"
+msgstr " (zo snel mogelijk)"
+
+#: inc/modules/timings/class-timings-order.php:160
+#: inc/modules/timings/class-timings-order.php:198
+msgid "Date"
+msgstr "Datum"
+
+#: inc/modules/timings/class-timings-order.php:164
+#: inc/modules/timings/class-timings-order.php:202
+msgid "Time"
+msgstr "Tijd"
+
+#: inc/modules/timings/class-timings-order.php:168
+msgid "Timestamp"
+msgstr "Tijdstempel"
+
+#: inc/modules/timings/class-timings-order.php:181
+msgid "Due Date/Time"
+msgstr "Vervaldatum/-tijd"
+
+#: inc/modules/timings/class-timings-order.php:282
+msgid "Filter by due date"
+msgstr "Filteren op vervaldatum"
+
+#: inc/modules/timings/class-timings-settings.php:100
+#: inc/modules/timings/class-timings-settings.php:107
+msgid "Store Settings"
+msgstr "Winkel instellingen"
+
+#: inc/modules/timings/class-timings-settings.php:113
+msgid "Open Hours"
+msgstr "Openingstijden"
+
+#: inc/modules/timings/class-timings-settings.php:114
+msgid ""
+"The days and hours your store is open. Leave \"Max Orders\" empty for no "
+"limit."
+msgstr ""
+"De dagen en uren dat uw winkel open is. Laat \"Max Orders\" leeg voor geen "
+"limiet."
+
+#: inc/modules/timings/class-timings-settings.php:121
+msgid "Timezone"
+msgstr "Tijdzone"
+
+#: inc/modules/timings/class-timings-settings.php:122
+msgid ""
+"Your store's current timezone. This should be set to the location of your "
+"store."
+msgstr ""
+"De huidige tijdzone van je winkel. Dit moet worden ingesteld op de locatie "
+"van uw winkel."
+
+#: inc/modules/timings/class-timings-settings.php:129
+#: inc/modules/timings/class-timings-settings.php:440
+msgid "Services"
+msgstr "Diensten"
+
+#: inc/modules/timings/class-timings-settings.php:130
+#, php-format
+msgid ""
+"Which services do you offer? Please ensure there are <a href=\"%s\" target="
+"\"_blank\">shipping methods</a> available for these services."
+msgstr ""
+"Welke diensten biedt u aan? Zorg ervoor dat er <a href=\"%s\" target=\"_blank"
+"\">verzendmethoden</a> beschikbaar zijn voor deze services."
+
+#: inc/modules/timings/class-timings-settings.php:140
+msgid "Service Hours"
+msgstr "Dienst uren"
+
+#: inc/modules/timings/class-timings-settings.php:141
+msgid "The days and hours where you offer delivery/pickup services."
+msgstr "De dagen en uren waarop u bezorg-/ophaaldiensten aanbiedt."
+
+#: inc/modules/timings/class-timings-settings.php:148
+msgid "As Soon As Possible"
+msgstr "Zo snel mogelijk"
+
+#: inc/modules/timings/class-timings-settings.php:149
+msgid "Allow customers to request delivery \"ASAP\"."
+msgstr "Sta klanten toe om levering \"zo snel mogelijk\" aan te vragen."
+
+#: inc/modules/timings/class-timings-settings.php:153
+msgid "Allow \"ASAP\" as an option when choosing delivery date"
+msgstr ""
+"\"Zo snel mogelijk\" als optie toestaan bij het kiezen van de leverdatum"
+
+#: inc/modules/timings/class-timings-settings.php:154
+msgid "Allow \"ASAP\" as an option when choosing delivery time"
+msgstr "Sta \"Zo snel mogelijk\" als optie toe bij het kiezen van de levertijd"
+
+#: inc/modules/timings/class-timings-settings.php:159
+msgid "Preorder Days"
+msgstr "Dagen vooruitbestellen"
+
+#: inc/modules/timings/class-timings-settings.php:160
+msgid ""
+"How many days in advance do you accept orders? Leave blank or \"0\" for same "
+"day only."
+msgstr ""
+"Hoeveel dagen van tevoren accepteert u bestellingen? Laat leeg of \"0\" "
+"alleen voor dezelfde dag."
+
+#: inc/modules/timings/class-timings-settings.php:166
+msgid "Holidays"
+msgstr "Vakantiedagen"
+
+#: inc/modules/timings/class-timings-settings.php:167
+msgid "Days when your store is closed."
+msgstr "Dagen waarop je winkel gesloten is."
+
+#: inc/modules/timings/class-timings-settings.php:213
+#: inc/modules/timings/class-timings-settings.php:235
+msgid "Open Hours (From)"
+msgstr "Openingstijden (vanaf)"
+
+#: inc/modules/timings/class-timings-settings.php:214
+#: inc/modules/timings/class-timings-settings.php:239
+msgid "Open Hours (To)"
+msgstr "Openingstijden (tot)"
+
+#: inc/modules/timings/class-timings-settings.php:215
+#: inc/modules/timings/class-timings-settings.php:532
+msgid "Max Orders (Day)"
+msgstr "Maximum aantal bestellingen (dag)"
+
+#: inc/modules/timings/class-timings-settings.php:272
+msgid "Please select services available for this store."
+msgstr "Selecteer services die beschikbaar zijn voor deze winkel."
+
+#: inc/modules/timings/class-timings-settings.php:289
+#: inc/modules/timings/class-timings-settings.php:294
+msgid "Add service hours"
+msgstr "Service-uren toevoegen"
+
+#: inc/modules/timings/class-timings-settings.php:310
+msgid "Same as delivery service hours"
+msgstr "Hetzelfde als bezorgservice-uren"
+
+#: inc/modules/timings/class-timings-settings.php:347
+msgid "Days"
+msgstr "Dagen"
+
+#: inc/modules/timings/class-timings-settings.php:349
+msgid "Select \"Open Hours\" first"
+msgstr "Selecteer eerst \"Openingstijden\""
+
+#: inc/modules/timings/class-timings-settings.php:360
+msgid "Period"
+msgstr "Periode"
+
+#: inc/modules/timings/class-timings-settings.php:372
+#: inc/modules/timings/class-timings.php:322
+msgid "All Day"
+msgstr "De hele dag"
+
+#: inc/modules/timings/class-timings-settings.php:373
+msgid "Time Slots"
+msgstr "Tijdsblokken"
+
+#: inc/modules/timings/class-timings-settings.php:412
+msgid "Add holiday"
+msgstr "Vakantie toevoegen"
+
+#: inc/modules/timings/class-timings-settings.php:434
+msgid "To"
+msgstr "Tot"
+
+#: inc/modules/timings/class-timings-settings.php:459
+msgid "Repeat Yearly?"
+msgstr "Jaarlijks herhalen?"
+
+#: inc/modules/timings/class-timings-settings.php:553
+msgid "Hours"
+msgstr "Uren"
+
+#: inc/modules/timings/class-timings-settings.php:561
+msgid "Frequency (Mins)"
+msgstr "Frequentie (Minuten)"
+
+#: inc/modules/timings/class-timings-settings.php:566
+msgid "Cutoff (Mins)"
+msgstr "Wachttijd (Minuten)"
+
+#: inc/modules/timings/class-timings-settings.php:571
+msgid "Max Orders (Slot)"
+msgstr "Maximum aantal bestellingen (slot)"
+
+#: inc/modules/timings/class-timings-settings.php:609
+msgctxt "timezone date format"
+msgid "Y-m-d H:i:s"
+msgstr "Y-m-d H:i:s"
+
+#: inc/modules/timings/class-timings-settings.php:631
+msgid "Update Timezone"
+msgstr "Tijdzone bijwerken"
+
+#: inc/modules/timings/class-timings-settings.php:634
+#, php-format
+msgid "Your store's current timezone is %s."
+msgstr "De huidige tijdzone van je winkel is %s."
+
+#: inc/modules/timings/class-timings-settings.php:642
+#, php-format
+msgid "Universal time is %s."
+msgstr "Universele tijd is %s."
+
+#: inc/modules/timings/class-timings-settings.php:653
+#, php-format
+msgid "Local time is %s."
+msgstr "Lokale tijd is %s."
+
+#: inc/modules/timings/class-timings-settings.php:669
+msgid "This timezone is currently in daylight saving time."
+msgstr "Deze tijdzone bevindt zich momenteel in de zomertijd."
+
+#: inc/modules/timings/class-timings-settings.php:671
+msgid "This timezone is currently in standard time."
+msgstr "Deze tijdzone bevindt zich momenteel in de standaardtijd."
+
+#: inc/modules/timings/class-timings-settings.php:684
+#, php-format
+msgid "Daylight saving time begins on: %s."
+msgstr "De zomertijd begint op: %s."
+
+#: inc/modules/timings/class-timings-settings.php:686
+#, php-format
+msgid "Standard time begins on: %s."
+msgstr "De standaardtijd begint op: %s."
+
+#: inc/modules/timings/class-timings-settings.php:689
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/modules/timings/class-timings-settings.php:689
+msgid "g:i a"
+msgstr "g:i a"
+
+#: inc/modules/timings/class-timings-settings.php:692
+msgid "This timezone does not observe daylight saving time."
+msgstr "Deze tijdzone houdt geen rekening met de zomertijd."
+
+#: inc/modules/timings/class-timings.php:58
+msgid "Sun"
+msgstr "Zo"
+
+#: inc/modules/timings/class-timings.php:59
+msgid "Mon"
+msgstr "Ma"
+
+#: inc/modules/timings/class-timings.php:60
+msgid "Tue"
+msgstr "Di"
+
+#: inc/modules/timings/class-timings.php:61
+msgid "Wed"
+msgstr "Wo"
+
+#: inc/modules/timings/class-timings.php:62
+msgid "Thu"
+msgstr "Do"
+
+#: inc/modules/timings/class-timings.php:63
+msgid "Fri"
+msgstr "Vr"
+
+#: inc/modules/timings/class-timings.php:64
+msgid "Sat"
+msgstr "Zat"
+
+#: inc/modules/timings/class-timings.php:104
+msgid "Closed"
+msgstr "Gesloten"
+
+#: inc/modules/timings/class-timings.php:110
+msgid "Holiday"
+msgstr "Feestdag"
+
+#: inc/modules/tip/class-tip.php:31 inc/modules/tip/class-tip.php:38
+msgid "Tip Settings"
+msgstr "Fooi instellingen"
+
+#: inc/modules/tip/class-tip.php:44
+msgid "Enable Tipping"
+msgstr "Fooi inschakelen"
+
+#: inc/modules/tip/class-tip.php:45
+msgid "Show tipping options at checkout."
+msgstr "Fooi opties weergeven bij het afrekenen."
+
+#: inc/vendor/iconic-onboard/class-iconic-onboard.php:134
+msgid ""
+"Oops! There was an issue installing the required plugin. Please try again or "
+"contact support."
+msgstr ""
+"Oeps! Er is een probleem op met het installeren van de vereiste plug-in. "
+"Probeer het opnieuw of neem contact op met de ondersteuning."
+
+#: inc/vendor/iconic-onboard/inc/class-ajax.php:121
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: inc/vendor/iconic-onboard/templates/admin/popup-slides.php:58
+msgid "Loading..."
+msgstr "Laden…"
+
+#: inc/vendor/iconic-onboard/templates/admin/popup-slides.php:81
+msgid "Skip this, I'll set it up later."
+msgstr "Sla dit over, ik zal het later opzetten."
+
+#: inc/vendor/wp-settings-framework/wp-settings-framework.php:133
+msgid "WPSF settings must be an array"
+msgstr "WPSF-instellingen moeten een array zijn"
+
+#: inc/vendor/wp-settings-framework/wp-settings-framework.php:212
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt onvoldoende rechten voor deze pagina."
+
+#: inc/vendor/wp-settings-framework/wp-settings-framework.php:787
+#: inc/vendor/wp-settings-framework/wp-settings-framework.php:893
+msgid "Save Changes"
+msgstr "Veranderingen Opslaan"
+
+#: orderable.php:81
+msgid "Orderable requires WooCommerce to be installed and activated."
+msgstr "Orderable vereist dat WooCommerce wordt geïnstalleerd en geactiveerd."
+
+#: orderable.php:94
+#, php-format
+msgid ""
+"Orderable Pro needs to be at least v%s for compatibility. Please update the "
+"Orderable Pro plugin."
+msgstr ""
+"Orderable Pro moet ten minste v%s zijn voor compatibiliteit. Werk de Plug-in "
+"Orderable Pro bij."
+
+#: orderable.php:95
+msgid "Update now"
+msgstr "Update nu"
+
+#: templates/admin/orderable-pro-modal.php:14
+msgid "Unlock Orderable Pro"
+msgstr "Ontgrendel Orderable Pro"
+
+#: templates/admin/orderable-pro-modal.php:15
+msgid "Get this feature and more with the Pro version of Orderable!"
+msgstr "Download deze functie en meer met de Pro-versie van Orderable!"
+
+#: templates/admin/orderable-pro-modal.php:16
+msgid "Learn More"
+msgstr "Leer meer"
+
+#: woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr "Dit artikel verwijderen"
+
+#: woocommerce/cart/mini-cart.php:107
+msgid "No products in the cart."
+msgstr "Geen producten in je winkelmand."
+
+#~ msgid "Select order date"
+#~ msgstr "Besteldatum selecteren"
+
+#~ msgid "Select order time"
+#~ msgstr "Besteltijd selecteren"
+

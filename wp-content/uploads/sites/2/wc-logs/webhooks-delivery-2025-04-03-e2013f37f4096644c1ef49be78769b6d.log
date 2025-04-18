@@ -1,0 +1,53 @@
+2025-04-03T17:49:22+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => e258b2210f226ca79d3d8375dd4ce5f4
+            [Date] => Apr 3, 2025 @ 17:49
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2g52082/
+            [Duration] => 0.21748
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://northernlights.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => FCVplcxvO+MUNncEHGft+fF8M/11LN7ollj3CURuNqQ=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => e258b2210f226ca79d3d8375dd4ce5f4
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 22
+                                    [date] => Thu, 03 Apr 2025 17:49:22 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-cache] => Error from cloudfront
+                                    [via] => 1.1 e90cf336d9fb5e5789ae3c5966f7fbfe.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => e1R0cpX5Nkhi6Eca_jSqBpZCWQSLtkROFUb4qyL0P0QdZb9JQvu4tQ==
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)

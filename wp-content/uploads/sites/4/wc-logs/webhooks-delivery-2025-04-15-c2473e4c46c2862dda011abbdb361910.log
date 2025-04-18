@@ -1,0 +1,244 @@
+2025-04-15T16:36:49+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => c2b4e69dc671c816eeff67806ccf74a4
+            [Date] => Apr 15, 2025 @ 16:36
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.62963
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => VnN3vd4OHSeR6KFF6mY4bdqxN34Ig5ArjKoulhStrnk=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => c2b4e69dc671c816eeff67806ccf74a4
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Tue, 15 Apr 2025 16:36:49 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 01963a4f-79d6-f8cb-0eff-56b9e10a1b0d
+                                    [x-zapier-hook-attempt] => 01963a4f-79d6-f8cb-0eff-56b9e10a1b0d
+                                    [x-zapier-hook-request-id] => 01963a4f-79d6-f8cb-0eff-56b9e10a1b0d
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19999
+                                    [x-rate-limit-reset] => 1744735247
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 a086f9674a01c7542c440ffacd39476a.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => nnaiHsG7okqeCcz1n-k09T1jFO5-BIRqhL_xA04qFAg7R63Trx-Mfw==
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2025-04-15T16:39:10+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 7d421999a6bb5a44cbfefee03fd83770
+            [Date] => Apr 15, 2025 @ 16:39
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 1.67009
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => r70mHCeQ1GMNK0WZ0RBGOWii1BXZWI7Jo7I5jpN6Mrw=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => 7d421999a6bb5a44cbfefee03fd83770
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Tue, 15 Apr 2025 16:39:10 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 01963a51-a2c3-0bb8-e20d-3d3488db2553
+                                    [x-zapier-hook-attempt] => 01963a51-a2c3-0bb8-e20d-3d3488db2553
+                                    [x-zapier-hook-request-id] => 01963a51-a2c3-0bb8-e20d-3d3488db2553
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19998
+                                    [x-rate-limit-reset] => 1744735247
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 4cde0553fc0884edc4253387bab1fc6c.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => bewuQ8u1ckEk2t8O4CEdvbzfPAj_jB6U_IFzz_C88zqT9ITjJZ9sbw==
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2025-04-15T16:43:10+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => bf781b8b5b274fa1aa6a35121da1c522
+            [Date] => Apr 15, 2025 @ 16:43
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.10288
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => CoD1JWg7skffT8nbxoiaaPwd9lB0jrL1GL8gsxFt+jY=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => bf781b8b5b274fa1aa6a35121da1c522
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Tue, 15 Apr 2025 16:43:10 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 01963a55-4b54-904c-290e-a5c2ae903e8a
+                                    [x-zapier-hook-attempt] => 01963a55-4b54-904c-290e-a5c2ae903e8a
+                                    [x-zapier-hook-request-id] => 01963a55-4b54-904c-290e-a5c2ae903e8a
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19999
+                                    [x-rate-limit-reset] => 1744735547
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 ecc843250500aa5c06bbd62ad8a4abd6.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => vMXutoAnGfB0mupWB804k4gkVUUYo4psJsz0jDXEaXl7N3B1URFBJw==
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2025-04-15T18:35:14+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 8e5a762108b7ed5987117f95b7276e0e
+            [Date] => Apr 15, 2025 @ 18:35
+            [URL] => https://hooks.zapier.com/hooks/catch/1292473/2cldblt/
+            [Duration] => 0.07553
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.1 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pdi.grubmenu.io/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => V7usgiC7dUoQurYnHNFlGMsGYwFl7/vzPCbnAM+A5GM=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => 8e5a762108b7ed5987117f95b7276e0e
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 166
+                                    [date] => Tue, 15 Apr 2025 18:35:14 GMT
+                                    [strict-transport-security] => max-age=63072000; includeSubDomains; preload
+                                    [x-zapier-hook-id] => 01963abb-e450-236d-3578-9c7ca9aee10f
+                                    [x-zapier-hook-attempt] => 01963abb-e450-236d-3578-9c7ca9aee10f
+                                    [x-zapier-hook-request-id] => 01963abb-e450-236d-3578-9c7ca9aee10f
+                                    [x-zapier-hook-status] => success
+                                    [access-control-allow-origin] => *
+                                    [x-rate-limit-limit] => 20000
+                                    [x-rate-limit-remaining] => 19999
+                                    [x-rate-limit-reset] => 1744742147
+                                    [x-cache] => Miss from cloudfront
+                                    [via] => 1.1 701ab3b5f13105928d49d7d81df91c8a.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => JFK52-P9
+                                    [x-amz-cf-id] => iFQozvLiyR6Cso5gdH1ebNniOC2CfbUy1nPbxd2-RhiTxzeTutwJVQ==
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
