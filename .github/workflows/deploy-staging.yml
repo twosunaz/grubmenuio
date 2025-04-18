@@ -15,5 +15,7 @@ jobs:
           debug: true
           script: |
             git config --global --add safe.directory /home/1448455.cloudwaysapps.com/spukveyesr/public_html
+            git config --global user.name "GitHub Actions"
+            git config --global user.email "actions@github.com"
             cd /home/1448455.cloudwaysapps.com/spukveyesr/public_html
             git pull origin staging
