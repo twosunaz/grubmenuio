@@ -14,10 +14,10 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           debug: true
           script: |
-            mkdir -p ~/.ssh
-            ssh-keyscan github.com > ~/.ssh/tmp_known_hosts
+            mkdir -p $HOME/.ssh
+            ssh-keyscan github.com > $HOME/.ssh/tmp_known_hosts
 
-            export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=~/.ssh/tmp_known_hosts"
+            export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=$HOME/.ssh/tmp_known_hosts"
             export GIT_CONFIG_GLOBAL=$(mktemp)
 
             git config --global --add safe.directory /home/1448455.cloudwaysapps.com/spukveyesr/public_html
