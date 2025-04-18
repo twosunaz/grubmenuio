@@ -16,5 +16,6 @@ jobs:
           script: |
             ssh -V
             whoami
-            cd /home/master/applications/ctftaahrtg/public_html
-            git pull origin staging
+            pwd
+            ls -la ~
+            ls -la
