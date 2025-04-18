@@ -14,5 +14,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           debug: true
           script: |
+            git config --global --add safe.directory /home/1448455.cloudwaysapps.com/spukveyesr/public_html
             cd /home/1448455.cloudwaysapps.com/spukveyesr/public_html
             git pull origin staging
